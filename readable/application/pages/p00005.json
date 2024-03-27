@@ -1,0 +1,576 @@
+{
+  "id":"5"
+ ,"Identification":{
+    "Name":"Cadastro de D\u00FAvidas Frequentes"
+   ,"Alias":"CADASTRO-D\u00DAVIDAS-FREQUENTES"
+   ,"Title":"Cadastro de D\u00FAvidas Frequentes"
+  }
+ ,"Appearance":{
+    "Page Mode":"Normal"
+   ,"Page Template":"Theme Default"
+   ,"Template Options":[
+      "#DEFAULT#"
+    ]
+  }
+ ,"Navigation Menu":{
+    "Override User Interface Level":false
+  }
+ ,"Navigation":{
+    "Cursor Focus":"Do not focus cursor"
+   ,"Warn on Unsaved Changes":true
+  }
+ ,"Security":{
+    "Authentication":"Page Requires Authentication"
+   ,"Deep Linking":"Application Default"
+   ,"Page Access Protection":"Arguments Must Have Checksum"
+   ,"Form Auto Complete":"Off"
+   ,"Browser Cache":"Application Default"
+  }
+ ,"Session Management":{
+    "Rejoin Sessions":"Application Default"
+  }
+ ,"Advanced":{
+    "Enable duplicate page submissions":"Yes - Enable page to be re-posted"
+   ,"Reload on Submit":"Only for Success"
+  }
+ ,"Server Cache":{
+    "Caching":"Disabled"
+  }
+ ,"Regions":[
+    {
+      "id":"49870605292090132137"
+     ,"Identification":{
+        "Title":"Cadastro de D\u00FAvidas Frequentes"
+       ,"Type":"Form"
+      }
+     ,"Source":{
+        "Location":"Local Database"
+       ,"Type":"Table \/ View"
+       ,"Table Owner":"Parsing Schema"
+       ,"Table Name":"DUVIDAS_FREQUENTES"
+       ,"Include ROWID Column":false
+      }
+     ,"Layout":{
+        "Sequence":20
+       ,"Parent Region":"No Parent"
+       ,"Position":"BODY"
+       ,"Start New Layout":false
+       ,"Start New Row":true
+       ,"Column":"Automatic"
+       ,"New Column":true
+       ,"Column Span":"Automatic"
+      }
+     ,"Appearance":{
+        "Template":"Blank with Attributes (47709735633685297291)"
+       ,"Template Options":[
+          "#DEFAULT#"
+        ]
+       ,"Render Components":"Above Content"
+      }
+     ,"Accessibility":{
+        "Use Landmark":true
+       ,"Landmark Type":"Template Default"
+      }
+     ,"Advanced":{
+        "Region Display Selector":false
+       ,"Exclude Title from Translation":false
+      }
+     ,"Server Cache":{
+        "Caching":"Disabled"
+      }
+     ,"Customization":{
+        "Customizable":"Not Customizable By End Users"
+      }
+     ,"Attributes":{
+        "Edit":{
+          "Enabled":false
+        }
+      }
+    }
+   ,{
+      "id":"49870606286263132147"
+     ,"Identification":{
+        "Title":"Bot\u00F5es"
+       ,"Type":"Static Content"
+      }
+     ,"Source":{
+        "HTML Code":"\u003Cspan style=\"margin-left:20px;font-family:Segoe UI\"\u003E\u003Cb\u003ECadastro de D\u00FAvidas Frequentes\u003C\/b\u003E\u003C\/span\u003E"
+      }
+     ,"Layout":{
+        "Sequence":10
+       ,"Parent Region":"No Parent"
+       ,"Position":"REGION_POSITION_01"
+       ,"Start New Layout":false
+       ,"Start New Row":true
+       ,"Column":"Automatic"
+       ,"New Column":true
+       ,"Column Span":"Automatic"
+      }
+     ,"Appearance":{
+        "Template":"Buttons Container (47709738462474297293)"
+       ,"Template Options":[
+          "#DEFAULT#"
+         ,"t-ButtonRegion--noUI"
+        ]
+       ,"Render Components":"Above Content"
+      }
+     ,"Accessibility":{
+        "Use Landmark":true
+       ,"Landmark Type":"Template Default"
+      }
+     ,"Advanced":{
+        "Region Display Selector":false
+       ,"Exclude Title from Translation":false
+      }
+     ,"Server Cache":{
+        "Caching":"Disabled"
+      }
+     ,"Customization":{
+        "Customizable":"Not Customizable By End Users"
+      }
+     ,"Attributes":{
+        "Settings":{
+          "Output As":"HTML"
+         ,"Expand Shortcuts":false
+        }
+      }
+    }
+  ]
+ ,"Page Items":[
+    {
+      "id":"49870605482361132139"
+     ,"Identification":{
+        "Name":"P5_DUVIDA"
+       ,"Type":"Text Field"
+      }
+     ,"Label":{
+        "Label":"D\u00FAvida"
+       ,"Alignment":"Left"
+      }
+     ,"Settings":{
+        "Subtype":"Text"
+       ,"Trim Spaces":"Leading and Trailing"
+       ,"Text Case":"NO CHANGE"
+       ,"Submit when Enter pressed":false
+       ,"Disabled":false
+      }
+     ,"Layout":{
+        "Sequence":20
+       ,"Region":"Cadastro de D\u00FAvidas Frequentes (49870605292090132137)"
+       ,"Position":"BODY"
+       ,"Alignment":"Left"
+       ,"Start New Layout":false
+       ,"Start New Row":true
+       ,"Column":"Automatic"
+       ,"New Column":true
+       ,"Column Span":"Automatic"
+       ,"Label Column Span":"Page Template Default"
+      }
+     ,"Appearance":{
+        "Template":"Optional - Floating (47709873299516297353)"
+       ,"Template Options":[
+          "#DEFAULT#"
+        ]
+       ,"Width":30
+      }
+     ,"Validation":{
+        "Value Required":true
+       ,"Maximum Length":200
+      }
+     ,"Advanced":{
+        "Warn on Unsaved Changes":"Page Default"
+      }
+     ,"Source":{
+        "Form Region":"Cadastro de D\u00FAvidas Frequentes (49870605292090132137)"
+       ,"Column":"DUVIDA"
+       ,"Data Type":"VARCHAR2"
+       ,"Query Only":false
+       ,"Primary Key":false
+      }
+     ,"Session State":{
+        "Storage":"Per Request (Memory Only)"
+      }
+     ,"Quick Picks":{
+        "Show Quick Picks":false
+      }
+     ,"Security":{
+        "Session State Protection":"Unrestricted"
+       ,"Store value encrypted in session state":true
+       ,"Restricted Characters":"All characters can be saved."
+      }
+    }
+   ,{
+      "id":"49870605572247132140"
+     ,"Identification":{
+        "Name":"P5_EXPLICACAO"
+       ,"Type":"Textarea"
+      }
+     ,"Label":{
+        "Label":"Explica\u00E7\u00E3o"
+       ,"Alignment":"Left"
+      }
+     ,"Settings":{
+        "Resizable":true
+       ,"Auto-Height":false
+       ,"Character Counter":false
+       ,"Trim Spaces":"Leading and Trailing"
+      }
+     ,"Layout":{
+        "Sequence":30
+       ,"Region":"Cadastro de D\u00FAvidas Frequentes (49870605292090132137)"
+       ,"Position":"BODY"
+       ,"Alignment":"Left"
+       ,"Start New Layout":false
+       ,"Start New Row":true
+       ,"Column":"Automatic"
+       ,"New Column":true
+       ,"Column Span":"Automatic"
+       ,"Label Column Span":"Page Template Default"
+      }
+     ,"Appearance":{
+        "Template":"Optional - Floating (47709873299516297353)"
+       ,"Template Options":[
+          "#DEFAULT#"
+        ]
+       ,"Width":30
+       ,"Height":5
+      }
+     ,"Validation":{
+        "Value Required":true
+       ,"Maximum Length":2000
+      }
+     ,"Advanced":{
+        "Warn on Unsaved Changes":"Page Default"
+      }
+     ,"Source":{
+        "Form Region":"Cadastro de D\u00FAvidas Frequentes (49870605292090132137)"
+       ,"Column":"EXPLICACAO"
+       ,"Data Type":"VARCHAR2"
+       ,"Query Only":false
+       ,"Primary Key":false
+      }
+     ,"Session State":{
+        "Data Type":"VARCHAR2"
+       ,"Storage":"Per Request (Memory Only)"
+      }
+     ,"Quick Picks":{
+        "Show Quick Picks":false
+      }
+     ,"Security":{
+        "Session State Protection":"Unrestricted"
+       ,"Store value encrypted in session state":true
+       ,"Restricted Characters":"All characters can be saved."
+      }
+    }
+   ,{
+      "id":"49870605619941132141"
+     ,"Identification":{
+        "Name":"P5_ID"
+       ,"Type":"Popup LOV"
+      }
+     ,"Label":{
+        "Label":"ID"
+       ,"Alignment":"Left"
+      }
+     ,"Settings":{
+        "Display As":"Modal Dialog"
+       ,"Initial Fetch":"Automatic"
+       ,"Multiple Values":false
+       ,"Manual Entry":false
+       ,"Search as You Type":true
+       ,"Minimum Characters":"No minimum (0)"
+       ,"Title":"Sele\u00E7\u00E3o de D\u00FAvida"
+       ,"Popup Width":1000
+       ,"Additional Outputs":"DUVIDA:P5_DUVIDA,EXPLICACAO:P5_EXPLICACAO"
+      }
+     ,"Layout":{
+        "Sequence":10
+       ,"Region":"Cadastro de D\u00FAvidas Frequentes (49870605292090132137)"
+       ,"Position":"BODY"
+       ,"Alignment":"Left"
+       ,"Start New Layout":false
+       ,"Start New Row":true
+       ,"Column":"Automatic"
+       ,"New Column":true
+       ,"Column Span":"6"
+       ,"Label Column Span":"Page Template Default"
+      }
+     ,"Appearance":{
+        "Template":"Optional - Floating (47709873299516297353)"
+       ,"Template Options":[
+          "#DEFAULT#"
+        ]
+       ,"Width":30
+      }
+     ,"Validation":{
+        "Value Required":false
+      }
+     ,"List of Values":{
+        "Type":"Shared Component"
+       ,"List of Values":"D\u00DAVIDAS FREQUENTES (52717863806145453885)"
+       ,"Display Extra Values":false
+       ,"Display Null Value":true
+       ,"Null Display Value":"--"
+      }
+     ,"Advanced":{
+        "Warn on Unsaved Changes":"Page Default"
+      }
+     ,"Source":{
+        "Form Region":"Cadastro de D\u00FAvidas Frequentes (49870605292090132137)"
+       ,"Column":"ID"
+       ,"Data Type":"NUMBER"
+       ,"Query Only":true
+       ,"Primary Key":true
+      }
+     ,"Session State":{
+        "Storage":"Per Request (Memory Only)"
+      }
+     ,"Quick Picks":{
+        "Show Quick Picks":false
+      }
+     ,"Security":{
+        "Session State Protection":"Checksum Required - Session Level"
+       ,"Store value encrypted in session state":true
+       ,"Restricted Characters":"All characters can be saved."
+      }
+    }
+  ]
+ ,"Buttons":[
+    {
+      "id":"49870605809668132143"
+     ,"Identification":{
+        "Button Name":"CONFIRMAR"
+       ,"Label":"Confirmar"
+      }
+     ,"Layout":{
+        "Sequence":40
+       ,"Region":"Bot\u00F5es (49870606286263132147)"
+       ,"Position":"NEXT"
+       ,"Start New Layout":false
+       ,"Start New Row":true
+       ,"Column":"Automatic"
+       ,"New Column":true
+       ,"Column Span":"Automatic"
+      }
+     ,"Appearance":{
+        "Button Template":"Text with Icon (47709875827306297355)"
+       ,"Hot":true
+       ,"Template Options":[
+          "#DEFAULT#"
+         ,"t-Button--iconRight"
+        ]
+       ,"Icon":"fa-check"
+      }
+     ,"Behavior":{
+        "Action":"Submit Page"
+       ,"Execute Validations":true
+       ,"Warn on Unsaved Changes":"Do Not Check"
+      }
+    }
+   ,{
+      "id":"49870605956197132144"
+     ,"Identification":{
+        "Button Name":"SALVAR"
+       ,"Label":"Salvar"
+      }
+     ,"Layout":{
+        "Sequence":30
+       ,"Region":"Bot\u00F5es (49870606286263132147)"
+       ,"Position":"NEXT"
+       ,"Start New Layout":false
+       ,"Start New Row":true
+       ,"Column":"Automatic"
+       ,"New Column":true
+       ,"Column Span":"Automatic"
+      }
+     ,"Appearance":{
+        "Button Template":"Text with Icon (47709875827306297355)"
+       ,"Hot":true
+       ,"Template Options":[
+          "#DEFAULT#"
+         ,"t-Button--iconRight"
+        ]
+       ,"Icon":"fa-check"
+      }
+     ,"Behavior":{
+        "Action":"Submit Page"
+       ,"Execute Validations":true
+       ,"Warn on Unsaved Changes":"Do Not Check"
+      }
+    }
+   ,{
+      "id":"49870606016087132145"
+     ,"Identification":{
+        "Button Name":"EXCLUIR"
+       ,"Label":"Excluir"
+      }
+     ,"Layout":{
+        "Sequence":10
+       ,"Region":"Bot\u00F5es (49870606286263132147)"
+       ,"Position":"NEXT"
+       ,"Start New Layout":false
+       ,"Start New Row":true
+       ,"Column":"Automatic"
+       ,"New Column":true
+       ,"Column Span":"Automatic"
+      }
+     ,"Appearance":{
+        "Button Template":"Text with Icon (47709875827306297355)"
+       ,"Hot":true
+       ,"Template Options":[
+          "#DEFAULT#"
+         ,"t-Button--danger"
+         ,"t-Button--iconRight"
+        ]
+       ,"Icon":"fa-times"
+      }
+     ,"Behavior":{
+        "Action":"Submit Page"
+       ,"Execute Validations":false
+       ,"Warn on Unsaved Changes":"Do Not Check"
+      }
+     ,"Confirmation":{
+        "Message":"Tem certeza que deseja excluir?"
+       ,"Style":"Default"
+      }
+    }
+  ]
+ ,"Dynamic Actions":[
+    {
+      "id":"49870606366158132148"
+     ,"Identification":{
+        "Name":"Show\/Hide Bot\u00F5es"
+      }
+     ,"Execution":{
+        "Sequence":10
+       ,"Event Scope":"Static"
+       ,"Type":"Immediate"
+      }
+     ,"When":{
+        "Event":"EVENT.EVENT.BROWSER.CHANGE"
+       ,"Selection Type":"Item(s)"
+       ,"Item(s)":[
+          "P5_ID"
+        ]
+      }
+     ,"Client-side Condition":{
+        "Type":"Item is null"
+       ,"Item":"P5_ID"
+      }
+     ,"Actions":[
+        {
+          "id":"49870606415337132149"
+         ,"Identification":{
+            "Action":"Show"
+          }
+         ,"Affected Elements":{
+            "Selection Type":"Button"
+           ,"Button":"CONFIRMAR (49870605809668132143)"
+          }
+         ,"Execution":{
+            "Sequence":10
+           ,"Event":"Show\/Hide Bot\u00F5es (49870606366158132148)"
+           ,"Fire When Event Result Is":"True"
+           ,"Fire on Initialization":true
+          }
+        }
+       ,{
+          "id":"49870606571011132150"
+         ,"Identification":{
+            "Action":"Hide"
+          }
+         ,"Affected Elements":{
+            "Selection Type":"Button"
+           ,"Button":"EXCLUIR (49870606016087132145)"
+          }
+         ,"Execution":{
+            "Sequence":50
+           ,"Event":"Show\/Hide Bot\u00F5es (49870606366158132148)"
+           ,"Fire When Event Result Is":"True"
+           ,"Fire on Initialization":true
+          }
+        }
+       ,{
+          "id":"52718144419357469001"
+         ,"Identification":{
+            "Action":"Hide"
+          }
+         ,"Affected Elements":{
+            "Selection Type":"Button"
+           ,"Button":"SALVAR (49870605956197132144)"
+          }
+         ,"Execution":{
+            "Sequence":30
+           ,"Event":"Show\/Hide Bot\u00F5es (49870606366158132148)"
+           ,"Fire When Event Result Is":"True"
+           ,"Fire on Initialization":true
+          }
+        }
+       ,{
+          "id":"52718144561653469002"
+         ,"Identification":{
+            "Action":"Hide"
+          }
+         ,"Affected Elements":{
+            "Selection Type":"Button"
+           ,"Button":"CONFIRMAR (49870605809668132143)"
+          }
+         ,"Execution":{
+            "Sequence":30
+           ,"Event":"Show\/Hide Bot\u00F5es (49870606366158132148)"
+           ,"Fire When Event Result Is":"False"
+           ,"Fire on Initialization":true
+          }
+        }
+       ,{
+          "id":"52718144635335469003"
+         ,"Identification":{
+            "Action":"Show"
+          }
+         ,"Affected Elements":{
+            "Selection Type":"Button"
+           ,"Button":"SALVAR (49870605956197132144)"
+          }
+         ,"Execution":{
+            "Sequence":10
+           ,"Event":"Show\/Hide Bot\u00F5es (49870606366158132148)"
+           ,"Fire When Event Result Is":"False"
+           ,"Fire on Initialization":true
+          }
+        }
+       ,{
+          "id":"52718144795900469004"
+         ,"Identification":{
+            "Action":"Show"
+          }
+         ,"Affected Elements":{
+            "Selection Type":"Button"
+           ,"Button":"EXCLUIR (49870606016087132145)"
+          }
+         ,"Execution":{
+            "Sequence":20
+           ,"Event":"Show\/Hide Bot\u00F5es (49870606366158132148)"
+           ,"Fire When Event Result Is":"False"
+           ,"Fire on Initialization":true
+          }
+        }
+      ]
+    }
+  ]
+ ,"Processes":[
+    {
+      "id":"49870605393685132138"
+     ,"Identification":{
+        "Name":"Initialize form Cadastro de D\u00FAvidas Frequentes"
+       ,"Type":"Form - Initialization"
+       ,"Execution Chain":"None"
+       ,"Form Region":"Cadastro de D\u00FAvidas Frequentes (49870605292090132137)"
+      }
+     ,"Execution":{
+        "Sequence":10
+       ,"Point":"Before Header"
+       ,"Run Process":"Once Per Page Visit (default)"
+      }
+    }
+  ]
+}

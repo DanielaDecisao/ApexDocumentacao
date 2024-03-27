@@ -1,0 +1,161 @@
+{
+  "id":"10021"
+ ,"Identification":{
+    "Name":"Feedback Enviado"
+   ,"Alias":"FEEDBACK-ENVIADO"
+   ,"Title":"Feedback Enviado"
+   ,"Page Group":"Administra\u00E7\u00E3o (47709988187294297423)"
+  }
+ ,"Appearance":{
+    "Page Mode":"Modal Dialog"
+   ,"Dialog Template":"Theme Default"
+   ,"Template Options":[
+      "#DEFAULT#"
+    ]
+  }
+ ,"Dialog":{
+    "Chained":true
+  }
+ ,"Navigation Menu":{
+    "Override User Interface Level":false
+  }
+ ,"Navigation":{
+    "Cursor Focus":"Do not focus cursor"
+   ,"Warn on Unsaved Changes":true
+  }
+ ,"Security":{
+    "Authentication":"Page Requires Authentication"
+   ,"Deep Linking":"Application Default"
+   ,"Page Access Protection":"Arguments Must Have Checksum"
+   ,"Form Auto Complete":"Off"
+   ,"Browser Cache":"Application Default"
+  }
+ ,"Session Management":{
+    "Rejoin Sessions":"Application Default"
+  }
+ ,"Advanced":{
+    "Enable duplicate page submissions":"Yes - Enable page to be re-posted"
+   ,"Reload on Submit":"Only for Success"
+  }
+ ,"Server Cache":{
+    "Caching":"Disabled"
+  }
+ ,"Configuration":{
+    "Build Option":"Recurso: Feedback (47709986271764297422)"
+  }
+ ,"Regions":[
+    {
+      "id":"47710007584677297453"
+     ,"Identification":{
+        "Title":"Feedback Enviado"
+       ,"Type":"Static Content"
+      }
+     ,"Layout":{
+        "Sequence":10
+       ,"Parent Region":"No Parent"
+       ,"Position":"BODY"
+       ,"Start New Layout":false
+       ,"Start New Row":true
+       ,"Column":"Automatic"
+       ,"New Column":true
+       ,"Column Span":"Automatic"
+      }
+     ,"Appearance":{
+        "Template":"Alert (47709730448537297288)"
+       ,"Template Options":[
+          "#DEFAULT#"
+         ,"t-Alert--wizard"
+         ,"t-Alert--customIcons"
+         ,"t-Alert--success"
+        ]
+       ,"Icon":"fa-check-circle"
+       ,"Render Components":"Above Content"
+      }
+     ,"Accessibility":{
+        "Use Landmark":true
+       ,"Landmark Type":"Template Default"
+      }
+     ,"Advanced":{
+        "Region Display Selector":false
+       ,"Exclude Title from Translation":false
+      }
+     ,"Server Cache":{
+        "Caching":"Disabled"
+      }
+     ,"Customization":{
+        "Customizable":"Not Customizable By End Users"
+      }
+     ,"Attributes":{
+        "Settings":{
+          "Output As":"HTML"
+         ,"Expand Shortcuts":false
+        }
+      }
+    }
+  ]
+ ,"Buttons":[
+    {
+      "id":"47710007477548297453"
+     ,"Identification":{
+        "Button Name":"CLOSE"
+       ,"Label":"Fechar"
+      }
+     ,"Layout":{
+        "Sequence":20
+       ,"Region":"Feedback Enviado (47710007584677297453)"
+       ,"Position":"EDIT"
+       ,"Start New Layout":false
+       ,"Start New Row":true
+       ,"Column":"Automatic"
+       ,"New Column":true
+       ,"Column Span":"Automatic"
+      }
+     ,"Appearance":{
+        "Button Template":"Text (47709875777622297355)"
+       ,"Hot":false
+       ,"Template Options":[
+          "#DEFAULT#"
+        ]
+       ,"CSS Classes":[
+          "w40p"
+        ]
+      }
+     ,"Behavior":{
+        "Action":"Defined by Dynamic Action"
+       ,"Execute Validations":true
+      }
+    }
+  ]
+ ,"Dynamic Actions":[
+    {
+      "id":"47710007606548297453"
+     ,"Identification":{
+        "Name":"Cancelar Caixa de Di\u00E1logo"
+      }
+     ,"Execution":{
+        "Sequence":10
+       ,"Event Scope":"Static"
+       ,"Type":"Immediate"
+      }
+     ,"When":{
+        "Event":"EVENT.EVENT.BROWSER.CLICK"
+       ,"Selection Type":"Button"
+       ,"Button":"CLOSE (47710007477548297453)"
+      }
+     ,"Actions":[
+        {
+          "id":"47710019462210297461"
+         ,"Identification":{
+            "Action":"Cancel Dialog"
+          }
+         ,"Execution":{
+            "Sequence":10
+           ,"Event":"Cancelar Caixa de Di\u00E1logo (47710007606548297453)"
+           ,"Fire When Event Result Is":"True"
+           ,"Fire on Initialization":false
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,594 @@
+{
+  "id":"10020"
+ ,"Identification":{
+    "Name":"Feedback"
+   ,"Alias":"FEEDBACK"
+   ,"Title":"Feedback"
+   ,"Page Group":"Administra\u00E7\u00E3o (47709988187294297423)"
+  }
+ ,"Appearance":{
+    "Page Mode":"Modal Dialog"
+   ,"Dialog Template":"Theme Default"
+   ,"Template Options":[
+      "#DEFAULT#"
+    ]
+  }
+ ,"Dialog":{
+    "Width":"480"
+   ,"Chained":false
+  }
+ ,"Navigation Menu":{
+    "Override User Interface Level":false
+  }
+ ,"Navigation":{
+    "Cursor Focus":"Do not focus cursor"
+   ,"Warn on Unsaved Changes":true
+  }
+ ,"CSS":{
+    "Inline":".feedback-positive, .feedback-negative, .feedback-neutral { padding: 8px; border-radius: 100%; background-color: white; margin: 4px; }\n.feedback-positive { color: var(--ut-feedback-positive-text-color, var(--ut-palette-success)); }\n.feedback-neutral { color: var(--ut-feedback-neutral-text-color, var(--ut-palette-warning)); }\n.feedback-negative { color: var(--ut-feedback-negative-text-color, var(--ut-palette-danger)); }"
+  }
+ ,"Security":{
+    "Authentication":"Page Requires Authentication"
+   ,"Deep Linking":"Application Default"
+   ,"Page Access Protection":"Arguments Must Have Checksum"
+   ,"Form Auto Complete":"Off"
+   ,"Browser Cache":"Application Default"
+  }
+ ,"Session Management":{
+    "Rejoin Sessions":"Application Default"
+  }
+ ,"Advanced":{
+    "Enable duplicate page submissions":"Yes - Enable page to be re-posted"
+   ,"Reload on Submit":"Only for Success"
+  }
+ ,"Server Cache":{
+    "Caching":"Disabled"
+  }
+ ,"Configuration":{
+    "Build Option":"Recurso: Feedback (47709986271764297422)"
+  }
+ ,"Regions":[
+    {
+      "id":"47710006944945297453"
+     ,"Identification":{
+        "Title":"Form em Feedback"
+       ,"Type":"Static Content"
+      }
+     ,"Layout":{
+        "Sequence":10
+       ,"Parent Region":"No Parent"
+       ,"Position":"BODY"
+       ,"Start New Layout":false
+       ,"Start New Row":true
+       ,"Column":"Automatic"
+       ,"New Column":true
+       ,"Column Span":"Automatic"
+      }
+     ,"Appearance":{
+        "Template":"Blank with Attributes (47709735633685297291)"
+       ,"Template Options":[
+          "#DEFAULT#"
+         ,"t-Form--stretchInputs"
+        ]
+       ,"Render Components":"Above Content"
+      }
+     ,"Accessibility":{
+        "Use Landmark":true
+       ,"Landmark Type":"Template Default"
+      }
+     ,"Advanced":{
+        "Region Display Selector":false
+       ,"Exclude Title from Translation":false
+      }
+     ,"Server Cache":{
+        "Caching":"Disabled"
+      }
+     ,"Customization":{
+        "Customizable":"Not Customizable By End Users"
+      }
+     ,"Attributes":{
+        "Settings":{
+          "Output As":"HTML"
+         ,"Expand Shortcuts":false
+        }
+      }
+    }
+   ,{
+      "id":"47710007000208297453"
+     ,"Identification":{
+        "Title":"Bot\u00F5es"
+       ,"Type":"Static Content"
+      }
+     ,"Layout":{
+        "Sequence":10
+       ,"Parent Region":"No Parent"
+       ,"Position":"REGION_POSITION_03"
+       ,"Start New Layout":false
+       ,"Start New Row":true
+       ,"Column":"Automatic"
+       ,"New Column":true
+       ,"Column Span":"Automatic"
+      }
+     ,"Appearance":{
+        "Template":"Buttons Container (47709738462474297293)"
+       ,"Template Options":[
+          "#DEFAULT#"
+        ]
+       ,"Render Components":"Above Content"
+      }
+     ,"Accessibility":{
+        "Use Landmark":true
+       ,"Landmark Type":"Template Default"
+      }
+     ,"Advanced":{
+        "Region Display Selector":false
+       ,"Exclude Title from Translation":false
+      }
+     ,"Server Cache":{
+        "Caching":"Disabled"
+      }
+     ,"Customization":{
+        "Customizable":"Not Customizable By End Users"
+      }
+     ,"Attributes":{
+        "Settings":{
+          "Output As":"HTML"
+         ,"Expand Shortcuts":false
+        }
+      }
+    }
+  ]
+ ,"Page Items":[
+    {
+      "id":"47710011437447297456"
+     ,"Identification":{
+        "Name":"P10020_APPLICATION_ID"
+       ,"Type":"Hidden"
+      }
+     ,"Settings":{
+        "Value Protected":true
+      }
+     ,"Layout":{
+        "Sequence":10
+       ,"Region":"Form em Feedback (47710006944945297453)"
+       ,"Position":"BODY"
+      }
+     ,"Advanced":{
+        "Warn on Unsaved Changes":"Page Default"
+      }
+     ,"Source":{
+        "Type":"Null"
+       ,"Used":"Always, replacing any existing value in session state"
+      }
+     ,"Session State":{
+        "Data Type":"VARCHAR2"
+       ,"Storage":"Per Session (Persistent)"
+      }
+     ,"Security":{
+        "Session State Protection":"Checksum Required - Session Level"
+       ,"Store value encrypted in session state":true
+       ,"Restricted Characters":"All characters can be saved."
+      }
+    }
+   ,{
+      "id":"47710011817061297456"
+     ,"Identification":{
+        "Name":"P10020_PAGE_ID"
+       ,"Type":"Hidden"
+      }
+     ,"Settings":{
+        "Value Protected":true
+      }
+     ,"Layout":{
+        "Sequence":20
+       ,"Region":"Form em Feedback (47710006944945297453)"
+       ,"Position":"BODY"
+      }
+     ,"Advanced":{
+        "Warn on Unsaved Changes":"Page Default"
+      }
+     ,"Source":{
+        "Type":"Null"
+       ,"Used":"Always, replacing any existing value in session state"
+      }
+     ,"Session State":{
+        "Data Type":"VARCHAR2"
+       ,"Storage":"Per Session (Persistent)"
+      }
+     ,"Security":{
+        "Session State Protection":"Checksum Required - Session Level"
+       ,"Store value encrypted in session state":true
+       ,"Restricted Characters":"All characters can be saved."
+      }
+    }
+   ,{
+      "id":"47710012234592297456"
+     ,"Identification":{
+        "Name":"P10020_USER_AGENT"
+       ,"Type":"Hidden"
+      }
+     ,"Settings":{
+        "Value Protected":true
+      }
+     ,"Layout":{
+        "Sequence":30
+       ,"Region":"Form em Feedback (47710006944945297453)"
+       ,"Position":"BODY"
+      }
+     ,"Advanced":{
+        "Warn on Unsaved Changes":"Page Default"
+      }
+     ,"Source":{
+        "Type":"SQL Query (return single value)"
+       ,"SQL Query":"select sys.owa_util.get_cgi_env(\u0027user-agent\u0027) x\nfrom dual"
+       ,"Used":"Always, replacing any existing value in session state"
+      }
+     ,"Session State":{
+        "Data Type":"VARCHAR2"
+       ,"Storage":"Per Session (Persistent)"
+      }
+     ,"Security":{
+        "Session State Protection":"Checksum Required - Session Level"
+       ,"Store value encrypted in session state":true
+       ,"Restricted Characters":"All characters can be saved."
+      }
+    }
+   ,{
+      "id":"47710012608191297457"
+     ,"Identification":{
+        "Name":"P10020_RATING"
+       ,"Type":"Radio Group"
+      }
+     ,"Label":{
+        "Label":"Experi\u00EAncia"
+       ,"Alignment":"Left"
+      }
+     ,"Settings":{
+        "Number of Columns":3
+       ,"Page Action on Selection":"None"
+      }
+     ,"Layout":{
+        "Sequence":35
+       ,"Region":"Form em Feedback (47710006944945297453)"
+       ,"Position":"BODY"
+       ,"Alignment":"Left"
+       ,"Start New Layout":false
+       ,"Start New Row":true
+       ,"Column":"Automatic"
+       ,"New Column":true
+       ,"Column Span":"Automatic"
+       ,"Label Column Span":"Page Template Default"
+      }
+     ,"Appearance":{
+        "Template":"Optional - Floating (47709873299516297353)"
+       ,"Template Options":[
+          "#DEFAULT#"
+         ,"t-Form-fieldContainer--radioButtonGroup"
+        ]
+      }
+     ,"Validation":{
+        "Value Required":false
+      }
+     ,"List of Values":{
+        "Type":"Shared Component"
+       ,"List of Values":"FEEDBACK_RATING (47710012753430297457)"
+       ,"Display Extra Values":false
+       ,"Display Null Value":false
+      }
+     ,"Advanced":{
+        "Warn on Unsaved Changes":"Page Default"
+      }
+     ,"Source":{
+        "Type":"Null"
+       ,"Used":"Only when current value in session state is null"
+      }
+     ,"Session State":{
+        "Storage":"Per Session (Persistent)"
+      }
+     ,"Security":{
+        "Session State Protection":"Unrestricted"
+       ,"Store value encrypted in session state":true
+       ,"Escape special characters":false
+       ,"Restricted Characters":"All characters can be saved."
+      }
+    }
+   ,{
+      "id":"47710014589319297458"
+     ,"Identification":{
+        "Name":"P10020_FEEDBACK"
+       ,"Type":"Textarea"
+      }
+     ,"Label":{
+        "Label":"Feedback"
+       ,"Alignment":"Left"
+      }
+     ,"Settings":{
+        "Resizable":true
+       ,"Auto-Height":false
+       ,"Character Counter":false
+       ,"Trim Spaces":"Leading and Trailing"
+      }
+     ,"Layout":{
+        "Sequence":40
+       ,"Region":"Form em Feedback (47710006944945297453)"
+       ,"Position":"BODY"
+       ,"Alignment":"Left"
+       ,"Start New Layout":false
+       ,"Start New Row":true
+       ,"Column":"Automatic"
+       ,"New Column":true
+       ,"Column Span":"Automatic"
+       ,"Label Column Span":"Page Template Default"
+      }
+     ,"Appearance":{
+        "Template":"Optional - Floating (47709873299516297353)"
+       ,"Width":64
+       ,"Height":4
+      }
+     ,"Validation":{
+        "Value Required":false
+       ,"Maximum Length":4000
+      }
+     ,"Advanced":{
+        "Warn on Unsaved Changes":"Page Default"
+      }
+     ,"Source":{
+        "Type":"Null"
+       ,"Used":"Only when current value in session state is null"
+      }
+     ,"Session State":{
+        "Data Type":"VARCHAR2"
+       ,"Storage":"Per Session (Persistent)"
+      }
+     ,"Quick Picks":{
+        "Show Quick Picks":false
+      }
+     ,"Security":{
+        "Session State Protection":"Unrestricted"
+       ,"Store value encrypted in session state":true
+       ,"Restricted Characters":"All characters can be saved."
+      }
+    }
+  ]
+ ,"Buttons":[
+    {
+      "id":"47710007189379297453"
+     ,"Identification":{
+        "Button Name":"CONFIRMAR"
+       ,"Label":"Confirmar"
+      }
+     ,"Layout":{
+        "Sequence":10
+       ,"Region":"Bot\u00F5es (47710007000208297453)"
+       ,"Position":"NEXT"
+       ,"Start New Layout":false
+       ,"Start New Row":true
+       ,"Column":"Automatic"
+       ,"New Column":true
+       ,"Column Span":"Automatic"
+      }
+     ,"Appearance":{
+        "Button Template":"Text with Icon (47709875827306297355)"
+       ,"Hot":true
+       ,"Template Options":[
+          "#DEFAULT#"
+         ,"t-Button--iconRight"
+        ]
+       ,"Icon":"fa-check"
+      }
+     ,"Behavior":{
+        "Action":"Submit Page"
+       ,"Execute Validations":true
+       ,"Warn on Unsaved Changes":"Do Not Check"
+      }
+    }
+   ,{
+      "id":"47710010136084297455"
+     ,"Identification":{
+        "Button Name":"CANCELAR"
+       ,"Label":"Cancelar"
+      }
+     ,"Layout":{
+        "Sequence":10
+       ,"Region":"Bot\u00F5es (47710007000208297453)"
+       ,"Position":"CLOSE"
+       ,"Start New Layout":false
+       ,"Start New Row":true
+       ,"Column":"Automatic"
+       ,"New Column":true
+       ,"Column Span":"Automatic"
+      }
+     ,"Appearance":{
+        "Button Template":"Text with Icon (47709875827306297355)"
+       ,"Hot":true
+       ,"Template Options":[
+          "#DEFAULT#"
+         ,"t-Button--link"
+         ,"t-Button--iconLeft"
+        ]
+       ,"Icon":"fa-chevron-left"
+      }
+     ,"Behavior":{
+        "Action":"Defined by Dynamic Action"
+       ,"Execute Validations":false
+      }
+    }
+  ]
+ ,"Dynamic Actions":[
+    {
+      "id":"47710010294913297455"
+     ,"Identification":{
+        "Name":"Cancelar Caixa de Di\u00E1logo"
+      }
+     ,"Execution":{
+        "Sequence":10
+       ,"Event Scope":"Static"
+       ,"Type":"Immediate"
+      }
+     ,"When":{
+        "Event":"EVENT.EVENT.BROWSER.CLICK"
+       ,"Selection Type":"Button"
+       ,"Button":"CANCELAR (47710010136084297455)"
+      }
+     ,"Actions":[
+        {
+          "id":"47710010922538297455"
+         ,"Identification":{
+            "Action":"Cancel Dialog"
+          }
+         ,"Execution":{
+            "Sequence":10
+           ,"Event":"Cancelar Caixa de Di\u00E1logo (47710010294913297455)"
+           ,"Fire When Event Result Is":"True"
+           ,"Fire on Initialization":false
+          }
+        }
+      ]
+    }
+  ]
+ ,"Validations":[
+    {
+      "id":"47710017471314297459"
+     ,"Identification":{
+        "Name":"\u00C9 Obrigat\u00F3rio pelo Menos um Feedback"
+      }
+     ,"Execution":{
+        "Sequence":10
+      }
+     ,"Validation":{
+        "Type":"Function Body (returning Boolean)"
+       ,"Language":"PL\/SQL"
+       ,"PL\/SQL Function Body":"if :P10020_FEEDBACK is null and :P10020_RATING is null then\n    return false;\nelse\n    return true;\nend if;"
+       ,"Always Execute":false
+      }
+     ,"Error":{
+        "Error Message":"Forne\u00E7a feedback ou sua experi\u00EAncia."
+       ,"Display Location":"Inline in Notification"
+      }
+    }
+  ]
+ ,"Processes":[
+    {
+      "id":"47710014959957297458"
+     ,"Identification":{
+        "Name":"Submeter Feedback"
+       ,"Type":"Invoke API"
+       ,"Execution Chain":"None"
+      }
+     ,"Settings":{
+        "Type":"PL\/SQL Package"
+       ,"Owner":"PARSING SCHEMA"
+       ,"Package":"APEX_UTIL"
+       ,"Procedure or Function":"SUBMIT_FEEDBACK"
+      }
+     ,"Execution":{
+        "Sequence":10
+       ,"Point":"Processing"
+       ,"Run Process":"Once Per Page Visit (default)"
+      }
+     ,"Success Message":{
+        "Success Message":"Feedback Enviado"
+      }
+     ,"Error":{
+        "Display Location":"Inline in Notification"
+      }
+     ,"Server-side Condition":{
+        "When Button Pressed":"CONFIRMAR (47710007189379297453)"
+      }
+     ,"Parameters":[
+        {
+          "id":"47710015451737297458"
+         ,"Identification":{
+            "Name":"p_comment"
+          }
+         ,"Parameter":{
+            "Direction":"In"
+           ,"Data Type":"VARCHAR2"
+           ,"Has Default":true
+          }
+         ,"Value":{
+            "Type":"Item"
+           ,"Item":"P10020_FEEDBACK"
+          }
+         ,"Advanced":{
+            "Display Sequence":1
+          }
+        }
+       ,{
+          "id":"47710015923527297459"
+         ,"Identification":{
+            "Name":"p_application_id"
+          }
+         ,"Parameter":{
+            "Direction":"In"
+           ,"Data Type":"VARCHAR2"
+           ,"Has Default":true
+          }
+         ,"Value":{
+            "Type":"Item"
+           ,"Item":"APP_ID"
+          }
+         ,"Advanced":{
+            "Display Sequence":2
+          }
+        }
+       ,{
+          "id":"47710016455898297459"
+         ,"Identification":{
+            "Name":"p_page_id"
+          }
+         ,"Parameter":{
+            "Direction":"In"
+           ,"Data Type":"VARCHAR2"
+           ,"Has Default":true
+          }
+         ,"Value":{
+            "Type":"Item"
+           ,"Item":"P10020_PAGE_ID"
+          }
+         ,"Advanced":{
+            "Display Sequence":3
+          }
+        }
+       ,{
+          "id":"47710016979202297459"
+         ,"Identification":{
+            "Name":"p_rating"
+          }
+         ,"Parameter":{
+            "Direction":"In"
+           ,"Data Type":"NUMBER"
+           ,"Has Default":true
+          }
+         ,"Value":{
+            "Type":"Item"
+           ,"Item":"P10020_RATING"
+          }
+         ,"Advanced":{
+            "Display Sequence":4
+          }
+        }
+      ]
+    }
+  ]
+ ,"Branches":[
+    {
+      "id":"47710017860953297460"
+     ,"Identification":{
+        "Name":"Go To Page 10021"
+      }
+     ,"Execution":{
+        "Sequence":10
+       ,"Point":"After Processing"
+      }
+     ,"Behavior":{
+        "Type":"Page or URL (Redirect)"
+       ,"Target":{
+          "url":"f?p=\u0026APP_ID.:10021:\u0026APP_SESSION.::\u0026DEBUG.:RP::"
+         ,"Page":"10021"
+         ,"Clear Cache":"RP"
+        }
+      }
+    }
+  ]
+}

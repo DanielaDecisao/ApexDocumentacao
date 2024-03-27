@@ -1,0 +1,199 @@
+[
+  {
+    "id":"47710004403698297443"
+   ,"Identification":{
+      "Name":"DESKTOP THEME STYLES"
+    }
+   ,"Source":{
+      "Location":"Local Database"
+     ,"Type":"SQL Query"
+     ,"SQL Query":"select s.name d,\n       s.theme_style_id r\n  from apex_application_theme_styles s,\n       apex_application_themes t\n where s.application_id = :app_id\n   and t.application_id = s.application_id\n   and t.theme_number   = s.theme_number\n   and t.is_current     = \u0027Yes\u0027\n order by 1"
+    }
+   ,"Column Mapping":{
+      "Return":"R"
+     ,"Display":"D"
+     ,"Default Sort":"Use Order By from Query"
+    }
+  }
+ ,{
+    "id":"47710005122511297452"
+   ,"Identification":{
+      "Name":"USER_THEME_PREFERENCE"
+    }
+   ,"Source":{
+      "Location":"Static Values"
+    }
+   ,"Entries":[
+      {
+        "id":"47710005463093297452"
+       ,"Entry":{
+          "Sequence":1
+         ,"Display":"Permite que os Usu\u00E1rios Finais escolham o Estilo do Tema"
+         ,"Return":"Yes"
+        }
+      }
+    ]
+  }
+ ,{
+    "id":"47710012753430297457"
+   ,"Identification":{
+      "Name":"FEEDBACK_RATING"
+    }
+   ,"Source":{
+      "Location":"Static Values"
+    }
+   ,"Entries":[
+      {
+        "id":"47710013086673297457"
+       ,"Entry":{
+          "Sequence":1
+         ,"Display":"Positivo"
+         ,"Return":"3"
+        }
+       ,"Globalization":{
+          "Template":"\u003Cspan title=\"#DISPLAY_VALUE#\" aria-label=\"#DISPLAY_VALUE#\"\u003E\u003Cspan class=\"fa fa-smile-o fa-2x feedback-positive\" aria-hidden=\"true\" \u003E\u003C\/span\u003E\u003C\/span\u003E"
+        }
+      }
+     ,{
+        "id":"47710013411790297457"
+       ,"Entry":{
+          "Sequence":2
+         ,"Display":"Neutro"
+         ,"Return":"2"
+        }
+       ,"Globalization":{
+          "Template":"\u003Cspan title=\"#DISPLAY_VALUE#\" aria-label=\"#DISPLAY_VALUE#\"\u003E\u003Cspan class=\"fa fa-emoji-neutral fa-2x feedback-neutral\" aria-hidden=\"true\" \u003E\u003C\/span\u003E\u003C\/span\u003E"
+        }
+      }
+     ,{
+        "id":"47710013874080297457"
+       ,"Entry":{
+          "Sequence":3
+         ,"Display":"Negativo"
+         ,"Return":"1"
+        }
+       ,"Globalization":{
+          "Template":"\u003Cspan title=\"#DISPLAY_VALUE#\" aria-label=\"#DISPLAY_VALUE#\"\u003E\u003Cspan class=\"fa fa-frown-o fa-2x feedback-negative\" aria-hidden=\"true\" \u003E\u003C\/span\u003E\u003C\/span\u003E"
+        }
+      }
+    ]
+  }
+ ,{
+    "id":"47710025196255297465"
+   ,"Identification":{
+      "Name":"FEEDBACK_STATUS"
+    }
+   ,"Source":{
+      "Location":"Static Values"
+    }
+   ,"Entries":[
+      {
+        "id":"47710025460255297465"
+       ,"Entry":{
+          "Sequence":1
+         ,"Display":"Sem A\u00E7\u00E3o"
+         ,"Return":"0"
+        }
+      }
+     ,{
+        "id":"47710025820139297466"
+       ,"Entry":{
+          "Sequence":2
+         ,"Display":"Confirmado"
+         ,"Return":"1"
+        }
+      }
+     ,{
+        "id":"47710026296623297466"
+       ,"Entry":{
+          "Sequence":3
+         ,"Display":"Abrir"
+         ,"Return":"3"
+        }
+      }
+     ,{
+        "id":"47710026620047297466"
+       ,"Entry":{
+          "Sequence":4
+         ,"Display":"Fechado"
+         ,"Return":"4"
+        }
+      }
+    ]
+  }
+ ,{
+    "id":"52717863806145453885"
+   ,"Identification":{
+      "Name":"D\u00DAVIDAS FREQUENTES"
+    }
+   ,"Source":{
+      "Location":"Local Database"
+     ,"Type":"SQL Query"
+     ,"SQL Query":"SELECT id\r\n     , duvida\r\n     , explicacao\r\n  FROM DUVIDAS_FREQUENTES"
+    }
+   ,"Column Mapping":{
+      "Return":"ID"
+     ,"Default Sort":"ID"
+     ,"Sort Direction":"Ascending (Nulls Last)"
+    }
+   ,"Columns":[
+      {
+        "id":"52717886668396457955"
+       ,"Identification":{
+          "Column Name":"ID"
+         ,"Show":true
+        }
+       ,"Heading":{
+          "Heading":"ID"
+        }
+       ,"Layout":{
+          "Sequence":10
+        }
+       ,"Source":{
+          "Data Type":"NUMBER"
+        }
+       ,"Advanced":{
+          "Searchable":true
+        }
+      }
+     ,{
+        "id":"52717887054709457955"
+       ,"Identification":{
+          "Column Name":"DUVIDA"
+         ,"Show":true
+        }
+       ,"Heading":{
+          "Heading":"D\u00FAvida"
+        }
+       ,"Layout":{
+          "Sequence":20
+        }
+       ,"Source":{
+          "Data Type":"VARCHAR2"
+        }
+       ,"Advanced":{
+          "Searchable":true
+        }
+      }
+     ,{
+        "id":"52717887428027457955"
+       ,"Identification":{
+          "Column Name":"EXPLICACAO"
+         ,"Show":true
+        }
+       ,"Heading":{
+          "Heading":"Explica\u00E7\u00E3o"
+        }
+       ,"Layout":{
+          "Sequence":30
+        }
+       ,"Source":{
+          "Data Type":"VARCHAR2"
+        }
+       ,"Advanced":{
+          "Searchable":true
+        }
+      }
+    ]
+  }
+]
