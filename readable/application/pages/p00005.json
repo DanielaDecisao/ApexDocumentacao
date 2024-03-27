@@ -47,7 +47,7 @@
         "Location":"Local Database"
        ,"Type":"Table \/ View"
        ,"Table Owner":"Parsing Schema"
-       ,"Table Name":"DUVIDAS_FREQUENTES"
+       ,"Table Name":"HELP_DUVIDAS_FREQ"
        ,"Include ROWID Column":false
       }
      ,"Layout":{
@@ -303,7 +303,7 @@
        ,"Width":30
       }
      ,"Validation":{
-        "Value Required":false
+        "Value Required":true
       }
      ,"List of Values":{
         "Type":"Shared Component"

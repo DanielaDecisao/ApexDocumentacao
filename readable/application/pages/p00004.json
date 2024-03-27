@@ -100,7 +100,7 @@
         "Location":"Local Database"
        ,"Type":"Table \/ View"
        ,"Table Owner":"Parsing Schema"
-       ,"Table Name":"DUVIDAS_FREQUENTES"
+       ,"Table Name":"HELP_DUVIDAS_FREQ"
        ,"Include ROWID Column":false
       }
      ,"Layout":{
