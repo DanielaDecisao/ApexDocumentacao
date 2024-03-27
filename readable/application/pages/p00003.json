@@ -1,0 +1,336 @@
+{
+  "id":"3"
+ ,"Identification":{
+    "Name":"Perguntas Frequentes"
+   ,"Alias":"PERGUNTAS-FREQUENTES"
+   ,"Title":"Perguntas Frequentes"
+  }
+ ,"Appearance":{
+    "Page Mode":"Normal"
+   ,"Page Template":"Theme Default"
+   ,"Template Options":[
+      "#DEFAULT#"
+    ]
+  }
+ ,"Navigation Menu":{
+    "Override User Interface Level":false
+  }
+ ,"Navigation":{
+    "Cursor Focus":"Do not focus cursor"
+   ,"Warn on Unsaved Changes":true
+  }
+ ,"Security":{
+    "Authentication":"Page Requires Authentication"
+   ,"Deep Linking":"Application Default"
+   ,"Page Access Protection":"Arguments Must Have Checksum"
+   ,"Form Auto Complete":"Off"
+   ,"Browser Cache":"Application Default"
+  }
+ ,"Session Management":{
+    "Rejoin Sessions":"Application Default"
+  }
+ ,"Advanced":{
+    "Enable duplicate page submissions":"Yes - Enable page to be re-posted"
+   ,"Reload on Submit":"Only for Success"
+  }
+ ,"Server Cache":{
+    "Caching":"Disabled"
+  }
+ ,"Regions":[
+    {
+      "id":"16035527501312589517"
+     ,"Identification":{
+        "Title":"Pesquisa"
+       ,"Type":"Smart Filters"
+      }
+     ,"Source":{
+        "Filtered Region":"Cards (49870601738140132102)"
+      }
+     ,"Layout":{
+        "Sequence":20
+       ,"Parent Region":"No Parent"
+       ,"Position":"BODY"
+       ,"Start New Layout":false
+       ,"Start New Row":true
+       ,"Column":"2"
+       ,"New Column":true
+       ,"Column Span":"5"
+      }
+     ,"Appearance":{
+        "Template":"Blank with Attributes (47709735633685297291)"
+       ,"Template Options":[
+          "#DEFAULT#"
+         ,"margin-bottom-md"
+        ]
+       ,"Render Components":"Above Content"
+      }
+     ,"Accessibility":{
+        "Use Landmark":true
+       ,"Landmark Type":"Template Default"
+      }
+     ,"Advanced":{
+        "Region Display Selector":false
+       ,"Exclude Title from Translation":false
+      }
+     ,"Server Cache":{
+        "Caching":"Disabled"
+      }
+     ,"Customization":{
+        "Customizable":"Not Customizable By End Users"
+      }
+     ,"Attributes":{
+        "Settings":{
+          "More Filters Suggestion Chip":false
+         ,"Compact Numbers Threshold":10000
+         ,"Show Total Row Count":"No"
+        }
+      }
+     ,"Facets":[
+        {
+          "id":"16035527684969589518"
+         ,"Identification":{
+            "Name":"P3_PESQUISAR"
+           ,"Type":"Search"
+          }
+         ,"Label":{
+            "Label":"Pesquisar"
+          }
+         ,"Settings":{
+            "Search Type":"Row Search"
+           ,"Input Field":"Top of Faceted Search Region"
+          }
+         ,"Layout":{
+            "Sequence":10
+          }
+         ,"Appearance":{
+            "Value Placeholder":"Pesquisar"
+          }
+         ,"Security":{
+            "Store value encrypted in session state":true
+          }
+        }
+      ]
+     ,"Filters":[
+        {
+          "id":"16035527684969589518"
+         ,"Identification":{
+            "Name":"P3_PESQUISAR"
+           ,"Type":"Search"
+          }
+         ,"Label":{
+            "Label":"Pesquisar"
+          }
+         ,"Settings":{
+            "Search Type":"Row Search"
+           ,"Collapsed Search Field":false
+          }
+         ,"Layout":{
+            "Sequence":10
+          }
+         ,"Appearance":{
+            "Value Placeholder":"Pesquisar"
+          }
+         ,"Security":{
+            "Store value encrypted in session state":true
+          }
+        }
+      ]
+    }
+   ,{
+      "id":"49870601738140132102"
+     ,"Identification":{
+        "Title":"Cards"
+       ,"Type":"Cards"
+      }
+     ,"Source":{
+        "Location":"Local Database"
+       ,"Type":"SQL Query"
+       ,"SQL Query":"select DUVIDA,\n       substr(EXPLICACAO, 1, 50) || \u0027...\u0027 EXPLICACAO,\n       ID\n  from HELP_DUVIDAS_FREQ"
+      }
+     ,"Layout":{
+        "Sequence":40
+       ,"Parent Region":"No Parent"
+       ,"Position":"BODY"
+       ,"Start New Layout":false
+       ,"Start New Row":true
+       ,"Column":"2"
+       ,"New Column":true
+       ,"Column Span":"10"
+      }
+     ,"Appearance":{
+        "Template":"Cards Container (47709742708168297295)"
+       ,"Template Options":[
+          "#DEFAULT#"
+        ]
+       ,"Render Components":"Above Content"
+      }
+     ,"Accessibility":{
+        "Use Landmark":true
+       ,"Landmark Type":"Region"
+      }
+     ,"Advanced":{
+        "Region Display Selector":false
+       ,"Exclude Title from Translation":false
+      }
+     ,"Server Cache":{
+        "Caching":"Disabled"
+      }
+     ,"Customization":{
+        "Customizable":"Not Customizable By End Users"
+      }
+     ,"Attributes":{
+        "id":"49870601817082132103"
+       ,"Appearance":{
+          "Layout":"Grid"
+         ,"Grid Columns":"Auto"
+        }
+       ,"Title":{
+          "Advanced Formatting":false
+         ,"Column":"DUVIDA"
+        }
+       ,"Subtitle":{
+          "Advanced Formatting":false
+        }
+       ,"Body":{
+          "Advanced Formatting":false
+         ,"Column":"EXPLICACAO"
+        }
+       ,"Secondary Body":{
+          "Advanced Formatting":false
+        }
+       ,"Icon and Badge":{
+          "Icon Source":"No Icon"
+        }
+       ,"Media":{
+          "Advanced Formatting":false
+         ,"Source":"No Media"
+        }
+       ,"Performance":{
+          "Lazy Loading":false
+        }
+       ,"Pagination":{
+          "Type":"Scroll"
+         ,"Show Total Count":false
+        }
+       ,"Messages":{
+          "When No Data Found":"Nenhum dado encontrado."
+        }
+       ,"Actions":[
+          {
+            "id":"49870602698528132111"
+           ,"Identification":{
+              "Type":"Full Card"
+            }
+           ,"Layout":{
+              "Sequence":10
+            }
+           ,"Link":{
+              "Type":"Redirect to Page in this Application"
+             ,"Target":{
+                "url":"f?p=\u0026APP_ID.:4:\u0026SESSION.::\u0026DEBUG.::P4_ID:\u0026ID."
+               ,"Page":"4"
+               ,"Values":{
+                  "P4_ID":"\u0026ID."
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+   ,{
+      "id":"49870604289783132127"
+     ,"Identification":{
+        "Title":"Imagem Suporte"
+       ,"Type":"Static Content"
+      }
+     ,"Source":{
+        "HTML Code":"\u003Cdiv style=\"width: 900px; heigth: auto; margin: 0 auto; padding: 0px;\"\u003E\n    \u003Cimg src=\"#APP_FILES#help\/suporte_perguntas_frequentes.png\" alt=\"Imagem de Suporte\" style=\"width: 100%;\"\u003E\n\u003C\/div\u003E"
+      }
+     ,"Layout":{
+        "Sequence":10
+       ,"Parent Region":"No Parent"
+       ,"Position":"BODY"
+       ,"Start New Layout":false
+       ,"Start New Row":true
+       ,"Column":"2"
+       ,"New Column":true
+       ,"Column Span":"10"
+      }
+     ,"Appearance":{
+        "Template":"Blank with Attributes (47709735633685297291)"
+       ,"Template Options":[
+          "#DEFAULT#"
+        ]
+       ,"Render Components":"Above Content"
+      }
+     ,"Accessibility":{
+        "Use Landmark":true
+       ,"Landmark Type":"Template Default"
+      }
+     ,"Advanced":{
+        "Region Display Selector":false
+       ,"Exclude Title from Translation":false
+      }
+     ,"Server Cache":{
+        "Caching":"Disabled"
+      }
+     ,"Customization":{
+        "Customizable":"Not Customizable By End Users"
+      }
+     ,"Attributes":{
+        "Settings":{
+          "Output As":"HTML"
+         ,"Expand Shortcuts":false
+        }
+      }
+    }
+   ,{
+      "id":"66043931023227298175"
+     ,"Identification":{
+        "Title":"WhatsApp"
+       ,"Type":"Static Content"
+      }
+     ,"Source":{
+        "HTML Code":" \u003Cstyle\u003E\n  .contact-info {\n    text-align: center;\n    margin-top: 20px;\n  }\n\n  .contact-info .contact-icon {\n    display: inline-block;\n    background-color: #3498db;\n    color: white;\n    padding: 10px 20px;\n    border-radius: 10px;\n    cursor: pointer;\n    transition: transform 0.2s ease-in-out, background-color 0.2s ease-in-out;\n  }\n\n  .contact-info .contact-icon:hover {\n    background-color: #2980b9;\n    transform: scale(1.1);\n    display: inline-block;\n  }\n\n  p {\n    font-width: 8px;\n    margin-top: 12px;\n  }\n\u003C\/style\u003E\n\n\n\u003Cdiv class=\"contact-info\"\u003E\n    \u003Ch2\u003EAinda t\u00EAm d\u00FAvidas? Entre em contato com nosso Suporte T\u00E9cnico pelo WhatsApp\u003C\/h2\u003E\n    \u003Ca href=\"https:\/\/api.whatsapp.com\/send?phone=5554999330220\" class=\"contact-icon\"\u003EEntrar em contato\u003C\/a\u003E\n    \u003Cp\u003EHor\u00E1rio de Atendimento: Segunda a Sexta das 08h \u00E0s 12h e das 13:30 \u00E0s 18h (exceto feriados).\u003C\/p\u003E\n\u003C\/div\u003E"
+      }
+     ,"Layout":{
+        "Sequence":30
+       ,"Parent Region":"No Parent"
+       ,"Position":"REGION_POSITION_05"
+       ,"Start New Layout":false
+       ,"Start New Row":true
+       ,"Column":"2"
+       ,"New Column":true
+       ,"Column Span":"10"
+      }
+     ,"Appearance":{
+        "Template":"Blank with Attributes (47709735633685297291)"
+       ,"Template Options":[
+          "#DEFAULT#"
+        ]
+       ,"Render Components":"Above Content"
+      }
+     ,"Accessibility":{
+        "Use Landmark":true
+       ,"Landmark Type":"Template Default"
+      }
+     ,"Advanced":{
+        "Region Display Selector":false
+       ,"Exclude Title from Translation":false
+      }
+     ,"Server Cache":{
+        "Caching":"Disabled"
+      }
+     ,"Customization":{
+        "Customizable":"Not Customizable By End Users"
+      }
+     ,"Attributes":{
+        "Settings":{
+          "Output As":"HTML"
+         ,"Expand Shortcuts":false
+        }
+      }
+    }
+  ]
+}

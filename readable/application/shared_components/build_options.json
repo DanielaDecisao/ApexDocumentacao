@@ -1,0 +1,50 @@
+[
+  {
+    "id":"47708896794149297271"
+   ,"Identification":{
+      "Name":"Comentado"
+    }
+   ,"Status":{
+      "Status":"Exclude"
+     ,"Default on Export":"Same as Current Status"
+     ,"On Upgrade Keep Status":false
+    }
+   ,"Subscription":{
+      "Version Number":1
+    }
+  }
+ ,{
+    "id":"47709986271764297422"
+   ,"Identification":{
+      "Name":"Recurso: Feedback"
+    }
+   ,"Status":{
+      "Status":"Include"
+     ,"Default on Export":"Same as Current Status"
+     ,"On Upgrade Keep Status":false
+    }
+   ,"Comments":{
+      "Comments":"Forne\u00E7a um mecanismo para que os usu\u00E1rios finais postem coment\u00E1rios gen\u00E9ricos para os administradores e desenvolvedores de aplicativos."
+    }
+   ,"Subscription":{
+      "Version Number":1
+    }
+  }
+ ,{
+    "id":"47709986885979297422"
+   ,"Identification":{
+      "Name":"Recurso: Sele\u00E7\u00E3o de Estilo do Tema"
+    }
+   ,"Status":{
+      "Status":"Include"
+     ,"Default on Export":"Same as Current Status"
+     ,"On Upgrade Keep Status":false
+    }
+   ,"Comments":{
+      "Comments":"Permitir que os administradores selecionem um esquema de cores padr\u00E3o (estilo de tema) para o aplicativo. Os administradores tamb\u00E9m podem permitir que os usu\u00E1rios finais escolham seu pr\u00F3prio estilo de tema. "
+    }
+   ,"Subscription":{
+      "Version Number":1
+    }
+  }
+]

@@ -1,0 +1,523 @@
+{
+  "id":"8"
+ ,"Identification":{
+    "Name":"Contato"
+   ,"Alias":"CONTATO"
+   ,"Title":"Contato"
+  }
+ ,"Appearance":{
+    "Page Mode":"Normal"
+   ,"Page Template":"Theme Default"
+   ,"Template Options":[
+      "#DEFAULT#"
+    ]
+  }
+ ,"Navigation Menu":{
+    "Override User Interface Level":false
+  }
+ ,"Navigation":{
+    "Cursor Focus":"Do not focus cursor"
+   ,"Warn on Unsaved Changes":true
+  }
+ ,"Security":{
+    "Authentication":"Page Requires Authentication"
+   ,"Deep Linking":"Application Default"
+   ,"Page Access Protection":"Arguments Must Have Checksum"
+   ,"Form Auto Complete":"Off"
+   ,"Browser Cache":"Application Default"
+  }
+ ,"Session Management":{
+    "Rejoin Sessions":"Application Default"
+  }
+ ,"Advanced":{
+    "Enable duplicate page submissions":"Yes - Enable page to be re-posted"
+   ,"Reload on Submit":"Only for Success"
+  }
+ ,"Server Cache":{
+    "Caching":"Disabled"
+  }
+ ,"Regions":[
+    {
+      "id":"49870604305213132128"
+     ,"Identification":{
+        "Title":"Imagem Suporte"
+       ,"Type":"Static Content"
+      }
+     ,"Source":{
+        "HTML Code":"\u003Cdiv style=\"width: 900px; heigth: auto; margin: 0 auto; padding: 0px;\"\u003E\n    \u003Cimg src=\"#APP_FILES#help\/suporte_contato.png\" alt=\"Imagem de Suporte\" style=\"width: 100%;\"\u003E\n\u003C\/div\u003E"
+      }
+     ,"Layout":{
+        "Sequence":20
+       ,"Parent Region":"No Parent"
+       ,"Position":"BODY"
+       ,"Start New Layout":false
+       ,"Start New Row":true
+       ,"Column":"Automatic"
+       ,"New Column":true
+       ,"Column Span":"Automatic"
+      }
+     ,"Appearance":{
+        "Template":"Blank with Attributes (47709735633685297291)"
+       ,"Template Options":[
+          "#DEFAULT#"
+        ]
+       ,"Render Components":"Above Content"
+      }
+     ,"Accessibility":{
+        "Use Landmark":true
+       ,"Landmark Type":"Template Default"
+      }
+     ,"Advanced":{
+        "Region Display Selector":false
+       ,"Exclude Title from Translation":false
+      }
+     ,"Server Cache":{
+        "Caching":"Disabled"
+      }
+     ,"Customization":{
+        "Customizable":"Not Customizable By End Users"
+      }
+     ,"Attributes":{
+        "Settings":{
+          "Output As":"HTML"
+         ,"Expand Shortcuts":false
+        }
+      }
+    }
+   ,{
+      "id":"52718144879999469005"
+     ,"Identification":{
+        "Title":"Contato por Email"
+       ,"Type":"Static Content"
+      }
+     ,"Layout":{
+        "Sequence":50
+       ,"Parent Region":"No Parent"
+       ,"Position":"BODY"
+       ,"Start New Layout":false
+       ,"Start New Row":false
+       ,"Column":"6"
+       ,"New Column":true
+       ,"Column Span":"6"
+      }
+     ,"Appearance":{
+        "Template":"Standard (47709802464834297321)"
+       ,"Template Options":[
+          "#DEFAULT#"
+         ,"t-Region--noBorder"
+         ,"t-Region--scrollBody"
+        ]
+       ,"Render Components":"Above Content"
+      }
+     ,"Accessibility":{
+        "Use Landmark":true
+       ,"Landmark Type":"Template Default"
+      }
+     ,"Advanced":{
+        "Region Display Selector":false
+       ,"Exclude Title from Translation":false
+      }
+     ,"Server Cache":{
+        "Caching":"Disabled"
+      }
+     ,"Customization":{
+        "Customizable":"Not Customizable By End Users"
+      }
+     ,"Attributes":{
+        "Settings":{
+          "Output As":"HTML"
+         ,"Expand Shortcuts":false
+        }
+      }
+    }
+   ,{
+      "id":"101002291031525412680"
+     ,"Identification":{
+        "Title":"Hor\u00E1rio de Atendimento"
+       ,"Type":"Static Content"
+      }
+     ,"Source":{
+        "HTML Code":"\u003Cdiv style=\"text-align: center;\"\u003E\n    \u003Ch4\u003EHor\u00E1rio de Atendimento: Segunda a Sexta das 08h \u00E0s 12h e das 13:30 \u00E0s 18h (exceto feriados).\u003C\/h4\u003E\n\u003C\/div\u003E\n"
+      }
+     ,"Layout":{
+        "Sequence":40
+       ,"Parent Region":"No Parent"
+       ,"Position":"REGION_POSITION_05"
+       ,"Start New Layout":false
+       ,"Start New Row":true
+       ,"Column":"2"
+       ,"New Column":true
+       ,"Column Span":"10"
+      }
+     ,"Appearance":{
+        "Template":"Blank with Attributes (47709735633685297291)"
+       ,"Template Options":[
+          "#DEFAULT#"
+        ]
+       ,"Render Components":"Above Content"
+      }
+     ,"Accessibility":{
+        "Use Landmark":true
+       ,"Landmark Type":"Template Default"
+      }
+     ,"Advanced":{
+        "Region Display Selector":false
+       ,"Exclude Title from Translation":false
+      }
+     ,"Server Cache":{
+        "Caching":"Disabled"
+      }
+     ,"Customization":{
+        "Customizable":"Not Customizable By End Users"
+      }
+     ,"Attributes":{
+        "Settings":{
+          "Output As":"HTML"
+         ,"Expand Shortcuts":false
+        }
+      }
+    }
+   ,{
+      "id":"101002807744763657855"
+     ,"Identification":{
+        "Title":"Contato por WhatsApp"
+       ,"Type":"Static Content"
+      }
+     ,"Source":{
+        "HTML Code":"\u003Cstyle\u003E\n  p {\n    font-size: 14px;\n    margin-top: 12px;\n  }\n\n  .qr-code {\n    width: 200px;\n    display: inline-block; \n    border: none;\n  }\n\n  .qr-code:hover {\n    transform: scale(1.05); \/* Aumenta um pouco a imagem ao passar o mouse *\/\n    transition: transform 0.2s ease-in-out;\n  }\n\u003C\/style\u003E\n\n\u003Cp\u003EEscaneio o QR Code ou clique sobre ele.\u003C\/p\u003E\n\n\u003Cdiv style=\"text-align: center;\"\u003E\n    \u003Ca href=\"https:\/\/api.whatsapp.com\/send?phone=5554999330220\" class=\"contact-icon\"\u003E\n        \u003Cimg src=\"#APP_FILES#qr-code-wpp.jpg\" alt=\"QR Code WhatsApp\" class=\"qr-code\" style=\"border: 1px solid #ccc; padding: 5px;\"\u003E\n    \u003C\/a\u003E\n\u003C\/div\u003E\n\n\u003Cp\u003ESe preferir, ligue: \u003Ca href=\"#\"\u003E\u003Cspan aria-label=\"Ligar para (54) 3221-0220\"\u003E(54) 3221-0220\u003C\/span\u003E\u003C\/a\u003E\u003C\/p\u003E"
+      }
+     ,"Layout":{
+        "Sequence":30
+       ,"Parent Region":"No Parent"
+       ,"Position":"BODY"
+       ,"Start New Layout":false
+       ,"Start New Row":true
+       ,"Column":"2"
+       ,"New Column":true
+       ,"Column Span":"3"
+      }
+     ,"Appearance":{
+        "Template":"Standard (47709802464834297321)"
+       ,"Template Options":[
+          "#DEFAULT#"
+         ,"t-Region--noBorder"
+         ,"t-Region--scrollBody"
+        ]
+       ,"Render Components":"Above Content"
+      }
+     ,"Accessibility":{
+        "Use Landmark":true
+       ,"Landmark Type":"Template Default"
+      }
+     ,"Advanced":{
+        "Region Display Selector":false
+       ,"Exclude Title from Translation":false
+      }
+     ,"Server Cache":{
+        "Caching":"Disabled"
+      }
+     ,"Customization":{
+        "Customizable":"Not Customizable By End Users"
+      }
+     ,"Attributes":{
+        "Settings":{
+          "Output As":"HTML"
+         ,"Expand Shortcuts":false
+        }
+      }
+    }
+   ,{
+      "id":"101002820805231659896"
+     ,"Identification":{
+        "Title":"Contato por Email"
+       ,"Type":"Static Content"
+      }
+     ,"Source":{
+        "HTML Code":"\u003Cstyle\u003E\n  .form-container {\n    display: flex;\n    flex-direction: column;\n  }\n\n  .form-group input[type=\"text\"],\n  .form-group textarea {\n    width: 100%;\n    padding: 8px;\n    border: 1px solid #ccc;\n    border-radius: 5px;\n    margin-bottom: 10px;\n  }\n  \n  .form-group label {\n    font-weight: bold;\n    margin-bottom: 5px;\n  }\n\n  .submit-button {\n    padding: 10px 15px;\n    background-color: #007bff;\n    color: white;\n    border: none;\n    border-radius: 5px;\n    cursor: pointer;\n  }\n    \n  .submit-button:hover {\n    background-color: #0056b3;\n  }\n\u003C\/style\u003E\n\n\u003Cdiv class=\"form-container\"\u003E\n  \u003Cform action=\"mailto:daniela@decisaoinfo.com\" method=\"post\"\u003E\n    \u003Cdiv class=\"form-group\"\u003E\n      \u003Clabel for=\"email\"\u003EEmail:\u003C\/label\u003E\n      \u003Cinput type=\"text\" name=\"email\" required\u003E\n    \u003C\/div\u003E\n\n    \u003Cdiv class=\"form-group\"\u003E\n      \u003Clabel for=\"assunto\"\u003EAssunto:\u003C\/label\u003E\n      \u003Cinput type=\"text\" name=\"assunto\" required\u003E\n    \u003C\/div\u003E\n\n    \u003Cdiv class=\"form-group\"\u003E\n      \u003Clabel for=\"descricao\"\u003EDescri\u00E7\u00E3o:\u003C\/label\u003E\n      \u003Ctextarea name=\"descricao\" rows=\"4\" required\u003E\u003C\/textarea\u003E\n    \u003C\/div\u003E\n\n    \u003Cbutton type=\"submit\" class=\"submit-button\"\u003EEnviar\u003C\/button\u003E\n  \u003C\/form\u003E\n\u003C\/div\u003E"
+      }
+     ,"Layout":{
+        "Sequence":40
+       ,"Parent Region":"No Parent"
+       ,"Position":"BODY"
+       ,"Start New Layout":false
+       ,"Start New Row":false
+       ,"Column":"Automatic"
+       ,"New Column":true
+       ,"Column Span":"7"
+      }
+     ,"Appearance":{
+        "Template":"Standard (47709802464834297321)"
+       ,"Template Options":[
+          "#DEFAULT#"
+         ,"t-Region--removeHeader js-removeLandmark"
+         ,"t-Region--scrollBody"
+        ]
+       ,"Render Components":"Above Content"
+      }
+     ,"Accessibility":{
+        "Use Landmark":true
+       ,"Landmark Type":"Template Default"
+      }
+     ,"Advanced":{
+        "Region Display Selector":false
+       ,"Exclude Title from Translation":false
+      }
+     ,"Server Cache":{
+        "Caching":"Disabled"
+      }
+     ,"Customization":{
+        "Customizable":"Not Customizable By End Users"
+      }
+     ,"Configuration":{
+        "Build Option":"Comentado (47708896794149297271)"
+      }
+     ,"Attributes":{
+        "Settings":{
+          "Output As":"HTML"
+         ,"Expand Shortcuts":false
+        }
+      }
+    }
+  ]
+ ,"Page Items":[
+    {
+      "id":"52718144993670469006"
+     ,"Identification":{
+        "Name":"P8_SEU_EMAIL"
+       ,"Type":"Text Field"
+      }
+     ,"Label":{
+        "Label":"Seu Email"
+       ,"Alignment":"Left"
+      }
+     ,"Settings":{
+        "Subtype":"Text"
+       ,"Trim Spaces":"Leading and Trailing"
+       ,"Text Case":"NO CHANGE"
+       ,"Submit when Enter pressed":false
+       ,"Disabled":false
+      }
+     ,"Layout":{
+        "Sequence":10
+       ,"Region":"Contato por Email (52718144879999469005)"
+       ,"Position":"BODY"
+       ,"Alignment":"Left"
+       ,"Start New Layout":false
+       ,"Start New Row":true
+       ,"Column":"Automatic"
+       ,"New Column":true
+       ,"Column Span":"Automatic"
+       ,"Label Column Span":"Page Template Default"
+      }
+     ,"Appearance":{
+        "Template":"Required - Floating (47709874506262297354)"
+       ,"Template Options":[
+          "#DEFAULT#"
+        ]
+       ,"Width":30
+      }
+     ,"Validation":{
+        "Value Required":true
+      }
+     ,"Advanced":{
+        "Warn on Unsaved Changes":"Page Default"
+      }
+     ,"Source":{
+        "Type":"Null"
+       ,"Used":"Only when current value in session state is null"
+      }
+     ,"Session State":{
+        "Storage":"Per Request (Memory Only)"
+      }
+     ,"Quick Picks":{
+        "Show Quick Picks":false
+      }
+     ,"Security":{
+        "Session State Protection":"Unrestricted"
+       ,"Store value encrypted in session state":true
+       ,"Restricted Characters":"All characters can be saved."
+      }
+    }
+   ,{
+      "id":"52718145005787469007"
+     ,"Identification":{
+        "Name":"P8_ASSUNTO"
+       ,"Type":"Text Field"
+      }
+     ,"Label":{
+        "Label":"Assunto"
+       ,"Alignment":"Left"
+      }
+     ,"Settings":{
+        "Subtype":"Text"
+       ,"Trim Spaces":"Leading and Trailing"
+       ,"Text Case":"NO CHANGE"
+       ,"Submit when Enter pressed":false
+       ,"Disabled":false
+      }
+     ,"Layout":{
+        "Sequence":20
+       ,"Region":"Contato por Email (52718144879999469005)"
+       ,"Position":"BODY"
+       ,"Alignment":"Left"
+       ,"Start New Layout":false
+       ,"Start New Row":true
+       ,"Column":"Automatic"
+       ,"New Column":true
+       ,"Column Span":"Automatic"
+       ,"Label Column Span":"Page Template Default"
+      }
+     ,"Appearance":{
+        "Template":"Required - Floating (47709874506262297354)"
+       ,"Template Options":[
+          "#DEFAULT#"
+        ]
+       ,"Width":30
+      }
+     ,"Validation":{
+        "Value Required":true
+      }
+     ,"Advanced":{
+        "Warn on Unsaved Changes":"Page Default"
+      }
+     ,"Source":{
+        "Type":"Null"
+       ,"Used":"Only when current value in session state is null"
+      }
+     ,"Session State":{
+        "Storage":"Per Request (Memory Only)"
+      }
+     ,"Quick Picks":{
+        "Show Quick Picks":false
+      }
+     ,"Security":{
+        "Session State Protection":"Unrestricted"
+       ,"Store value encrypted in session state":true
+       ,"Restricted Characters":"All characters can be saved."
+      }
+    }
+   ,{
+      "id":"52718145103688469008"
+     ,"Identification":{
+        "Name":"P8_DESCRICAO"
+       ,"Type":"Textarea"
+      }
+     ,"Label":{
+        "Label":"Descri\u00E7\u00E3o"
+       ,"Alignment":"Left"
+      }
+     ,"Settings":{
+        "Resizable":true
+       ,"Auto-Height":false
+       ,"Character Counter":false
+       ,"Trim Spaces":"Leading and Trailing"
+      }
+     ,"Layout":{
+        "Sequence":30
+       ,"Region":"Contato por Email (52718144879999469005)"
+       ,"Position":"BODY"
+       ,"Alignment":"Left"
+       ,"Start New Layout":false
+       ,"Start New Row":true
+       ,"Column":"Automatic"
+       ,"New Column":true
+       ,"Column Span":"Automatic"
+       ,"Label Column Span":"Page Template Default"
+      }
+     ,"Appearance":{
+        "Template":"Required - Floating (47709874506262297354)"
+       ,"Template Options":[
+          "#DEFAULT#"
+        ]
+       ,"Width":30
+       ,"Height":5
+      }
+     ,"Validation":{
+        "Value Required":true
+      }
+     ,"Advanced":{
+        "Warn on Unsaved Changes":"Page Default"
+      }
+     ,"Source":{
+        "Type":"Null"
+       ,"Used":"Only when current value in session state is null"
+      }
+     ,"Session State":{
+        "Data Type":"VARCHAR2"
+       ,"Storage":"Per Request (Memory Only)"
+      }
+     ,"Quick Picks":{
+        "Show Quick Picks":false
+      }
+     ,"Security":{
+        "Session State Protection":"Unrestricted"
+       ,"Store value encrypted in session state":true
+       ,"Restricted Characters":"All characters can be saved."
+      }
+    }
+  ]
+ ,"Buttons":[
+    {
+      "id":"52718145257200469009"
+     ,"Identification":{
+        "Button Name":"ENVIAR"
+       ,"Label":"Enviar"
+      }
+     ,"Layout":{
+        "Sequence":40
+       ,"Region":"Contato por Email (52718144879999469005)"
+       ,"Position":"BODY"
+       ,"Start New Layout":false
+       ,"Start New Row":true
+       ,"Column":"Automatic"
+       ,"New Column":true
+       ,"Column Span":"Automatic"
+       ,"Alignment":"Left center"
+      }
+     ,"Appearance":{
+        "Button Template":"Text (47709875777622297355)"
+       ,"Hot":true
+       ,"Template Options":[
+          "#DEFAULT#"
+         ,"t-Button--large"
+         ,"t-Button--stretch"
+        ]
+      }
+     ,"Behavior":{
+        "Action":"Submit Page"
+       ,"Execute Validations":true
+       ,"Warn on Unsaved Changes":"Do Not Check"
+      }
+    }
+  ]
+ ,"Processes":[
+    {
+      "id":"52718145330703469010"
+     ,"Identification":{
+        "Name":"ENVIAR EMAIL"
+       ,"Type":"Execute Code"
+       ,"Execution Chain":"None"
+      }
+     ,"Source":{
+        "Location":"Local Database"
+       ,"Language":"PL\/SQL"
+       ,"PL\/SQL Code":"BEGIN\n    APEX_MAIL.SEND( p_from      =\u003E :P8_SEU_EMAIL,\n                    p_to        =\u003E \u0027daniela@decisaoinfo.com.br\u0027,\n                    p_subj      =\u003E :P8_ASSUNTO,\n                    p_body      =\u003E \u0027Suporte\u0027,\n                    p_body_html =\u003E :P8_DESCRICAO\n                  );\nEND;\n"
+      }
+     ,"Execution":{
+        "Sequence":10
+       ,"Point":"Processing"
+       ,"Run Process":"Once Per Page Visit (default)"
+      }
+     ,"Success Message":{
+        "Success Message":"Email enviado com sucesso! Em breve entraremos em contato com voc\u00EA."
+      }
+     ,"Error":{
+        "Error Message":"Erro ao fazer envio de email."
+       ,"Display Location":"Inline in Notification"
+      }
+     ,"Server-side Condition":{
+        "When Button Pressed":"ENVIAR (52718145257200469009)"
+      }
+    }
+  ]
+}

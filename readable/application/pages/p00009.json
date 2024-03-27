@@ -1,0 +1,135 @@
+{
+  "id":"9"
+ ,"Identification":{
+    "Name":"Quem somos"
+   ,"Alias":"QUEM-SOMOS"
+   ,"Title":"Quem somos"
+  }
+ ,"Appearance":{
+    "Page Mode":"Normal"
+   ,"Page Template":"Theme Default"
+   ,"Template Options":[
+      "#DEFAULT#"
+    ]
+  }
+ ,"Navigation Menu":{
+    "Override User Interface Level":false
+  }
+ ,"Navigation":{
+    "Cursor Focus":"Do not focus cursor"
+   ,"Warn on Unsaved Changes":true
+  }
+ ,"Security":{
+    "Authentication":"Page Requires Authentication"
+   ,"Deep Linking":"Application Default"
+   ,"Page Access Protection":"Arguments Must Have Checksum"
+   ,"Form Auto Complete":"Off"
+   ,"Browser Cache":"Application Default"
+  }
+ ,"Session Management":{
+    "Rejoin Sessions":"Application Default"
+  }
+ ,"Advanced":{
+    "Enable duplicate page submissions":"Yes - Enable page to be re-posted"
+   ,"Reload on Submit":"Only for Success"
+  }
+ ,"Server Cache":{
+    "Caching":"Disabled"
+  }
+ ,"Regions":[
+    {
+      "id":"49870604450925132129"
+     ,"Identification":{
+        "Title":"Quem somos"
+       ,"Type":"Static Content"
+      }
+     ,"Source":{
+        "HTML Code":"\u003Cdiv style=\"font-family: \u0027Arial\u0027, sans-serif; font-size: 16px; line-height: 1.5;\"\u003E\n    \u003Cp\u003ESomos uma empresa de pequeno porte, orgulhosos de nossa equipe dedicada composta por desenvolvedores, suporte t\u00E9cnico e consultores comprometidos.\u003C\/p\u003E\n\n    \u003Cp\u003EDesde 1988, nos dedicamos a fornecer solu\u00E7\u00F5es inovadoras em sistemas de gest\u00E3o empresarial que se adaptam com flexibilidade aos mais diversos segmentos industriais.\u003C\/p\u003E\n\n    \u003Cp\u003ENossa miss\u00E3o \u00E9 proporcionar autonomia para os neg\u00F3cios de nossos clientes, otimizando suas rotinas administrativas e impulsionando o crescimento sustent\u00E1vel.\u003C\/p\u003E\n\n    \u003Cp\u003EOrgulhosamente apresentamos o nosso mais novo sistema de gest\u00E3o: \u003Cb style=\"font-size: 18px;\"\u003EProxERP\u003C\/b\u003E. Este sistema completo e adapt\u00E1vel oferece diversas vantagens, tais como:\u003C\/p\u003E\n\n    \u003Cul\u003E\n        \u003Cli\u003ESistema web, acess\u00EDvel de qualquer local;\u003C\/li\u003E\n        \u003Cli\u003EPersonaliza\u00E7\u00E3o do usu\u00E1rio para atender \u00E0s suas necessidades espec\u00EDficas;\u003C\/li\u003E\n        \u003Cli\u003EFacilidade de navega\u00E7\u00E3o, tornando a experi\u00EAncia do usu\u00E1rio mais intuitiva;\u003C\/li\u003E\n        \u003Cli\u003ESimples organiza\u00E7\u00E3o para uma melhor compreens\u00E3o e utiliza\u00E7\u00E3o;\u003C\/li\u003E\n        \u003Cli\u003EM\u00F3dulos integrados para uma gest\u00E3o abrangente;\u003C\/li\u003E\n        \u003Cli\u003EGerenciamento eficaz de m\u00FAltiplas empresas em um s\u00F3 lugar;\u003C\/li\u003E\n        \u003Cli\u003EPermiss\u00F5es de acesso a n\u00EDvel de usu\u00E1rio, proporcionando seguran\u00E7a e controle;\u003C\/li\u003E\n        \u003Cli\u003EIntegridade dos dados, assegurando a confiabilidade das informa\u00E7\u00F5es;\u003C\/li\u003E\n        \u003Cli\u003EIntegra\u00E7\u00E3o com outros sistemas para uma experi\u00EAncia ainda mais completa.\u003C\/li\u003E\n    \u003C\/ul\u003E\n\u003C\/div\u003E"
+      }
+     ,"Layout":{
+        "Sequence":20
+       ,"Parent Region":"No Parent"
+       ,"Position":"BODY"
+       ,"Start New Layout":false
+       ,"Start New Row":true
+       ,"Column":"2"
+       ,"New Column":true
+       ,"Column Span":"10"
+      }
+     ,"Appearance":{
+        "Template":"Blank with Attributes (47709735633685297291)"
+       ,"Template Options":[
+          "#DEFAULT#"
+        ]
+       ,"Render Components":"Above Content"
+      }
+     ,"Accessibility":{
+        "Use Landmark":true
+       ,"Landmark Type":"Template Default"
+      }
+     ,"Advanced":{
+        "Region Display Selector":false
+       ,"Exclude Title from Translation":false
+      }
+     ,"Server Cache":{
+        "Caching":"Disabled"
+      }
+     ,"Customization":{
+        "Customizable":"Not Customizable By End Users"
+      }
+     ,"Attributes":{
+        "Settings":{
+          "Output As":"HTML"
+         ,"Expand Shortcuts":false
+        }
+      }
+    }
+   ,{
+      "id":"49870604601872132131"
+     ,"Identification":{
+        "Title":"Imagem"
+       ,"Type":"Static Content"
+      }
+     ,"Source":{
+        "HTML Code":"\u003Cdiv style=\"width: 900px; heigth: auto; margin: 0 auto; padding: 0px;\"\u003E\n    \u003Cimg src=\"#APP_FILES#help\/quem_somos.png\" alt=\"Imagem de Suporte\" style=\"width: 100%;\"\u003E\n\u003C\/div\u003E"
+      }
+     ,"Layout":{
+        "Sequence":10
+       ,"Parent Region":"No Parent"
+       ,"Position":"BODY"
+       ,"Start New Layout":false
+       ,"Start New Row":true
+       ,"Column":"Automatic"
+       ,"New Column":true
+       ,"Column Span":"Automatic"
+      }
+     ,"Appearance":{
+        "Template":"Blank with Attributes (47709735633685297291)"
+       ,"Template Options":[
+          "#DEFAULT#"
+        ]
+       ,"Render Components":"Above Content"
+      }
+     ,"Accessibility":{
+        "Use Landmark":true
+       ,"Landmark Type":"Template Default"
+      }
+     ,"Advanced":{
+        "Region Display Selector":false
+       ,"Exclude Title from Translation":false
+      }
+     ,"Server Cache":{
+        "Caching":"Disabled"
+      }
+     ,"Customization":{
+        "Customizable":"Not Customizable By End Users"
+      }
+     ,"Attributes":{
+        "Settings":{
+          "Output As":"HTML"
+         ,"Expand Shortcuts":false
+        }
+      }
+    }
+  ]
+}

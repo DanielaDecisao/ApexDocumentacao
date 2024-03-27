@@ -1,0 +1,291 @@
+{
+  "Identification":{
+    "Name":".Apex Documenta\u00E7\u00E3o"
+   ,"Alias":"DOCUMENTA\u00C7\u00C3O"
+   ,"Version":"Release 1.0"
+  }
+ ,"Row Search":{
+    "Tokenize":true
+  }
+ ,"Availability":{
+    "Status":"Available with Developer Toolbar"
+   ,"Build Status":"Run and Build Application"
+  }
+ ,"Error Handling":{
+    "Default Display Location":"Inline with Field and in Notification"
+  }
+ ,"Report Printing":{
+    "Type":"Use Instance Settings"
+  }
+ ,"Advanced":{
+    "Friendly URLs":true
+   ,"Allow Feedback":true
+   ,"Logging":true
+   ,"Debugging":true
+   ,"Compatibility Mode":"21.2 \/ 22.1 \/ 22.2"
+   ,"Pass ECID":"Y"
+  }
+ ,"Authentication":{
+    "Public User":"APEX_PUBLIC_USER"
+   ,"Authentication Scheme":"Contas do Oracle APEX (47708897086542297272)"
+  }
+ ,"Authorization":{
+    "Source for Role or Group Schemes":"Access Control User Role Assignments"
+  }
+ ,"Session Management":{
+    "Rejoin Sessions":"Disabled"
+  }
+ ,"Session State Protection":{
+    "Enabled":true
+  }
+ ,"Security":{
+    "Deep Linking":"Disabled"
+   ,"Browser Cache":"Disabled"
+   ,"Embed in Frames":"Deny"
+   ,"Referrer Policy":"strict-origin"
+   ,"HTML Escaping Mode":"Extended"
+   ,"Runtime API Usage":[
+      "Modify This Application"
+    ]
+  }
+ ,"Database Session":{
+    "Parsing Schema":"WKSP_DECISAO"
+  }
+ ,"Globalization":{
+    "Primary Language":"Portuguese (Brazil) (pt-br)"
+   ,"Document Direction":"Left-To-Right"
+   ,"Language Derived From":"Application Primary Language"
+   ,"Automatic Time Zone":false
+   ,"Automatic CSV Encoding":true
+  }
+ ,"Application Format Masks":{
+    "Date":"DS"
+   ,"Timestamp":"DS"
+   ,"Timestamp Time Zone":"DS"
+  }
+ ,"Character Value Comparison":{
+    "Behavior":"Database session NLS setting (default)"
+  }
+ ,"Logo":{
+    "Type":"Image"
+   ,"Image URL":"#APP_FILES#proxerp_ext_branco.png"
+  }
+ ,"Progressive Web App":{
+    "Enable":true
+   ,"Installable":false
+   ,"Display":"Standalone"
+   ,"Screen Orientation":"Any"
+   ,"iOS Status Bar Style":"Default"
+   ,"Enable Push Notifications":false
+  }
+ ,"Navigation":{
+    "Home URL":{
+      "url":"f?p=\u0026APP_ID.:1:\u0026APP_SESSION.::\u0026DEBUG.:::"
+     ,"Page":"1"
+    }
+   ,"Login URL":{
+      "url":"f?p=\u0026APP_ID.:LOGIN:\u0026APP_SESSION.::\u0026DEBUG.:::"
+     ,"Page":"LOGIN"
+    }
+  }
+ ,"Navigation Menu":{
+    "List Template":"Top Navigation Menu (47709868941465297351)"
+   ,"Template Options":[
+      "#DEFAULT#"
+     ,"js-tabLike"
+    ]
+   ,"List Position":"Top"
+   ,"List":"Menu de Navega\u00E7\u00E3o (47708897916390297273)"
+  }
+ ,"Navigation Bar":{
+    "Implementation":"List"
+   ,"List":"Barra de Navega\u00E7\u00E3o (47709983535471297414)"
+   ,"List Template":"Navigation Bar (47709863128310297349)"
+   ,"Template Options":[
+      "#DEFAULT#"
+    ]
+  }
+ ,"JavaScript":{
+    "Include jQuery Migrate":false
+  }
+ ,"Attributes":{
+    "Theme":"Universal Theme (42)"
+   ,"Global Page":"0"
+   ,"Enable End Users to choose Theme Style":false
+   ,"Add \"Built with APEX\" to Footer":false
+  }
+ ,"Substitutions":[
+    {
+      "id":"1"
+     ,"Identification":{
+        "Name":"APP_NAME"
+      }
+     ,"Value":{
+        "Static Value":"Documenta\u00E7\u00E3o"
+      }
+    }
+  ]
+ ,"Component Settings":[
+    {
+      "id":"3160569903571052"
+     ,"Identification":{
+        "Name":"NATIVE_ADFBC"
+       ,"Type":"REST Data Source"
+      }
+     ,"Subscription":{
+        "Version Number":15492788130544
+      }
+    }
+   ,{
+      "id":"47708894097313297269"
+     ,"Identification":{
+        "Name":"NATIVE_COLOR_PICKER"
+       ,"Type":"Item"
+      }
+     ,"Settings":{
+        "Attribute 1":"FULL"
+       ,"Attribute 2":"POPUP"
+      }
+     ,"Subscription":{
+        "Version Number":1
+      }
+    }
+   ,{
+      "id":"47708894319922297269"
+     ,"Identification":{
+        "Name":"NATIVE_DATE_PICKER_APEX"
+       ,"Type":"Item"
+      }
+     ,"Settings":{
+        "Attribute 1":"MONTH-PICKER:YEAR-PICKER:TODAY-BUTTON"
+       ,"Attribute 2":"VISIBLE"
+       ,"Attribute 3":"15"
+       ,"Attribute 4":"FOCUS"
+      }
+     ,"Subscription":{
+        "Version Number":1
+      }
+    }
+   ,{
+      "id":"47708894671847297269"
+     ,"Identification":{
+        "Name":"NATIVE_GEOCODED_ADDRESS"
+       ,"Type":"Item"
+      }
+     ,"Settings":{
+        "Attribute 1":"RELAX_HOUSE_NUMBER"
+       ,"Attribute 2":"N"
+       ,"Attribute 3":"POPUP:ITEM"
+       ,"Attribute 4":"default"
+       ,"Attribute 6":"LIST"
+      }
+     ,"Subscription":{
+        "Version Number":1
+      }
+    }
+   ,{
+      "id":"47708894978022297269"
+     ,"Identification":{
+        "Name":"NATIVE_SINGLE_CHECKBOX"
+       ,"Type":"Item"
+      }
+     ,"Settings":{
+        "Attribute 1":"Y"
+       ,"Attribute 2":"N"
+      }
+     ,"Subscription":{
+        "Version Number":1
+      }
+    }
+   ,{
+      "id":"47708895243791297270"
+     ,"Identification":{
+        "Name":"NATIVE_STAR_RATING"
+       ,"Type":"Item"
+      }
+     ,"Settings":{
+        "Attribute 1":"fa-star"
+       ,"Attribute 4":"#VALUE#"
+      }
+     ,"Subscription":{
+        "Version Number":1
+      }
+    }
+   ,{
+      "id":"47708895507759297270"
+     ,"Identification":{
+        "Name":"NATIVE_YES_NO"
+       ,"Type":"Item"
+      }
+     ,"Settings":{
+        "Attribute 1":"Y"
+       ,"Attribute 3":"N"
+       ,"Attribute 5":"SWITCH_CB"
+      }
+     ,"Subscription":{
+        "Version Number":1
+      }
+    }
+   ,{
+      "id":"47708895834909297270"
+     ,"Identification":{
+        "Name":"NATIVE_DISPLAY_SELECTOR"
+       ,"Type":"Region"
+      }
+     ,"Settings":{
+        "Attribute 1":"Y"
+      }
+     ,"Subscription":{
+        "Version Number":1
+      }
+    }
+   ,{
+      "id":"47708896188232297270"
+     ,"Identification":{
+        "Name":"NATIVE_IR"
+       ,"Type":"Region"
+      }
+     ,"Settings":{
+        "Attribute 1":"IG"
+      }
+     ,"Subscription":{
+        "Version Number":1
+      }
+    }
+   ,{
+      "id":"47708896431280297270"
+     ,"Identification":{
+        "Name":"NATIVE_MAP_REGION"
+       ,"Type":"Region"
+      }
+     ,"Settings":{
+        "Attribute 1":"Y"
+      }
+     ,"Subscription":{
+        "Version Number":1
+      }
+    }
+  ]
+ ,"Application Settings":[
+    {
+      "id":"47709987921628297423"
+     ,"Identification":{
+        "Name":"FEEDBACK_ATTACHMENTS_YN"
+      }
+     ,"Value":{
+        "Value":"Y"
+       ,"Required":false
+      }
+     ,"Advanced":{
+        "Valid Values":"Y, N"
+       ,"On Upgrade Keep Value":true
+      }
+     ,"Subscription":{
+        "Version Number":1
+      }
+     ,"Configuration":{
+        "Build Option":"Recurso: Feedback (47709986271764297422)"
+      }
+    }
+  ]
+}

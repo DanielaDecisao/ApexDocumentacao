@@ -1,0 +1,151 @@
+{
+  "id":"6"
+ ,"Identification":{
+    "Name":"M\u00F3dulos"
+   ,"Alias":"M\u00D3DULOS"
+   ,"Title":"M\u00F3dulos"
+  }
+ ,"Appearance":{
+    "Page Mode":"Normal"
+   ,"Page Template":"Theme Default"
+   ,"Template Options":[
+      "#DEFAULT#"
+    ]
+  }
+ ,"Navigation Menu":{
+    "Override User Interface Level":false
+  }
+ ,"Navigation":{
+    "Cursor Focus":"Do not focus cursor"
+   ,"Warn on Unsaved Changes":false
+  }
+ ,"CSS":{
+    "Inline":".a-CardView-item, .t-Card:hover{\n    transition: transform 0.3s ease-in-out, box-shadow 0.25s ease-in-out;\n}\n\n.a-CardView-item:hover, .t-Card:hover{\n    transform: translateY(-5px);\n    box-shadow: 0 6px 8px rgba(0,0,0,0.5);\n}\n"
+  }
+ ,"Security":{
+    "Authentication":"Page Requires Authentication"
+   ,"Deep Linking":"Application Default"
+   ,"Page Access Protection":"Arguments Must Have Checksum"
+   ,"Form Auto Complete":"Off"
+   ,"Browser Cache":"Application Default"
+  }
+ ,"Session Management":{
+    "Rejoin Sessions":"Application Default"
+  }
+ ,"Advanced":{
+    "Enable duplicate page submissions":"Yes - Enable page to be re-posted"
+   ,"Reload on Submit":"Only for Success"
+  }
+ ,"Server Cache":{
+    "Caching":"Disabled"
+  }
+ ,"Comments":{
+    "Comments":"\/\/ Definir a vari\u00E1vel input antes do loop\nlet input = document.getElementById(\u0027pesquisar-help\u0027);\n\ninput.addEventListener(\u0027keydown\u0027, function(event) {\n    if (event.key === \u0027Enter\u0027) {\n        event.preventDefault(); \/\/ Evita o envio do formul\u00E1rio\n\n        let inputValue = input.value.toLowerCase();\n\n        \/\/ Selecionar todas as regi\u00F5es .t-Region\n        let regionParents = document.querySelectorAll(\u0027.t-Region\u0027);\n\n        for (let regionParent of regionParents) {\n            let anyRowVisible = false; \/\/ Vari\u00E1vel para rastrear se alguma linha est\u00E1 vis\u00EDvel\n\n            let buttons = regionParent.getElementsByClassName(\u0027t-Region-titleButton\u0027);\n\n            for (let i = 0; i \u003C buttons.length; i++) {\n                let button = buttons[i];\n                let rowParent = button.closest(\u0027.row\u0027); \/\/ Encontra o elemento pai com a classe \u0027row\u0027\n\n                if (rowParent) {\n                    if (!button.textContent.toLowerCase().includes(inputValue)) {\n                        rowParent.style.display = \"none\";\n                    } else {\n                        rowParent.style.display = \"flex\";\n                        anyRowVisible = true; \/\/ Se pelo menos uma linha est\u00E1 vis\u00EDvel\n                    }\n                }\n            }\n\n            if (!anyRowVisible) {\n                regionParent.style.display = \"none\"; \/\/ Oculta a regi\u00E3o pai se nenhuma linha est\u00E1 vis\u00EDvel\n            } else {\n                regionParent.style.display = \"block\"; \/\/ Mostra a regi\u00E3o pai se alguma linha est\u00E1 vis\u00EDvel\n            }\n        }\n    }\n});"
+  }
+ ,"Regions":[
+    {
+      "id":"65071172707030250924"
+     ,"Identification":{
+        "Title":"List - M\u00F3dulos"
+       ,"Type":"List"
+      }
+     ,"Source":{
+        "List":"M\u00F3dulos (16035136119814266832)"
+      }
+     ,"Layout":{
+        "Sequence":70
+       ,"Parent Region":"No Parent"
+       ,"Position":"BODY"
+       ,"Start New Layout":false
+       ,"Start New Row":true
+       ,"Column":"2"
+       ,"New Column":true
+       ,"Column Span":"10"
+      }
+     ,"Appearance":{
+        "Template":"Blank with Attributes (47709735633685297291)"
+       ,"Template Options":[
+          "#DEFAULT#"
+        ]
+       ,"Render Components":"Above Content"
+      }
+     ,"Accessibility":{
+        "Use Landmark":true
+       ,"Landmark Type":"Region"
+      }
+     ,"Advanced":{
+        "Static ID":"list"
+       ,"Region Display Selector":false
+       ,"Exclude Title from Translation":false
+      }
+     ,"Server Cache":{
+        "Caching":"Disabled"
+      }
+     ,"Customization":{
+        "Customizable":"Not Customizable By End Users"
+      }
+     ,"Attributes":{
+        "Appearance":{
+          "List Template":"Cards (47709851503779297343)"
+         ,"Template Options":[
+            "#DEFAULT#"
+           ,"u-colors"
+           ,"t-Cards--featured force-fa-lg"
+           ,"t-Cards--displayIcons"
+           ,"t-Cards--4cols"
+           ,"t-Cards--hideBody"
+           ,"t-Cards--iconsRounded"
+           ,"t-Cards--animColorFill"
+          ]
+        }
+      }
+    }
+   ,{
+      "id":"65341798469283700797"
+     ,"Identification":{
+        "Title":"Imagem"
+       ,"Type":"Static Content"
+      }
+     ,"Source":{
+        "HTML Code":"\u003Cdiv style=\"width: 900px; heigth: auto; margin: 0 auto; padding: 0px;\"\u003E\n    \u003Cimg src=\"#APP_FILES#help\/suporte_modulos.png\" alt=\"Imagem de Suporte\" style=\"width: 100%;\"\u003E\n\u003C\/div\u003E"
+      }
+     ,"Layout":{
+        "Sequence":30
+       ,"Parent Region":"No Parent"
+       ,"Position":"BODY"
+       ,"Start New Layout":false
+       ,"Start New Row":true
+       ,"Column":"2"
+       ,"New Column":true
+       ,"Column Span":"10"
+      }
+     ,"Appearance":{
+        "Template":"Blank with Attributes (47709735633685297291)"
+       ,"Template Options":[
+          "#DEFAULT#"
+        ]
+       ,"Render Components":"Above Content"
+      }
+     ,"Accessibility":{
+        "Use Landmark":true
+       ,"Landmark Type":"Template Default"
+      }
+     ,"Advanced":{
+        "Region Display Selector":false
+       ,"Exclude Title from Translation":false
+      }
+     ,"Server Cache":{
+        "Caching":"Disabled"
+      }
+     ,"Customization":{
+        "Customizable":"Not Customizable By End Users"
+      }
+     ,"Attributes":{
+        "Settings":{
+          "Output As":"HTML"
+         ,"Expand Shortcuts":false
+        }
+      }
+    }
+  ]
+}
