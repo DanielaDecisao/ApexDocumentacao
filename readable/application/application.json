@@ -1,5 +1,6 @@
 {
-  "Identification":{
+  "id":"252263"
+ ,"Identification":{
     "Name":".Apex Documenta\u00E7\u00E3o"
    ,"Alias":"DOCUMENTA\u00C7\u00C3O"
    ,"Version":"Release 1.0"
@@ -116,7 +117,7 @@
   }
  ,"Substitutions":[
     {
-      "id":"1"
+      "id":"86085807203843755870"
      ,"Identification":{
         "Name":"APP_NAME"
       }

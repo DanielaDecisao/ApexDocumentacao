@@ -472,7 +472,7 @@
        ,"Column":"Automatic"
        ,"New Column":true
        ,"Column Span":"Automatic"
-       ,"Alignment":"Left center"
+       ,"Alignment":"Right"
       }
      ,"Appearance":{
         "Button Template":"Text (47709875777622297355)"
