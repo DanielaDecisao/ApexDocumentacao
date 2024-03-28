@@ -6,7 +6,7 @@
     }
    ,"Source":{
       "Type":"SQL Query"
-     ,"SQL Query":"SELECT null\r\n     , nome AS label\r\n     , \u0027f?p=\u0026APP_ID.:2:\u0027 || :APP_SESSION || \u0027::::P2_IN_MODULO:\u0027 || IN_MODULO AS target\r\n     , nome AS is_current\r\n     , icone AS image\r\nFROM HELP_MODULOS\r\nORDER BY nome;"
+     ,"SQL Query":"SELECT null\n     , nome AS label\n     , \u0027f?p=\u0026APP_ID.:2:\u0027 || :APP_SESSION || \u0027::::P2_IN_MODULO:\u0027 || IN_MODULO AS target\n     , nome AS is_current\n     , icone AS image\nFROM HELP_MODULOS\nORDER BY nome;"
     }
   }
  ,{
