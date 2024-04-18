@@ -53,7 +53,7 @@
        ,"Type":"Static Content"
       }
      ,"Layout":{
-        "Sequence":175
+        "Sequence":70
        ,"Parent Region":"No Parent"
        ,"Position":"BODY"
        ,"Start New Layout":false
@@ -203,15 +203,665 @@
    ,{
       "id":"24507259835474857648"
      ,"Identification":{
-        "Title":"Solicita\u00E7\u00E3o de Compra"
+        "Title":"Ativar\/Inativar M\u00E1scara de Item Configurado"
        ,"Type":"Static Content"
       }
      ,"Source":{
-        "HTML Code":"\u003Cp\u003EConsiste em realizar uma solicita\u00E7\u00E3o de compra.\u003C\/p\u003E"
+        "HTML Code":"\u003Cp\u003E?????\u003C\/p\u003E"
       }
      ,"Layout":{
         "Sequence":10
        ,"Parent Region":"Configurador do Produto (24507260259210857652)"
+       ,"Position":"SUB_REGIONS"
+       ,"Start New Layout":false
+       ,"Start New Row":true
+       ,"Column":"Automatic"
+       ,"New Column":true
+       ,"Column Span":"Automatic"
+      }
+     ,"Appearance":{
+        "Template":"Collapsible (47709754763113297300)"
+       ,"Template Options":[
+          "#DEFAULT#"
+         ,"is-collapsed"
+         ,"t-Region--noBorder"
+         ,"t-Region--scrollBody"
+        ]
+       ,"Render Components":"Above Content"
+      }
+     ,"Accessibility":{
+        "Use Landmark":true
+       ,"Landmark Type":"Template Default"
+      }
+     ,"Advanced":{
+        "Region Display Selector":false
+       ,"Exclude Title from Translation":false
+      }
+     ,"Server Cache":{
+        "Caching":"Disabled"
+      }
+     ,"Customization":{
+        "Customizable":"Not Customizable By End Users"
+      }
+     ,"Attributes":{
+        "Settings":{
+          "Output As":"HTML"
+         ,"Expand Shortcuts":false
+        }
+      }
+    }
+   ,{
+      "id":"24507259735861857647"
+     ,"Identification":{
+        "Title":"Empresa"
+       ,"Type":"Static Content"
+      }
+     ,"Source":{
+        "HTML Code":"\u003Cp\u003EConsiste nos dados gerais da empresa e defini\u00E7\u00E3o de alguns par\u00E2metros espec\u00EDficos.\u003C\/p\u003E"
+      }
+     ,"Layout":{
+        "Sequence":20
+       ,"Parent Region":"Administra\u00E7\u00E3o (16035527129131589513)"
+       ,"Position":"SUB_REGIONS"
+       ,"Start New Layout":false
+       ,"Start New Row":true
+       ,"Column":"Automatic"
+       ,"New Column":true
+       ,"Column Span":"Automatic"
+      }
+     ,"Appearance":{
+        "Template":"Collapsible (47709754763113297300)"
+       ,"Template Options":[
+          "#DEFAULT#"
+         ,"is-collapsed"
+         ,"t-Region--noBorder"
+         ,"t-Region--scrollBody"
+        ]
+       ,"Render Components":"Above Content"
+      }
+     ,"Accessibility":{
+        "Use Landmark":true
+       ,"Landmark Type":"Template Default"
+      }
+     ,"Advanced":{
+        "Region Display Selector":false
+       ,"Exclude Title from Translation":false
+      }
+     ,"Server Cache":{
+        "Caching":"Disabled"
+      }
+     ,"Customization":{
+        "Customizable":"Not Customizable By End Users"
+      }
+     ,"Attributes":{
+        "Settings":{
+          "Output As":"HTML"
+         ,"Expand Shortcuts":false
+        }
+      }
+    }
+   ,{
+      "id":"24507259659612857646"
+     ,"Identification":{
+        "Title":"Notifica\u00E7\u00E3o"
+       ,"Type":"Static Content"
+      }
+     ,"Source":{
+        "HTML Code":"\u003Cp\u003E?????\u003C\/p\u003E"
+      }
+     ,"Layout":{
+        "Sequence":50
+       ,"Parent Region":"Administra\u00E7\u00E3o (16035527129131589513)"
+       ,"Position":"SUB_REGIONS"
+       ,"Start New Layout":false
+       ,"Start New Row":true
+       ,"Column":"Automatic"
+       ,"New Column":true
+       ,"Column Span":"Automatic"
+      }
+     ,"Appearance":{
+        "Template":"Collapsible (47709754763113297300)"
+       ,"Template Options":[
+          "#DEFAULT#"
+         ,"is-collapsed"
+         ,"t-Region--noBorder"
+         ,"t-Region--scrollBody"
+        ]
+       ,"Render Components":"Above Content"
+      }
+     ,"Accessibility":{
+        "Use Landmark":true
+       ,"Landmark Type":"Template Default"
+      }
+     ,"Advanced":{
+        "Region Display Selector":false
+       ,"Exclude Title from Translation":false
+      }
+     ,"Server Cache":{
+        "Caching":"Disabled"
+      }
+     ,"Customization":{
+        "Customizable":"Not Customizable By End Users"
+      }
+     ,"Attributes":{
+        "Settings":{
+          "Output As":"HTML"
+         ,"Expand Shortcuts":false
+        }
+      }
+    }
+   ,{
+      "id":"24507259561387857645"
+     ,"Identification":{
+        "Title":"Par\u00E2metros do Sistema"
+       ,"Type":"Static Content"
+      }
+     ,"Source":{
+        "HTML Code":"\u003Cp\u003E?????\u003C\/p\u003E"
+      }
+     ,"Layout":{
+        "Sequence":60
+       ,"Parent Region":"Administra\u00E7\u00E3o (16035527129131589513)"
+       ,"Position":"SUB_REGIONS"
+       ,"Start New Layout":false
+       ,"Start New Row":true
+       ,"Column":"Automatic"
+       ,"New Column":true
+       ,"Column Span":"Automatic"
+      }
+     ,"Appearance":{
+        "Template":"Collapsible (47709754763113297300)"
+       ,"Template Options":[
+          "#DEFAULT#"
+         ,"is-collapsed"
+         ,"t-Region--noBorder"
+         ,"t-Region--scrollBody"
+        ]
+       ,"Render Components":"Above Content"
+      }
+     ,"Accessibility":{
+        "Use Landmark":true
+       ,"Landmark Type":"Template Default"
+      }
+     ,"Advanced":{
+        "Region Display Selector":false
+       ,"Exclude Title from Translation":false
+      }
+     ,"Server Cache":{
+        "Caching":"Disabled"
+      }
+     ,"Customization":{
+        "Customizable":"Not Customizable By End Users"
+      }
+     ,"Attributes":{
+        "Settings":{
+          "Output As":"HTML"
+         ,"Expand Shortcuts":false
+        }
+      }
+    }
+   ,{
+      "id":"24507259451660857644"
+     ,"Identification":{
+        "Title":"Depend\u00EAncia de Caracter\u00EDstica"
+       ,"Type":"Static Content"
+      }
+     ,"Source":{
+        "HTML Code":"\u003Cp\u003E?????\u003C\/p\u003E"
+      }
+     ,"Layout":{
+        "Sequence":50
+       ,"Parent Region":"Configurador do Produto (24507260259210857652)"
+       ,"Position":"SUB_REGIONS"
+       ,"Start New Layout":false
+       ,"Start New Row":true
+       ,"Column":"Automatic"
+       ,"New Column":true
+       ,"Column Span":"Automatic"
+      }
+     ,"Appearance":{
+        "Template":"Collapsible (47709754763113297300)"
+       ,"Template Options":[
+          "#DEFAULT#"
+         ,"is-collapsed"
+         ,"t-Region--noBorder"
+         ,"t-Region--scrollBody"
+        ]
+       ,"Render Components":"Above Content"
+      }
+     ,"Accessibility":{
+        "Use Landmark":true
+       ,"Landmark Type":"Template Default"
+      }
+     ,"Advanced":{
+        "Region Display Selector":false
+       ,"Exclude Title from Translation":false
+      }
+     ,"Server Cache":{
+        "Caching":"Disabled"
+      }
+     ,"Customization":{
+        "Customizable":"Not Customizable By End Users"
+      }
+     ,"Attributes":{
+        "Settings":{
+          "Output As":"HTML"
+         ,"Expand Shortcuts":false
+        }
+      }
+    }
+   ,{
+      "id":"24507259331760857643"
+     ,"Identification":{
+        "Title":"Caracter\u00EDstica do Item"
+       ,"Type":"Static Content"
+      }
+     ,"Source":{
+        "HTML Code":"\u003Cp\u003E?????\u003C\/p\u003E"
+      }
+     ,"Layout":{
+        "Sequence":30
+       ,"Parent Region":"Configurador do Produto (24507260259210857652)"
+       ,"Position":"SUB_REGIONS"
+       ,"Start New Layout":false
+       ,"Start New Row":true
+       ,"Column":"Automatic"
+       ,"New Column":true
+       ,"Column Span":"Automatic"
+      }
+     ,"Appearance":{
+        "Template":"Collapsible (47709754763113297300)"
+       ,"Template Options":[
+          "#DEFAULT#"
+         ,"is-collapsed"
+         ,"t-Region--noBorder"
+         ,"t-Region--scrollBody"
+        ]
+       ,"Render Components":"Above Content"
+      }
+     ,"Accessibility":{
+        "Use Landmark":true
+       ,"Landmark Type":"Template Default"
+      }
+     ,"Advanced":{
+        "Region Display Selector":false
+       ,"Exclude Title from Translation":false
+      }
+     ,"Server Cache":{
+        "Caching":"Disabled"
+      }
+     ,"Customization":{
+        "Customizable":"Not Customizable By End Users"
+      }
+     ,"Attributes":{
+        "Settings":{
+          "Output As":"HTML"
+         ,"Expand Shortcuts":false
+        }
+      }
+    }
+   ,{
+      "id":"24507259214903857642"
+     ,"Identification":{
+        "Title":"Inclus\u00E3o de Caracter\u00EDstica - Final de M\u00E1scara"
+       ,"Type":"Static Content"
+      }
+     ,"Source":{
+        "HTML Code":"\u003Cp\u003E?????\u003C\/p\u003E"
+      }
+     ,"Layout":{
+        "Sequence":70
+       ,"Parent Region":"Configurador do Produto (24507260259210857652)"
+       ,"Position":"SUB_REGIONS"
+       ,"Start New Layout":false
+       ,"Start New Row":true
+       ,"Column":"Automatic"
+       ,"New Column":true
+       ,"Column Span":"Automatic"
+      }
+     ,"Appearance":{
+        "Template":"Collapsible (47709754763113297300)"
+       ,"Template Options":[
+          "#DEFAULT#"
+         ,"is-collapsed"
+         ,"t-Region--noBorder"
+         ,"t-Region--scrollBody"
+        ]
+       ,"Render Components":"Above Content"
+      }
+     ,"Accessibility":{
+        "Use Landmark":true
+       ,"Landmark Type":"Template Default"
+      }
+     ,"Advanced":{
+        "Region Display Selector":false
+       ,"Exclude Title from Translation":false
+      }
+     ,"Server Cache":{
+        "Caching":"Disabled"
+      }
+     ,"Customization":{
+        "Customizable":"Not Customizable By End Users"
+      }
+     ,"Attributes":{
+        "Settings":{
+          "Output As":"HTML"
+         ,"Expand Shortcuts":false
+        }
+      }
+    }
+   ,{
+      "id":"24507259202781857641"
+     ,"Identification":{
+        "Title":"Caracter\u00EDstica"
+       ,"Type":"Static Content"
+      }
+     ,"Source":{
+        "HTML Code":"\u003Cp\u003E?????\u003C\/p\u003E"
+      }
+     ,"Layout":{
+        "Sequence":20
+       ,"Parent Region":"Configurador do Produto (24507260259210857652)"
+       ,"Position":"SUB_REGIONS"
+       ,"Start New Layout":false
+       ,"Start New Row":true
+       ,"Column":"Automatic"
+       ,"New Column":true
+       ,"Column Span":"Automatic"
+      }
+     ,"Appearance":{
+        "Template":"Collapsible (47709754763113297300)"
+       ,"Template Options":[
+          "#DEFAULT#"
+         ,"is-collapsed"
+         ,"t-Region--noBorder"
+         ,"t-Region--scrollBody"
+        ]
+       ,"Render Components":"Above Content"
+      }
+     ,"Accessibility":{
+        "Use Landmark":true
+       ,"Landmark Type":"Template Default"
+      }
+     ,"Advanced":{
+        "Region Display Selector":false
+       ,"Exclude Title from Translation":false
+      }
+     ,"Server Cache":{
+        "Caching":"Disabled"
+      }
+     ,"Customization":{
+        "Customizable":"Not Customizable By End Users"
+      }
+     ,"Attributes":{
+        "Settings":{
+          "Output As":"HTML"
+         ,"Expand Shortcuts":false
+        }
+      }
+    }
+   ,{
+      "id":"24507259046475857640"
+     ,"Identification":{
+        "Title":"C\u00F3pia de Caracter\u00EDsticas entre Itens"
+       ,"Type":"Static Content"
+      }
+     ,"Source":{
+        "HTML Code":"\u003Cp\u003E?????\u003C\/p\u003E"
+      }
+     ,"Layout":{
+        "Sequence":40
+       ,"Parent Region":"Configurador do Produto (24507260259210857652)"
+       ,"Position":"SUB_REGIONS"
+       ,"Start New Layout":false
+       ,"Start New Row":true
+       ,"Column":"Automatic"
+       ,"New Column":true
+       ,"Column Span":"Automatic"
+      }
+     ,"Appearance":{
+        "Template":"Collapsible (47709754763113297300)"
+       ,"Template Options":[
+          "#DEFAULT#"
+         ,"is-collapsed"
+         ,"t-Region--noBorder"
+         ,"t-Region--scrollBody"
+        ]
+       ,"Render Components":"Above Content"
+      }
+     ,"Accessibility":{
+        "Use Landmark":true
+       ,"Landmark Type":"Template Default"
+      }
+     ,"Advanced":{
+        "Region Display Selector":false
+       ,"Exclude Title from Translation":false
+      }
+     ,"Server Cache":{
+        "Caching":"Disabled"
+      }
+     ,"Customization":{
+        "Customizable":"Not Customizable By End Users"
+      }
+     ,"Attributes":{
+        "Settings":{
+          "Output As":"HTML"
+         ,"Expand Shortcuts":false
+        }
+      }
+    }
+   ,{
+      "id":"24507258948237857639"
+     ,"Identification":{
+        "Title":"Depend\u00EAncia Encadeada de Caracter\u00EDstica"
+       ,"Type":"Static Content"
+      }
+     ,"Source":{
+        "HTML Code":"\u003Cp\u003E?????\u003C\/p\u003E"
+      }
+     ,"Layout":{
+        "Sequence":60
+       ,"Parent Region":"Configurador do Produto (24507260259210857652)"
+       ,"Position":"SUB_REGIONS"
+       ,"Start New Layout":false
+       ,"Start New Row":true
+       ,"Column":"Automatic"
+       ,"New Column":true
+       ,"Column Span":"Automatic"
+      }
+     ,"Appearance":{
+        "Template":"Collapsible (47709754763113297300)"
+       ,"Template Options":[
+          "#DEFAULT#"
+         ,"is-collapsed"
+         ,"t-Region--noBorder"
+         ,"t-Region--scrollBody"
+        ]
+       ,"Render Components":"Above Content"
+      }
+     ,"Accessibility":{
+        "Use Landmark":true
+       ,"Landmark Type":"Template Default"
+      }
+     ,"Advanced":{
+        "Region Display Selector":false
+       ,"Exclude Title from Translation":false
+      }
+     ,"Server Cache":{
+        "Caching":"Disabled"
+      }
+     ,"Customization":{
+        "Customizable":"Not Customizable By End Users"
+      }
+     ,"Attributes":{
+        "Settings":{
+          "Output As":"HTML"
+         ,"Expand Shortcuts":false
+        }
+      }
+    }
+   ,{
+      "id":"24507258825875857638"
+     ,"Identification":{
+        "Title":"Op\u00E7\u00E3o de Escolha"
+       ,"Type":"Static Content"
+      }
+     ,"Source":{
+        "HTML Code":"\u003Cp\u003E?????\u003C\/p\u003E"
+      }
+     ,"Layout":{
+        "Sequence":80
+       ,"Parent Region":"Configurador do Produto (24507260259210857652)"
+       ,"Position":"SUB_REGIONS"
+       ,"Start New Layout":false
+       ,"Start New Row":true
+       ,"Column":"Automatic"
+       ,"New Column":true
+       ,"Column Span":"Automatic"
+      }
+     ,"Appearance":{
+        "Template":"Collapsible (47709754763113297300)"
+       ,"Template Options":[
+          "#DEFAULT#"
+         ,"is-collapsed"
+         ,"t-Region--noBorder"
+         ,"t-Region--scrollBody"
+        ]
+       ,"Render Components":"Above Content"
+      }
+     ,"Accessibility":{
+        "Use Landmark":true
+       ,"Landmark Type":"Template Default"
+      }
+     ,"Advanced":{
+        "Region Display Selector":false
+       ,"Exclude Title from Translation":false
+      }
+     ,"Server Cache":{
+        "Caching":"Disabled"
+      }
+     ,"Customization":{
+        "Customizable":"Not Customizable By End Users"
+      }
+     ,"Attributes":{
+        "Settings":{
+          "Output As":"HTML"
+         ,"Expand Shortcuts":false
+        }
+      }
+    }
+   ,{
+      "id":"24507258758719857637"
+     ,"Identification":{
+        "Title":"Balancete Mensal"
+       ,"Type":"Static Content"
+      }
+     ,"Source":{
+        "HTML Code":"\u003C!--    CRIADO POR: Daniela Neutzling - 05\/02\/2024\n    \n    \u00DALTIMA ATUALIZA\u00C7\u00C3O:\n        Nome: \n        Data: \n--\u003E\n\n\u003Cstyle\u003E\n    .div *:not(h3,u,b,i) {\n        margin-left: 20px;\n    }\n\u003C\/style\u003E\n\n\u003Cdiv\u003E\n    \u003Cp\u003E\u003Cb\u003ECaminho: \u003Ci\u003EContabilidade \/ Balancete Mensal\u003C\/i\u003E\u003C\/b\u003E\u003C\/p\u003E\n\n    \u003C!-- Informar se \u00E9 p\u00E1gina de relat\u00F3rio e\/ou manuten\u00E7\u00E3o --\u003E\n    \u003Cp\u003E P\u00E1gina destinada apenas a consulta de dados.\u003C\/p\u003E\n\n    \u003C!-- Explicar qual o objetivo da p\u00E1gina \/ para que serve --\u003E\n    \u003Cp\u003E A p\u00E1gina consiste na gera\u00E7\u00E3o do relat\u00F3rio do balancete mensal, podendo ser consultado na pr\u00F3pria p\u00E1gina ou atrav\u00E9s da gera\u00E7\u00E3o do relat\u00F3rio.\n        \u003Cbr\u003E A sele\u00E7\u00E3o ocorre atrav\u00E9s dos filtros para busca dos dados.\n    \u003C\/p\u003E\n\n    \u003C!---------------------- RELAT\u00D3RIO ----------------------\u003E\n    \u003Cdiv class=\"div\"\u003E\n        \u003Ch3\u003ERelat\u00F3rio\u003C\/h3\u003E\n            \u003C!-- Informar caso haja campos obrigat\u00F3rios para gera\u00E7\u00E3o do relat\u00F3rio ou alguma outra especifica\u00E7\u00E3o --\u003E\n            \u003Cp\u003ELista informa\u00E7\u00F5es referentes aos planos e contas com seus respectivos valores, conforme filtros escolhidos. \u00C9 obrigat\u00F3rio informar:\u003C\/p\u003E\n                \u003Cul\u003E\n                    \u003Cli\u003EM\u00EAs\/Ano de Refer\u00EAncia;\u003C\/li\u003E\n                    \u003Cli\u003EAt\u00E9 qual Grau de plano se deseja visualizar;\u003C\/li\u003E\n                    \u003Cli\u003ETipo da Descri\u00E7\u00E3o.\u003C\/li\u003E\n                \u003C\/ul\u003E\n            \n            \u003Cp\u003EAl\u00E9m disso, h\u00E1 outros filtros que permitem detalhar ainda mais o relat\u00F3rio, como por exemplo:\u003C\/p\u003E\n                \u003Cul\u003E\n                    \u003Cli\u003EPossibilidade de escolher planos espec\u00EDficos;\u003C\/li\u003E\n                    \u003Cli\u003EPossibilidade de trazer contas com valores zerados;\u003C\/li\u003E\n                    \u003Cli\u003EE a possibilidade de trazer Cliente, Fornecedor e\/ou Adiantamento.\u003C\/li\u003E\n                \u003C\/ul\u003E\n    \u003C\/div\u003E\n\u003C\/div\u003E"
+      }
+     ,"Layout":{
+        "Sequence":20
+       ,"Parent Region":"Contabilidade (16035528059478589522)"
+       ,"Position":"BODY"
+       ,"Start New Layout":false
+       ,"Start New Row":true
+       ,"Column":"Automatic"
+       ,"New Column":true
+       ,"Column Span":"Automatic"
+      }
+     ,"Appearance":{
+        "Template":"Collapsible (47709754763113297300)"
+       ,"Template Options":[
+          "#DEFAULT#"
+         ,"is-collapsed"
+         ,"t-Region--noBorder"
+         ,"t-Region--scrollBody"
+        ]
+       ,"Render Components":"Above Content"
+      }
+     ,"Accessibility":{
+        "Use Landmark":true
+       ,"Landmark Type":"Template Default"
+      }
+     ,"Advanced":{
+        "Region Display Selector":false
+       ,"Exclude Title from Translation":false
+      }
+     ,"Server Cache":{
+        "Caching":"Disabled"
+      }
+     ,"Customization":{
+        "Customizable":"Not Customizable By End Users"
+      }
+     ,"Attributes":{
+        "Settings":{
+          "Output As":"HTML"
+         ,"Expand Shortcuts":false
+        }
+      }
+    }
+   ,{
+      "id":"24507258677728857636"
+     ,"Identification":{
+        "Title":"Confer\u00EAncia de Lan\u00E7amentos Cont\u00E1beis"
+       ,"Type":"Static Content"
+      }
+     ,"Source":{
+        "HTML Code":"\u003Cp\u003E?????\u003C\/p\u003E"
+      }
+     ,"Layout":{
+        "Sequence":30
+       ,"Parent Region":"Contabilidade (16035528059478589522)"
+       ,"Position":"BODY"
+       ,"Start New Layout":false
+       ,"Start New Row":true
+       ,"Column":"Automatic"
+       ,"New Column":true
+       ,"Column Span":"Automatic"
+      }
+     ,"Appearance":{
+        "Template":"Collapsible (47709754763113297300)"
+       ,"Template Options":[
+          "#DEFAULT#"
+         ,"is-collapsed"
+         ,"t-Region--noBorder"
+         ,"t-Region--scrollBody"
+        ]
+       ,"Render Components":"Above Content"
+      }
+     ,"Accessibility":{
+        "Use Landmark":true
+       ,"Landmark Type":"Template Default"
+      }
+     ,"Advanced":{
+        "Region Display Selector":false
+       ,"Exclude Title from Translation":false
+      }
+     ,"Server Cache":{
+        "Caching":"Disabled"
+      }
+     ,"Customization":{
+        "Customizable":"Not Customizable By End Users"
+      }
+     ,"Attributes":{
+        "Settings":{
+          "Output As":"HTML"
+         ,"Expand Shortcuts":false
+        }
+      }
+    }
+   ,{
+      "id":"24507258590046857635"
+     ,"Identification":{
+        "Title":"Nota Fiscal de Entrada"
+       ,"Type":"Static Content"
+      }
+     ,"Source":{
+        "HTML Code":"\u003Cp\u003E?????\u003C\/p\u003E"
+      }
+     ,"Layout":{
+        "Sequence":50
+       ,"Parent Region":"Compras (49351590353764027048)"
        ,"Position":"SUB_REGIONS"
        ,"Start New Layout":false
        ,"Start New Row":true
@@ -507,7 +1157,7 @@
        ,"Type":"Static Content"
       }
      ,"Layout":{
-        "Sequence":135
+        "Sequence":30
        ,"Parent Region":"No Parent"
        ,"Position":"BODY"
        ,"Start New Layout":false
@@ -866,7 +1516,7 @@
         "HTML Code":"\u003C!--    CRIADO POR: Daniela Neutzling - 21\/12\/2023\n    \n    \u00DALTIMA ATUALIZA\u00C7\u00C3O:\n        Nome: \n        Data: \n--\u003E\n\n\u003Cstyle\u003E\n    .div *:not(h3,u,b) {\n        margin-left: 20px;\n    }\n\u003C\/style\u003E\n\n\u003Cdiv\u003E\n    \u003Cp\u003E\u003Cb\u003ECaminho: \u003Ci\u003EContabilidade \/ Rela\u00E7\u00E3o Padr\u00E3o\u003C\/i\u003E\u003C\/b\u003E\u003C\/p\u003E\n\n    \u003C!-- Informar se \u00E9 p\u00E1gina de relat\u00F3rio e\/ou manuten\u00E7\u00E3o --\u003E\n    \u003Cp\u003E P\u00E1gina dividida entre relat\u00F3rio e manuten\u00E7\u00E3o de dados.\u003C\/p\u003E\n\n    \u003C!-- Explicar qual o objetivo da p\u00E1gina \/ para que serve --\u003E\n    \u003Cp\u003E P\u00E1gina destinada \u00E0 consulta, altera\u00E7\u00E3o e inser\u00E7\u00E3o de Rela\u00E7\u00E3o Padr\u00E3o.\n    \u003C\/p\u003E\n\n    \u003C!---------------------- RELAT\u00D3RIO ----------------------\u003E\n    \u003Cdiv class=\"div\"\u003E\n        \u003Ch3\u003ERelat\u00F3rio\u003C\/h3\u003E\n            \u003Cp\u003ERelat\u00F3rio mostra informa\u00E7\u00F5es referentes a rela\u00E7\u00E3o padr\u00E3o e permite inserir ou alterar registro.\u003C\/p\u003E\n    \u003C\/div\u003E\n    \n    \u003C!---------------------- MANUTEN\u00C7\u00C3O ----------------------\u003E\n    \u003Cdiv class=\"div\"\u003E\n        \u003Ch3\u003EManuten\u00E7\u00E3o\u003C\/h3\u003E\n            \u003Cp\u003EP\u00E1gina para inser\u00E7\u00E3o ou altera\u00E7\u00E3o de Rela\u00E7\u00E3o Padr\u00E3o.\u003C\/p\u003E\n            \u003Cp\u003ECampos obrigat\u00F3rios: \u003C\/p\u003E\n                \u003Cul\u003E\n                    \u003Cli\u003ETipo de Movimento;\u003C\/li\u003E\n                    \u003Cli\u003EIndicador D\u00E9bito\/Cr\u00E9dito;\u003C\/li\u003E\n                    \u003Cli\u003EConta;\u003C\/li\u003E\n                    \u003Cli\u003EHist\u00F3rico;\u003C\/li\u003E\n                    \u003Cli\u003ETipo de Complemento.\u003C\/li\u003E\n                \u003C\/ul\u003E\n    \u003C\/div\u003E\n\u003C\/div\u003E"
       }
      ,"Layout":{
-        "Sequence":120
+        "Sequence":140
        ,"Parent Region":"Contabilidade (16035528059478589522)"
        ,"Position":"BODY"
        ,"Start New Layout":false
@@ -1016,7 +1666,7 @@
         "HTML Code":"\u003C!--    CRIADO POR: Daniela Neutzling - 21\/12\/2023\n    \n    \u00DALTIMA ATUALIZA\u00C7\u00C3O:\n        Nome: \n        Data: \n--\u003E\n\n\u003Cstyle\u003E\n    .div *:not(h3,u,b) {\n        margin-left: 20px;\n    }\n\u003C\/style\u003E\n\n\u003Cdiv\u003E\n    \u003Cp\u003E\u003Cb\u003ECaminho: \u003Ci\u003EContabilidade \/ Plano de Conta Gerencial\u003C\/i\u003E\u003C\/b\u003E\u003C\/p\u003E\n\n    \u003C!-- Informar se \u00E9 p\u00E1gina de relat\u00F3rio e\/ou manuten\u00E7\u00E3o --\u003E\n    \u003Cp\u003E P\u00E1gina dividida entre relat\u00F3rio e manuten\u00E7\u00E3o de dados.\u003C\/p\u003E\n\n    \u003C!-- Explicar qual o objetivo da p\u00E1gina \/ para que serve --\u003E\n    \u003Cp\u003E P\u00E1gina destinada \u00E0 consulta, altera\u00E7\u00E3o e inser\u00E7\u00E3o de Planos de Conta Gerenciais.\n    \u003C\/p\u003E\n\n    \u003C!---------------------- RELAT\u00D3RIO ----------------------\u003E\n    \u003Cdiv class=\"div\"\u003E\n        \u003Ch3\u003ERelat\u00F3rio\u003C\/h3\u003E\n            \u003Cp\u003ERelat\u00F3rio mostra informa\u00E7\u00F5es referentes a Plano de Conta Gerencial, permitindo inserir ou alterar registros.\u003C\/p\u003E\n    \u003C\/div\u003E\n    \n    \u003C!---------------------- MANUTEN\u00C7\u00C3O ----------------------\u003E\n    \u003Cdiv class=\"div\"\u003E\n        \u003Ch3\u003EManuten\u00E7\u00E3o\u003C\/h3\u003E\n            \u003Cp\u003EP\u00E1gina para inser\u00E7\u00E3o ou altera\u00E7\u00E3o de Plano de Conta Gerencial.\u003C\/p\u003E\n            \u003Cp\u003ECampos obrigat\u00F3rios: \u003C\/p\u003E\n                \u003Cul\u003E\n                    \u003Cli\u003EPlano PCG;\u003C\/li\u003E\n                    \u003Cli\u003EDescri\u00E7\u00E3o.\u003C\/li\u003E\n                \u003C\/ul\u003E\n    \u003C\/div\u003E\n\u003C\/div\u003E"
       }
      ,"Layout":{
-        "Sequence":80
+        "Sequence":100
        ,"Parent Region":"Contabilidade (16035528059478589522)"
        ,"Position":"BODY"
        ,"Start New Layout":false
@@ -1059,11 +1709,11 @@
    ,{
       "id":"39423908998789456818"
      ,"Identification":{
-        "Title":"Balancete Mensal"
+        "Title":"An\u00E1lise Gerencial"
        ,"Type":"Static Content"
       }
      ,"Source":{
-        "HTML Code":"\u003C!--    CRIADO POR: Daniela Neutzling - 05\/02\/2024\n    \n    \u00DALTIMA ATUALIZA\u00C7\u00C3O:\n        Nome: \n        Data: \n--\u003E\n\n\u003Cstyle\u003E\n    .div *:not(h3,u,b,i) {\n        margin-left: 20px;\n    }\n\u003C\/style\u003E\n\n\u003Cdiv\u003E\n    \u003Cp\u003E\u003Cb\u003ECaminho: \u003Ci\u003EContabilidade \/ Balancete Mensal\u003C\/i\u003E\u003C\/b\u003E\u003C\/p\u003E\n\n    \u003C!-- Informar se \u00E9 p\u00E1gina de relat\u00F3rio e\/ou manuten\u00E7\u00E3o --\u003E\n    \u003Cp\u003E P\u00E1gina destinada apenas a consulta de dados.\u003C\/p\u003E\n\n    \u003C!-- Explicar qual o objetivo da p\u00E1gina \/ para que serve --\u003E\n    \u003Cp\u003E A p\u00E1gina consiste na gera\u00E7\u00E3o do relat\u00F3rio do balancete mensal, podendo ser consultado na pr\u00F3pria p\u00E1gina ou atrav\u00E9s da gera\u00E7\u00E3o do relat\u00F3rio.\n        \u003Cbr\u003E A sele\u00E7\u00E3o ocorre atrav\u00E9s dos filtros para busca dos dados.\n    \u003C\/p\u003E\n\n    \u003C!---------------------- RELAT\u00D3RIO ----------------------\u003E\n    \u003Cdiv class=\"div\"\u003E\n        \u003Ch3\u003ERelat\u00F3rio\u003C\/h3\u003E\n            \u003C!-- Informar caso haja campos obrigat\u00F3rios para gera\u00E7\u00E3o do relat\u00F3rio ou alguma outra especifica\u00E7\u00E3o --\u003E\n            \u003Cp\u003ELista informa\u00E7\u00F5es referentes aos planos e contas com seus respectivos valores, conforme filtros escolhidos. \u00C9 obrigat\u00F3rio informar:\u003C\/p\u003E\n                \u003Cul\u003E\n                    \u003Cli\u003EM\u00EAs\/Ano de Refer\u00EAncia;\u003C\/li\u003E\n                    \u003Cli\u003EAt\u00E9 qual Grau de plano se deseja visualizar;\u003C\/li\u003E\n                    \u003Cli\u003ETipo da Descri\u00E7\u00E3o.\u003C\/li\u003E\n                \u003C\/ul\u003E\n            \n            \u003Cp\u003EAl\u00E9m disso, h\u00E1 outros filtros que permitem detalhar ainda mais o relat\u00F3rio, como por exemplo:\u003C\/p\u003E\n                \u003Cul\u003E\n                    \u003Cli\u003EPossibilidade de escolher planos espec\u00EDficos;\u003C\/li\u003E\n                    \u003Cli\u003EPossibilidade de trazer contas com valores zerados;\u003C\/li\u003E\n                    \u003Cli\u003EE a possibilidade de trazer Cliente, Fornecedor e\/ou Adiantamento.\u003C\/li\u003E\n                \u003C\/ul\u003E\n    \u003C\/div\u003E\n\u003C\/div\u003E"
+        "HTML Code":"\u003Cp\u003E?????\u003C\/p\u003E"
       }
      ,"Layout":{
         "Sequence":10
@@ -1116,7 +1766,7 @@
         "HTML Code":"\u003C!--    CRIADO POR: Daniela Neutzling - 10\/11\/2023\n    \n    \u00DALTIMA ATUALIZA\u00C7\u00C3O:\n        Nome: \n        Data: \n--\u003E\n\n\u003Cstyle\u003E\n    .div *:not(h3,u,b,i) {\n        margin-left: 20px;\n    }\n\u003C\/style\u003E\n\n\u003Cdiv\u003E\n    \u003Cp\u003E\u003Cb\u003ECaminho: \u003Ci\u003EContabilidade \/ Hist\u00F3rico Cont\u00E1bil\u003C\/i\u003E\u003C\/b\u003E\u003C\/p\u003E\n\n    \u003C!-- Informar se \u00E9 p\u00E1gina de relat\u00F3rio e\/ou manuten\u00E7\u00E3o --\u003E\n    \u003Cp\u003E P\u00E1gina dividida entre relat\u00F3rio e manuten\u00E7\u00E3o de dados.\u003C\/p\u003E\n\n    \u003C!-- Explicar qual o objetivo da p\u00E1gina \/ para que serve --\u003E\n    \u003Cp\u003E P\u00E1gina destinada \u00E0 consulta, inclus\u00E3o, altera\u00E7\u00E3o, exclus\u00E3o e visualiza\u00E7\u00E3o detalhada de Hist\u00F3rico Cont\u00E1bil.\n    \u003C\/p\u003E\n\n    \u003C!---------------------- RELAT\u00D3RIO ----------------------\u003E\n    \u003Cdiv class=\"div\"\u003E\n        \u003Ch3\u003ERelat\u00F3rio\u003C\/h3\u003E\n            \u003C!-- Informar caso haja campos obrigat\u00F3rios para gera\u00E7\u00E3o do relat\u00F3rio ou alguma outra especifica\u00E7\u00E3o --\u003E\n            \u003Cp\u003ELista informa\u00E7\u00F5es referentes aos hist\u00F3ricos listados.\u003C\/p\u003E\n\n    \u003C\/div\u003E\n\n    \u003C!---------------------- MANUTEN\u00C7\u00C3O ----------------------\u003E\n    \u003Cdiv class=\"div\"\u003E\n        \u003Ch3\u003EManuten\u00E7\u00E3o\u003C\/h3\u003E\n            \u003Cp\u003EP\u00E1gina para inclus\u00E3o ou altera\u00E7\u00E3o de hist\u00F3ricos.\u003C\/p\u003E\n\n            \u003C!-- Informar caso n\u00E3o seja poss\u00EDvel alterar\/excluir dados ap\u00F3s confirmar\/salvar\n                Informar campos obrigat\u00F3rios e funcionalidade da p\u00E1gina (caso haja algo especifico) --\u003E\n            \u003Cp\u003ECampos obrigat\u00F3rios:\u003C\/p\u003E\n                \u003Cul\u003E\n                    \u003Cli\u003EHist\u00F3rico;\u003C\/li\u003E\n                    \u003Cli\u003EDescri\u00E7\u00E3o;\u003C\/li\u003E\n                    \u003Cli\u003ED\u00E9bito\/Cr\u00E9dito;\u003C\/li\u003E\n                    \u003Cli\u003ETipo Complemento;\u003C\/li\u003E\n                \u003C\/ul\u003E\n    \u003C\/div\u003E\n\u003C\/div\u003E"
       }
      ,"Layout":{
-        "Sequence":50
+        "Sequence":70
        ,"Parent Region":"Contabilidade (16035528059478589522)"
        ,"Position":"BODY"
        ,"Start New Layout":false
@@ -1163,10 +1813,10 @@
        ,"Type":"Static Content"
       }
      ,"Source":{
-        "HTML Code":"\u003C!--    CRIADO POR: Daniela Neutzling - 10\/11\/2023\n    \n    \u00DALTIMA ATUALIZA\u00C7\u00C3O:\n        Nome: \n        Data: \n--\u003E\n\n\u003Cstyle\u003E\n    .div *:not(h3,u,b,i) {\n        margin-left: 20px;\n    }\n\u003C\/style\u003E\n\n\u003Cdiv\u003E\n    \u003Cp\u003E\u003Cb\u003ECaminho: \u003Ci\u003EM\u00F3dulo \/ Nome da P\u00E1gina\u003C\/i\u003E\u003C\/b\u003E\u003C\/p\u003E\n\n    \u003C!-- Informar se \u00E9 p\u00E1gina de relat\u00F3rio e\/ou manuten\u00E7\u00E3o --\u003E\n    \u003Cp\u003E P\u00E1gina dividida entre relat\u00F3rio e manuten\u00E7\u00E3o de dados.\u003C\/p\u003E\n\n    \u003C!-- Explicar qual o objetivo da p\u00E1gina \/ para que serve --\u003E\n    \u003Cp\u003E P\u00E1gina destinada \u00E0 consulta, inclus\u00E3o, altera\u00E7\u00E3o, exclus\u00E3o e visualiza\u00E7\u00E3o detalhada de documentos a pagar.\n        \u003Cbr\u003E A sele\u00E7\u00E3o \u00E9 ocorre atrav\u00E9s dos filtros para busca de t\u00EDtulos.\n    \u003C\/p\u003E\n\n    \u003C!---------------------- RELAT\u00D3RIO ----------------------\u003E\n    \u003Cdiv class=\"div\"\u003E\n        \u003Ch3\u003ERelat\u00F3rio\u003C\/h3\u003E\n            \u003C!-- Informar caso haja campos obrigat\u00F3rios para gera\u00E7\u00E3o do relat\u00F3rio ou alguma outra especifica\u00E7\u00E3o --\u003E\n            \u003Cp\u003ELista informa\u00E7\u00F5es referentes aos documentos listados conforme filtros escolhidos. Por default, 3 op\u00E7\u00F5es de layout s\u00E3o disponibilizadas:\u003C\/p\u003E\n                \u003Cul\u003E\n                    \u003Cli\u003EGeral;\u003C\/li\u003E\n                    \u003Cli\u003EPor Fornecedor;\u003C\/li\u003E\n                    \u003Cli\u003EPor data de Vencimento.\u003C\/li\u003E\n                \u003C\/ul\u003E\n            \n            \u003C!-- Caso o relat\u00F3rio possua bot\u00F5es interativo, explicar cada um deles (o que faz \/ para que serve) --\u003E\n            \u003Cp\u003EO bot\u00E3o rela\u00E7\u00E3o no relat\u00F3rio de documentos \u00E9 um desvio para as rela\u00E7\u00F5es do documento, possibilitando seu detalhamento:\u003C\/p\u003E\n                \u003Cul\u003E\n                    \u003Cli\u003EFornecedor;\u003C\/li\u003E\n                    \u003Cli\u003ENota Fiscal de Entrada;\u003C\/li\u003E\n                    \u003Cli\u003EPedido de Compra;\u003C\/li\u003E\n                    \u003Cli\u003EPagamentos.\u003C\/li\u003E\n                \u003C\/ul\u003E\n    \u003C\/div\u003E\n\n    \u003C!---------------------- MANUTEN\u00C7\u00C3O ----------------------\u003E\n    \u003Cdiv class=\"div\"\u003E\n        \u003Ch3\u003EManuten\u00E7\u00E3o\u003C\/h3\u003E\n            \u003Cp\u003EP\u00E1gina para inclus\u00E3o ou altera\u00E7\u00E3o de documentos.\u003C\/p\u003E\n\n            \u003C!-- Informar caso n\u00E3o seja poss\u00EDvel alterar\/excluir dados ap\u00F3s confirmar\/salvar\n                Informar campos obrigat\u00F3rios e funcionalidade da p\u00E1gina (caso haja algo especifico) --\u003E\n            \u003Cp\u003ECampos obrigat\u00F3rios:\u003C\/p\u003E\n                \u003Cul\u003E\n                    \u003Cli\u003ETipo Documento;\u003C\/li\u003E\n                    \u003Cli\u003EN\u00FAmero documento;\u003C\/li\u003E\n                    \u003Cli\u003EParcela;\u003C\/li\u003E\n                    \u003Cli\u003EFornecedor;\u003C\/li\u003E\n                    \u003Cli\u003EData Emiss\u00E3o;\u003C\/li\u003E\n                    \u003Cli\u003EData Vencimento;\u003C\/li\u003E\n                    \u003Cli\u003EData Entrada;\u003C\/li\u003E\n                    \u003Cli\u003EValor Emiss\u00E3o;\u003C\/li\u003E\n                    \u003Cli\u003EValor Mercadoria.\u003C\/li\u003E\n                \u003C\/ul\u003E\n    \u003C\/div\u003E\n\n    \u003C!---------------------- MAPA PARA CADASTRO ----------------------\u003E\n    \u003Cdiv style=\"display: flex; justify-content: center; align-items: center; margin: 30px 0px 20px 0px;\"\u003E\n        \u003Cimg src=\"#APP_FILES#mapas\/map_item.png\" alt=\"Item\"\u003E\n    \u003C\/div\u003E\n\n\u003C\/div\u003E"
+        "HTML Code":"\u003Cp\u003E?????\u003C\/p\u003E"
       }
      ,"Layout":{
-        "Sequence":30
+        "Sequence":50
        ,"Parent Region":"Contabilidade (16035528059478589522)"
        ,"Position":"BODY"
        ,"Start New Layout":false
@@ -1199,9 +1849,6 @@
      ,"Customization":{
         "Customizable":"Not Customizable By End Users"
       }
-     ,"Configuration":{
-        "Build Option":"Comentado (47708896794149297271)"
-      }
      ,"Attributes":{
         "Settings":{
           "Output As":"HTML"
@@ -1219,7 +1866,7 @@
         "HTML Code":"\u003C!--    CRIADO POR: Daniela Neutzling - 01\/02\/2024\n    \n    \u00DALTIMA ATUALIZA\u00C7\u00C3O:\n        Nome: \n        Data: \n--\u003E\n\n\u003Cstyle\u003E\n    .div *:not(h3,u,b,i) {\n        margin-left: 20px;\n    }\n\u003C\/style\u003E\n\n\u003Cdiv\u003E\n    \u003Cp\u003E\u003Cb\u003ECaminho: \u003Ci\u003EContabilidade \/ Movimento Cont\u00E1bil\u003C\/i\u003E\u003C\/b\u003E\u003C\/p\u003E\n\n    \u003C!-- Informar se \u00E9 p\u00E1gina de relat\u00F3rio e\/ou manuten\u00E7\u00E3o --\u003E\n    \u003Cp\u003E P\u00E1gina destinada a inclus\u00E3o\/altera\u00E7\u00E3o de Movimento Cont\u00E1bil.\u003C\/p\u003E\n\n    \u003C!---------------------- RELAT\u00D3RIO ----------------------\u003E\n    \u003Cdiv class=\"div\"\u003E\n        \u003Ch3\u003ERelat\u00F3rio\u003C\/h3\u003E\n            \u003C!-- Informar caso haja campos obrigat\u00F3rios para gera\u00E7\u00E3o do relat\u00F3rio ou alguma outra especifica\u00E7\u00E3o --\u003E\n            \u003Cp\u003EPara come\u00E7ar a manuten\u00E7\u00E3o do movimento cont\u00E1bil, \u00E9 necess\u00E1rio informar os par\u00E2metros:\u003C\/p\u003E\n                \u003Cul\u003E\n                    \u003Cli\u003EM\u00EAs\/Ano Refer\u00EAncia;\u003C\/li\u003E\n                    \u003Cli\u003ETipo de Movimento;\u003C\/li\u003E\n                    \u003Cli\u003EN\u00BA do Lote.\u003C\/li\u003E\n                \u003C\/ul\u003E\n            \n            \u003C!-- Caso o relat\u00F3rio possua bot\u00F5es interativo, explicar cada um deles (o que faz \/ para que serve) --\u003E\n            \u003Cp\u003EAp\u00F3s confirmar os par\u00E2metros, \u00E9 poss\u00EDvel inserir novos lan\u00E7amentos ou alterar os existentes.\u003C\/p\u003E\n            \u003Cp\u003EAl\u00E9m disso, \u00E9 poss\u00EDvel utilizar a funcionalidade \u003Cb\u003ELote Pendente\u003C\/b\u003E para salvar os lan\u00E7amentos correntes em arquivos tempor\u00E1rios \n               para posterior efetiva\u00E7\u00E3o.\u003C\/p\u003E\n    \u003C\/div\u003E\n\n    \u003C!---------------------- MANUTEN\u00C7\u00C3O ----------------------\u003E\n    \u003Cdiv class=\"div\"\u003E\n        \u003Ch3\u003EManuten\u00E7\u00E3o\u003C\/h3\u003E\n            \u003Cp\u003EP\u00E1gina para inclus\u00E3o, altera\u00E7\u00E3o ou exclus\u00E3o de lan\u00E7amento do lote.\u003C\/p\u003E\n\n            \u003Cp\u003E\u00C9 obrigat\u00F3rio informar:\u003C\/p\u003E\n                \u003Cul\u003E\n                    \u003Cli\u003EDia do Movimento;\u003C\/li\u003E\n                    \u003Cli\u003EValor;\u003C\/li\u003E\n                    \u003Cli\u003EConta (d\u00E9bito \u003Cb\u003Eou\u003C\/b\u003E cr\u00E9dito);\u003C\/li\u003E\n                    \u003Cli\u003EHist\u00F3rico.\u003C\/li\u003E\n                \u003C\/ul\u003E\n\n            \u003Cp\u003ECaso a conta informada trate gerencial, \u00E9 obrigat\u00F3rio informar:\u003C\/p\u003E\n                \u003Cul\u003E\n                    \u003Cli\u003EConta Gerencial;\u003C\/li\u003E\n                    \u003Cli\u003EValor.\u003C\/li\u003E\n                \u003C\/ul\u003E\n            \n            \u003Cp\u003EPor fim, caso o hist\u00F3rico exija complemento, \u00E9 obrigat\u00F3rio inform\u00E1-lo.\u003C\/p\u003E\n            \u003Cp\u003EOBS.: complemento \u00E9 obrigat\u00F3rio quando o hist\u00F3rico possuir \u003Cb\u003E*\u003C\/b\u003E (aster\u00EDsco) em sua descri\u00E7\u00E3o.\u003C\/p\u003E\n    \u003C\/div\u003E\n\n\u003C\/div\u003E"
       }
      ,"Layout":{
-        "Sequence":70
+        "Sequence":90
        ,"Parent Region":"Contabilidade (16035528059478589522)"
        ,"Position":"BODY"
        ,"Start New Layout":false
@@ -1269,7 +1916,7 @@
         "HTML Code":"\u003C!--    CRIADO POR: Daniela Neutzling - 05\/02\/2024\n    \n    \u00DALTIMA ATUALIZA\u00C7\u00C3O:\n        Nome: \n        Data: \n--\u003E\n\n\u003Cstyle\u003E\n    .div *:not(h3,u,b,i) {\n        margin-left: 20px;\n    }\n\u003C\/style\u003E\n\n\u003Cdiv\u003E\n    \u003Cp\u003E\u003Cb\u003ECaminho: \u003Ci\u003EContabilidade \/ Consulta de Movimento Cont\u00E1bil\u003C\/i\u003E\u003C\/b\u003E\u003C\/p\u003E\n\n    \u003C!-- Explicar qual o objetivo da p\u00E1gina \/ para que serve --\u003E\n    \u003Cp\u003E P\u00E1gina destinada a consulta de Movimento Cont\u00E1bil.\n        \u003Cbr\u003E A sele\u00E7\u00E3o ocorre atrav\u00E9s dos filtros, sendo obrigat\u00F3rio informar data de in\u00EDcio e fim.\n    \u003C\/p\u003E\n\n    \u003C!---------------------- RELAT\u00D3RIO ----------------------\u003E\n    \u003Cdiv class=\"div\"\u003E\n        \u003Ch3\u003ERelat\u00F3rio\u003C\/h3\u003E\n            \u003C!-- Informar caso haja campos obrigat\u00F3rios para gera\u00E7\u00E3o do relat\u00F3rio ou alguma outra especifica\u00E7\u00E3o --\u003E\n            \u003Cp\u003ELista informa\u00E7\u00F5es referentes aos movimentos realizados, conforme os filtros escolhidos. Al\u00E9m disso, \u00E9 poss\u00EDvel \u003Cb\u003EDetalhar\u003C\/b\u003E o movimento.\u003C\/p\u003E\n            \n            \u003Cp\u003EAo detalhar o movimento, \u00E9 poss\u00EDvel visualizar os lan\u00E7amentos do movimento, apresentando informa\u00E7\u00F5es como:\u003C\/p\u003E\n                \u003Cul\u003E\n                    \u003Cli\u003EData do Movimento;\u003C\/li\u003E\n                    \u003Cli\u003EHist\u00F3rico;\u003C\/li\u003E\n                    \u003Cli\u003ETipo da Conta;\u003C\/li\u003E\n                    \u003Cli\u003EConta;\u003C\/li\u003E\n                    \u003Cli\u003EValor.\u003C\/li\u003E\n                \u003C\/ul\u003E\n            \u003Cp\u003ETamb\u00E9m h\u00E1 valor total dos lan\u00E7amentos em d\u00E9bito e cr\u00E9dito. Por fim, h\u00E1 o bot\u00E3o de \u003Cb\u003EDetalhamento Gerencial\u003C\/b\u003E, para visualizar (caso exista)\n               as contas gerenciais que tiveram movimenta\u00E7\u00F5es. \u003C\/p\u003E\n    \u003C\/div\u003E\n\n\u003C\/div\u003E"
       }
      ,"Layout":{
-        "Sequence":20
+        "Sequence":40
        ,"Parent Region":"Contabilidade (16035528059478589522)"
        ,"Position":"BODY"
        ,"Start New Layout":false
@@ -1319,7 +1966,7 @@
         "HTML Code":"\u003C!--    CRIADO POR: Daniela Neutzling - 05\/02\/2024\n    \n    \u00DALTIMA ATUALIZA\u00C7\u00C3O:\n        Nome: \n        Data: \n--\u003E\n\n\u003Cstyle\u003E\n    .div *:not(h3,u,b,i) {\n        margin-left: 20px;\n    }\n\u003C\/style\u003E\n\n\u003Cdiv\u003E\n    \u003Cp\u003E\u003Cb\u003ECaminho: \u003Ci\u003EContabilidade \/ Exclus\u00E3o de Movimento Cont\u00E1bil\u003C\/i\u003E\u003C\/b\u003E\u003C\/p\u003E\n\n    \u003C!-- Explicar qual o objetivo da p\u00E1gina \/ para que serve --\u003E\n    \u003Cp\u003E P\u00E1gina destinada a exclus\u00E3o de lote de Movimento Cont\u00E1bil.\n        \u003Cbr\u003E Consiste em excluir \u003Cb\u003E\u003Cu\u003Etodos\u003C\/u\u003E\u003C\/b\u003E os lan\u00E7amentos do lote informado.\u003C\/p\u003E\n    \u003C\/p\u003E\n\n    \u003C!---------------------- RELAT\u00D3RIO ----------------------\u003E\n    \u003Cdiv class=\"div\"\u003E\n        \u003Ch3\u003ERelat\u00F3rio\u003C\/h3\u003E\n            \u003C!-- Informar caso haja campos obrigat\u00F3rios para gera\u00E7\u00E3o do relat\u00F3rio ou alguma outra especifica\u00E7\u00E3o --\u003E\n            \u003Cp\u003EDeve ser feita a sele\u00E7\u00E3o do lote, sendo obrigat\u00F3rio informar:\u003C\/p\u003E\n                \u003Cul\u003E\n                    \u003Cli\u003EM\u00EAs\/Ano Refer\u00EAncia;\u003C\/li\u003E\n                    \u003Cli\u003ETipo do Movimento;\u003C\/li\u003E\n                    \u003Cli\u003ELote;\u003C\/li\u003E\n                    \u003Cli\u003EData do Movimento.\u003C\/li\u003E\n                \u003C\/ul\u003E\n            \n            \u003Cp\u003EAo consultar, ser\u00E1 mostrado os lan\u00E7amentos do lote (em detalhes).\u003C\/p\u003E\n            \u003Cp\u003EAl\u00E9m disso, h\u00E1 o bot\u00E3o de \u003Cb\u003EDetalhamento Gerencial\u003C\/b\u003E, para visualizar (caso exista) os movimentos nas contas gerenciais. \u003C\/p\u003E\n    \u003C\/div\u003E\n\n\u003C\/div\u003E"
       }
      ,"Layout":{
-        "Sequence":40
+        "Sequence":60
        ,"Parent Region":"Contabilidade (16035528059478589522)"
        ,"Position":"BODY"
        ,"Start New Layout":false
@@ -1366,10 +2013,10 @@
        ,"Type":"Static Content"
       }
      ,"Source":{
-        "HTML Code":"\u003C!--    CRIADO POR: Daniela Neutzling - 10\/11\/2023\n    \n    \u00DALTIMA ATUALIZA\u00C7\u00C3O:\n        Nome: \n        Data: \n--\u003E\n\n\u003Cstyle\u003E\n    .div *:not(h3,u,b,i) {\n        margin-left: 20px;\n    }\n\u003C\/style\u003E\n\n\u003Cdiv\u003E\n    \u003Cp\u003E\u003Cb\u003ECaminho: \u003Ci\u003EM\u00F3dulo \/ Nome da P\u00E1gina\u003C\/i\u003E\u003C\/b\u003E\u003C\/p\u003E\n\n    \u003C!-- Informar se \u00E9 p\u00E1gina de relat\u00F3rio e\/ou manuten\u00E7\u00E3o --\u003E\n    \u003Cp\u003E P\u00E1gina dividida entre relat\u00F3rio e manuten\u00E7\u00E3o de dados.\u003C\/p\u003E\n\n    \u003C!-- Explicar qual o objetivo da p\u00E1gina \/ para que serve --\u003E\n    \u003Cp\u003E P\u00E1gina destinada \u00E0 consulta, inclus\u00E3o, altera\u00E7\u00E3o, exclus\u00E3o e visualiza\u00E7\u00E3o detalhada de documentos a pagar.\n        \u003Cbr\u003E A sele\u00E7\u00E3o \u00E9 ocorre atrav\u00E9s dos filtros para busca de t\u00EDtulos.\n    \u003C\/p\u003E\n\n    \u003C!---------------------- RELAT\u00D3RIO ----------------------\u003E\n    \u003Cdiv class=\"div\"\u003E\n        \u003Ch3\u003ERelat\u00F3rio\u003C\/h3\u003E\n            \u003C!-- Informar caso haja campos obrigat\u00F3rios para gera\u00E7\u00E3o do relat\u00F3rio ou alguma outra especifica\u00E7\u00E3o --\u003E\n            \u003Cp\u003ELista informa\u00E7\u00F5es referentes aos documentos listados conforme filtros escolhidos. Por default, 3 op\u00E7\u00F5es de layout s\u00E3o disponibilizadas:\u003C\/p\u003E\n                \u003Cul\u003E\n                    \u003Cli\u003EGeral;\u003C\/li\u003E\n                    \u003Cli\u003EPor Fornecedor;\u003C\/li\u003E\n                    \u003Cli\u003EPor data de Vencimento.\u003C\/li\u003E\n                \u003C\/ul\u003E\n            \n            \u003C!-- Caso o relat\u00F3rio possua bot\u00F5es interativo, explicar cada um deles (o que faz \/ para que serve) --\u003E\n            \u003Cp\u003EO bot\u00E3o rela\u00E7\u00E3o no relat\u00F3rio de documentos \u00E9 um desvio para as rela\u00E7\u00F5es do documento, possibilitando seu detalhamento:\u003C\/p\u003E\n                \u003Cul\u003E\n                    \u003Cli\u003EFornecedor;\u003C\/li\u003E\n                    \u003Cli\u003ENota Fiscal de Entrada;\u003C\/li\u003E\n                    \u003Cli\u003EPedido de Compra;\u003C\/li\u003E\n                    \u003Cli\u003EPagamentos.\u003C\/li\u003E\n                \u003C\/ul\u003E\n    \u003C\/div\u003E\n\n    \u003C!---------------------- MANUTEN\u00C7\u00C3O ----------------------\u003E\n    \u003Cdiv class=\"div\"\u003E\n        \u003Ch3\u003EManuten\u00E7\u00E3o\u003C\/h3\u003E\n            \u003Cp\u003EP\u00E1gina para inclus\u00E3o ou altera\u00E7\u00E3o de documentos.\u003C\/p\u003E\n\n            \u003C!-- Informar caso n\u00E3o seja poss\u00EDvel alterar\/excluir dados ap\u00F3s confirmar\/salvar\n                Informar campos obrigat\u00F3rios e funcionalidade da p\u00E1gina (caso haja algo especifico) --\u003E\n            \u003Cp\u003ECampos obrigat\u00F3rios:\u003C\/p\u003E\n                \u003Cul\u003E\n                    \u003Cli\u003ETipo Documento;\u003C\/li\u003E\n                    \u003Cli\u003EN\u00FAmero documento;\u003C\/li\u003E\n                    \u003Cli\u003EParcela;\u003C\/li\u003E\n                    \u003Cli\u003EFornecedor;\u003C\/li\u003E\n                    \u003Cli\u003EData Emiss\u00E3o;\u003C\/li\u003E\n                    \u003Cli\u003EData Vencimento;\u003C\/li\u003E\n                    \u003Cli\u003EData Entrada;\u003C\/li\u003E\n                    \u003Cli\u003EValor Emiss\u00E3o;\u003C\/li\u003E\n                    \u003Cli\u003EValor Mercadoria.\u003C\/li\u003E\n                \u003C\/ul\u003E\n    \u003C\/div\u003E\n\n    \u003C!---------------------- MAPA PARA CADASTRO ----------------------\u003E\n    \u003Cdiv style=\"display: flex; justify-content: center; align-items: center; margin: 30px 0px 20px 0px;\"\u003E\n        \u003Cimg src=\"#APP_FILES#mapas\/map_item.png\" alt=\"Item\"\u003E\n    \u003C\/div\u003E\n\n\u003C\/div\u003E"
+        "HTML Code":"\u003Cp\u003E?????\u003C\/p\u003E"
       }
      ,"Layout":{
-        "Sequence":60
+        "Sequence":80
        ,"Parent Region":"Contabilidade (16035528059478589522)"
        ,"Position":"BODY"
        ,"Start New Layout":false
@@ -1401,9 +2048,6 @@
       }
      ,"Customization":{
         "Customizable":"Not Customizable By End Users"
-      }
-     ,"Configuration":{
-        "Build Option":"Comentado (47708896794149297271)"
       }
      ,"Attributes":{
         "Settings":{
@@ -1419,60 +2063,7 @@
        ,"Type":"Static Content"
       }
      ,"Source":{
-        "HTML Code":"\u003C!--    CRIADO POR: Daniela Neutzling - 10\/11\/2023\n    \n    \u00DALTIMA ATUALIZA\u00C7\u00C3O:\n        Nome: \n        Data: \n--\u003E\n\n\u003Cstyle\u003E\n    .div *:not(h3,u,b,i) {\n        margin-left: 20px;\n    }\n\u003C\/style\u003E\n\n\u003Cdiv\u003E\n    \u003Cp\u003E\u003Cb\u003ECaminho: \u003Ci\u003EM\u00F3dulo \/ Nome da P\u00E1gina\u003C\/i\u003E\u003C\/b\u003E\u003C\/p\u003E\n\n    \u003C!-- Informar se \u00E9 p\u00E1gina de relat\u00F3rio e\/ou manuten\u00E7\u00E3o --\u003E\n    \u003Cp\u003E P\u00E1gina dividida entre relat\u00F3rio e manuten\u00E7\u00E3o de dados.\u003C\/p\u003E\n\n    \u003C!-- Explicar qual o objetivo da p\u00E1gina \/ para que serve --\u003E\n    \u003Cp\u003E P\u00E1gina destinada \u00E0 consulta, inclus\u00E3o, altera\u00E7\u00E3o, exclus\u00E3o e visualiza\u00E7\u00E3o detalhada de documentos a pagar.\n        \u003Cbr\u003E A sele\u00E7\u00E3o \u00E9 ocorre atrav\u00E9s dos filtros para busca de t\u00EDtulos.\n    \u003C\/p\u003E\n\n    \u003C!---------------------- RELAT\u00D3RIO ----------------------\u003E\n    \u003Cdiv class=\"div\"\u003E\n        \u003Ch3\u003ERelat\u00F3rio\u003C\/h3\u003E\n            \u003C!-- Informar caso haja campos obrigat\u00F3rios para gera\u00E7\u00E3o do relat\u00F3rio ou alguma outra especifica\u00E7\u00E3o --\u003E\n            \u003Cp\u003ELista informa\u00E7\u00F5es referentes aos documentos listados conforme filtros escolhidos. Por default, 3 op\u00E7\u00F5es de layout s\u00E3o disponibilizadas:\u003C\/p\u003E\n                \u003Cul\u003E\n                    \u003Cli\u003EGeral;\u003C\/li\u003E\n                    \u003Cli\u003EPor Fornecedor;\u003C\/li\u003E\n                    \u003Cli\u003EPor data de Vencimento.\u003C\/li\u003E\n                \u003C\/ul\u003E\n            \n            \u003C!-- Caso o relat\u00F3rio possua bot\u00F5es interativo, explicar cada um deles (o que faz \/ para que serve) --\u003E\n            \u003Cp\u003EO bot\u00E3o rela\u00E7\u00E3o no relat\u00F3rio de documentos \u00E9 um desvio para as rela\u00E7\u00F5es do documento, possibilitando seu detalhamento:\u003C\/p\u003E\n                \u003Cul\u003E\n                    \u003Cli\u003EFornecedor;\u003C\/li\u003E\n                    \u003Cli\u003ENota Fiscal de Entrada;\u003C\/li\u003E\n                    \u003Cli\u003EPedido de Compra;\u003C\/li\u003E\n                    \u003Cli\u003EPagamentos.\u003C\/li\u003E\n                \u003C\/ul\u003E\n    \u003C\/div\u003E\n\n    \u003C!---------------------- MANUTEN\u00C7\u00C3O ----------------------\u003E\n    \u003Cdiv class=\"div\"\u003E\n        \u003Ch3\u003EManuten\u00E7\u00E3o\u003C\/h3\u003E\n            \u003Cp\u003EP\u00E1gina para inclus\u00E3o ou altera\u00E7\u00E3o de documentos.\u003C\/p\u003E\n\n            \u003C!-- Informar caso n\u00E3o seja poss\u00EDvel alterar\/excluir dados ap\u00F3s confirmar\/salvar\n                Informar campos obrigat\u00F3rios e funcionalidade da p\u00E1gina (caso haja algo especifico) --\u003E\n            \u003Cp\u003ECampos obrigat\u00F3rios:\u003C\/p\u003E\n                \u003Cul\u003E\n                    \u003Cli\u003ETipo Documento;\u003C\/li\u003E\n                    \u003Cli\u003EN\u00FAmero documento;\u003C\/li\u003E\n                    \u003Cli\u003EParcela;\u003C\/li\u003E\n                    \u003Cli\u003EFornecedor;\u003C\/li\u003E\n                    \u003Cli\u003EData Emiss\u00E3o;\u003C\/li\u003E\n                    \u003Cli\u003EData Vencimento;\u003C\/li\u003E\n                    \u003Cli\u003EData Entrada;\u003C\/li\u003E\n                    \u003Cli\u003EValor Emiss\u00E3o;\u003C\/li\u003E\n                    \u003Cli\u003EValor Mercadoria.\u003C\/li\u003E\n                \u003C\/ul\u003E\n    \u003C\/div\u003E\n\n    \u003C!---------------------- MAPA PARA CADASTRO ----------------------\u003E\n    \u003Cdiv style=\"display: flex; justify-content: center; align-items: center; margin: 30px 0px 20px 0px;\"\u003E\n        \u003Cimg src=\"#APP_FILES#mapas\/map_item.png\" alt=\"Item\"\u003E\n    \u003C\/div\u003E\n\n\u003C\/div\u003E"
-      }
-     ,"Layout":{
-        "Sequence":90
-       ,"Parent Region":"Contabilidade (16035528059478589522)"
-       ,"Position":"BODY"
-       ,"Start New Layout":false
-       ,"Start New Row":true
-       ,"Column":"Automatic"
-       ,"New Column":true
-       ,"Column Span":"Automatic"
-      }
-     ,"Appearance":{
-        "Template":"Collapsible (47709754763113297300)"
-       ,"Template Options":[
-          "#DEFAULT#"
-         ,"is-collapsed"
-         ,"t-Region--noBorder"
-         ,"t-Region--scrollBody"
-        ]
-       ,"Render Components":"Above Content"
-      }
-     ,"Accessibility":{
-        "Use Landmark":true
-       ,"Landmark Type":"Template Default"
-      }
-     ,"Advanced":{
-        "Region Display Selector":false
-       ,"Exclude Title from Translation":false
-      }
-     ,"Server Cache":{
-        "Caching":"Disabled"
-      }
-     ,"Customization":{
-        "Customizable":"Not Customizable By End Users"
-      }
-     ,"Configuration":{
-        "Build Option":"Comentado (47708896794149297271)"
-      }
-     ,"Attributes":{
-        "Settings":{
-          "Output As":"HTML"
-         ,"Expand Shortcuts":false
-        }
-      }
-    }
-   ,{
-      "id":"39423909740555456826"
-     ,"Identification":{
-        "Title":"Raz\u00E3o Cont\u00E1bil"
-       ,"Type":"Static Content"
-      }
-     ,"Source":{
-        "HTML Code":"\u003C!--    CRIADO POR: Daniela Neutzling - 10\/11\/2023\n    \n    \u00DALTIMA ATUALIZA\u00C7\u00C3O:\n        Nome: \n        Data: \n--\u003E\n\n\u003Cstyle\u003E\n    .div *:not(h3,u,b,i) {\n        margin-left: 20px;\n    }\n\u003C\/style\u003E\n\n\u003Cdiv\u003E\n    \u003Cp\u003E\u003Cb\u003ECaminho: \u003Ci\u003EM\u00F3dulo \/ Nome da P\u00E1gina\u003C\/i\u003E\u003C\/b\u003E\u003C\/p\u003E\n\n    \u003C!-- Informar se \u00E9 p\u00E1gina de relat\u00F3rio e\/ou manuten\u00E7\u00E3o --\u003E\n    \u003Cp\u003E P\u00E1gina dividida entre relat\u00F3rio e manuten\u00E7\u00E3o de dados.\u003C\/p\u003E\n\n    \u003C!-- Explicar qual o objetivo da p\u00E1gina \/ para que serve --\u003E\n    \u003Cp\u003E P\u00E1gina destinada \u00E0 consulta, inclus\u00E3o, altera\u00E7\u00E3o, exclus\u00E3o e visualiza\u00E7\u00E3o detalhada de documentos a pagar.\n        \u003Cbr\u003E A sele\u00E7\u00E3o \u00E9 ocorre atrav\u00E9s dos filtros para busca de t\u00EDtulos.\n    \u003C\/p\u003E\n\n    \u003C!---------------------- RELAT\u00D3RIO ----------------------\u003E\n    \u003Cdiv class=\"div\"\u003E\n        \u003Ch3\u003ERelat\u00F3rio\u003C\/h3\u003E\n            \u003C!-- Informar caso haja campos obrigat\u00F3rios para gera\u00E7\u00E3o do relat\u00F3rio ou alguma outra especifica\u00E7\u00E3o --\u003E\n            \u003Cp\u003ELista informa\u00E7\u00F5es referentes aos documentos listados conforme filtros escolhidos. Por default, 3 op\u00E7\u00F5es de layout s\u00E3o disponibilizadas:\u003C\/p\u003E\n                \u003Cul\u003E\n                    \u003Cli\u003EGeral;\u003C\/li\u003E\n                    \u003Cli\u003EPor Fornecedor;\u003C\/li\u003E\n                    \u003Cli\u003EPor data de Vencimento.\u003C\/li\u003E\n                \u003C\/ul\u003E\n            \n            \u003C!-- Caso o relat\u00F3rio possua bot\u00F5es interativo, explicar cada um deles (o que faz \/ para que serve) --\u003E\n            \u003Cp\u003EO bot\u00E3o rela\u00E7\u00E3o no relat\u00F3rio de documentos \u00E9 um desvio para as rela\u00E7\u00F5es do documento, possibilitando seu detalhamento:\u003C\/p\u003E\n                \u003Cul\u003E\n                    \u003Cli\u003EFornecedor;\u003C\/li\u003E\n                    \u003Cli\u003ENota Fiscal de Entrada;\u003C\/li\u003E\n                    \u003Cli\u003EPedido de Compra;\u003C\/li\u003E\n                    \u003Cli\u003EPagamentos.\u003C\/li\u003E\n                \u003C\/ul\u003E\n    \u003C\/div\u003E\n\n    \u003C!---------------------- MANUTEN\u00C7\u00C3O ----------------------\u003E\n    \u003Cdiv class=\"div\"\u003E\n        \u003Ch3\u003EManuten\u00E7\u00E3o\u003C\/h3\u003E\n            \u003Cp\u003EP\u00E1gina para inclus\u00E3o ou altera\u00E7\u00E3o de documentos.\u003C\/p\u003E\n\n            \u003C!-- Informar caso n\u00E3o seja poss\u00EDvel alterar\/excluir dados ap\u00F3s confirmar\/salvar\n                Informar campos obrigat\u00F3rios e funcionalidade da p\u00E1gina (caso haja algo especifico) --\u003E\n            \u003Cp\u003ECampos obrigat\u00F3rios:\u003C\/p\u003E\n                \u003Cul\u003E\n                    \u003Cli\u003ETipo Documento;\u003C\/li\u003E\n                    \u003Cli\u003EN\u00FAmero documento;\u003C\/li\u003E\n                    \u003Cli\u003EParcela;\u003C\/li\u003E\n                    \u003Cli\u003EFornecedor;\u003C\/li\u003E\n                    \u003Cli\u003EData Emiss\u00E3o;\u003C\/li\u003E\n                    \u003Cli\u003EData Vencimento;\u003C\/li\u003E\n                    \u003Cli\u003EData Entrada;\u003C\/li\u003E\n                    \u003Cli\u003EValor Emiss\u00E3o;\u003C\/li\u003E\n                    \u003Cli\u003EValor Mercadoria.\u003C\/li\u003E\n                \u003C\/ul\u003E\n    \u003C\/div\u003E\n\n    \u003C!---------------------- MAPA PARA CADASTRO ----------------------\u003E\n    \u003Cdiv style=\"display: flex; justify-content: center; align-items: center; margin: 30px 0px 20px 0px;\"\u003E\n        \u003Cimg src=\"#APP_FILES#mapas\/map_item.png\" alt=\"Item\"\u003E\n    \u003C\/div\u003E\n\n\u003C\/div\u003E"
+        "HTML Code":"\u003Cp\u003E?????\u003C\/p\u003E"
       }
      ,"Layout":{
         "Sequence":110
@@ -1508,9 +2099,6 @@
      ,"Customization":{
         "Customizable":"Not Customizable By End Users"
       }
-     ,"Configuration":{
-        "Build Option":"Comentado (47708896794149297271)"
-      }
      ,"Attributes":{
         "Settings":{
           "Output As":"HTML"
@@ -1519,16 +2107,16 @@
       }
     }
    ,{
-      "id":"39423909896340456827"
+      "id":"39423909740555456826"
      ,"Identification":{
-        "Title":"Rateio Cont\u00E1bil"
+        "Title":"Raz\u00E3o Cont\u00E1bil"
        ,"Type":"Static Content"
       }
      ,"Source":{
-        "HTML Code":"\u003C!--    CRIADO POR: Daniela Neutzling - 10\/11\/2023\n    \n    \u00DALTIMA ATUALIZA\u00C7\u00C3O:\n        Nome: \n        Data: \n--\u003E\n\n\u003Cstyle\u003E\n    .div *:not(h3,u,b,i) {\n        margin-left: 20px;\n    }\n\u003C\/style\u003E\n\n\u003Cdiv\u003E\n    \u003Cp\u003E\u003Cb\u003ECaminho: \u003Ci\u003EM\u00F3dulo \/ Nome da P\u00E1gina\u003C\/i\u003E\u003C\/b\u003E\u003C\/p\u003E\n\n    \u003C!-- Informar se \u00E9 p\u00E1gina de relat\u00F3rio e\/ou manuten\u00E7\u00E3o --\u003E\n    \u003Cp\u003E P\u00E1gina dividida entre relat\u00F3rio e manuten\u00E7\u00E3o de dados.\u003C\/p\u003E\n\n    \u003C!-- Explicar qual o objetivo da p\u00E1gina \/ para que serve --\u003E\n    \u003Cp\u003E P\u00E1gina destinada \u00E0 consulta, inclus\u00E3o, altera\u00E7\u00E3o, exclus\u00E3o e visualiza\u00E7\u00E3o detalhada de documentos a pagar.\n        \u003Cbr\u003E A sele\u00E7\u00E3o \u00E9 ocorre atrav\u00E9s dos filtros para busca de t\u00EDtulos.\n    \u003C\/p\u003E\n\n    \u003C!---------------------- RELAT\u00D3RIO ----------------------\u003E\n    \u003Cdiv class=\"div\"\u003E\n        \u003Ch3\u003ERelat\u00F3rio\u003C\/h3\u003E\n            \u003C!-- Informar caso haja campos obrigat\u00F3rios para gera\u00E7\u00E3o do relat\u00F3rio ou alguma outra especifica\u00E7\u00E3o --\u003E\n            \u003Cp\u003ELista informa\u00E7\u00F5es referentes aos documentos listados conforme filtros escolhidos. Por default, 3 op\u00E7\u00F5es de layout s\u00E3o disponibilizadas:\u003C\/p\u003E\n                \u003Cul\u003E\n                    \u003Cli\u003EGeral;\u003C\/li\u003E\n                    \u003Cli\u003EPor Fornecedor;\u003C\/li\u003E\n                    \u003Cli\u003EPor data de Vencimento.\u003C\/li\u003E\n                \u003C\/ul\u003E\n            \n            \u003C!-- Caso o relat\u00F3rio possua bot\u00F5es interativo, explicar cada um deles (o que faz \/ para que serve) --\u003E\n            \u003Cp\u003EO bot\u00E3o rela\u00E7\u00E3o no relat\u00F3rio de documentos \u00E9 um desvio para as rela\u00E7\u00F5es do documento, possibilitando seu detalhamento:\u003C\/p\u003E\n                \u003Cul\u003E\n                    \u003Cli\u003EFornecedor;\u003C\/li\u003E\n                    \u003Cli\u003ENota Fiscal de Entrada;\u003C\/li\u003E\n                    \u003Cli\u003EPedido de Compra;\u003C\/li\u003E\n                    \u003Cli\u003EPagamentos.\u003C\/li\u003E\n                \u003C\/ul\u003E\n    \u003C\/div\u003E\n\n    \u003C!---------------------- MANUTEN\u00C7\u00C3O ----------------------\u003E\n    \u003Cdiv class=\"div\"\u003E\n        \u003Ch3\u003EManuten\u00E7\u00E3o\u003C\/h3\u003E\n            \u003Cp\u003EP\u00E1gina para inclus\u00E3o ou altera\u00E7\u00E3o de documentos.\u003C\/p\u003E\n\n            \u003C!-- Informar caso n\u00E3o seja poss\u00EDvel alterar\/excluir dados ap\u00F3s confirmar\/salvar\n                Informar campos obrigat\u00F3rios e funcionalidade da p\u00E1gina (caso haja algo especifico) --\u003E\n            \u003Cp\u003ECampos obrigat\u00F3rios:\u003C\/p\u003E\n                \u003Cul\u003E\n                    \u003Cli\u003ETipo Documento;\u003C\/li\u003E\n                    \u003Cli\u003EN\u00FAmero documento;\u003C\/li\u003E\n                    \u003Cli\u003EParcela;\u003C\/li\u003E\n                    \u003Cli\u003EFornecedor;\u003C\/li\u003E\n                    \u003Cli\u003EData Emiss\u00E3o;\u003C\/li\u003E\n                    \u003Cli\u003EData Vencimento;\u003C\/li\u003E\n                    \u003Cli\u003EData Entrada;\u003C\/li\u003E\n                    \u003Cli\u003EValor Emiss\u00E3o;\u003C\/li\u003E\n                    \u003Cli\u003EValor Mercadoria.\u003C\/li\u003E\n                \u003C\/ul\u003E\n    \u003C\/div\u003E\n\n    \u003C!---------------------- MAPA PARA CADASTRO ----------------------\u003E\n    \u003Cdiv style=\"display: flex; justify-content: center; align-items: center; margin: 30px 0px 20px 0px;\"\u003E\n        \u003Cimg src=\"#APP_FILES#mapas\/map_item.png\" alt=\"Item\"\u003E\n    \u003C\/div\u003E\n\n\u003C\/div\u003E"
+        "HTML Code":"\u003Cp\u003E?????\u003C\/p\u003E"
       }
      ,"Layout":{
-        "Sequence":100
+        "Sequence":130
        ,"Parent Region":"Contabilidade (16035528059478589522)"
        ,"Position":"BODY"
        ,"Start New Layout":false
@@ -1561,8 +2149,55 @@
      ,"Customization":{
         "Customizable":"Not Customizable By End Users"
       }
-     ,"Configuration":{
-        "Build Option":"Comentado (47708896794149297271)"
+     ,"Attributes":{
+        "Settings":{
+          "Output As":"HTML"
+         ,"Expand Shortcuts":false
+        }
+      }
+    }
+   ,{
+      "id":"39423909896340456827"
+     ,"Identification":{
+        "Title":"Rateio Cont\u00E1bil"
+       ,"Type":"Static Content"
+      }
+     ,"Source":{
+        "HTML Code":"\u003Cp\u003E?????\u003C\/p\u003E"
+      }
+     ,"Layout":{
+        "Sequence":120
+       ,"Parent Region":"Contabilidade (16035528059478589522)"
+       ,"Position":"BODY"
+       ,"Start New Layout":false
+       ,"Start New Row":true
+       ,"Column":"Automatic"
+       ,"New Column":true
+       ,"Column Span":"Automatic"
+      }
+     ,"Appearance":{
+        "Template":"Collapsible (47709754763113297300)"
+       ,"Template Options":[
+          "#DEFAULT#"
+         ,"is-collapsed"
+         ,"t-Region--noBorder"
+         ,"t-Region--scrollBody"
+        ]
+       ,"Render Components":"Above Content"
+      }
+     ,"Accessibility":{
+        "Use Landmark":true
+       ,"Landmark Type":"Template Default"
+      }
+     ,"Advanced":{
+        "Region Display Selector":false
+       ,"Exclude Title from Translation":false
+      }
+     ,"Server Cache":{
+        "Caching":"Disabled"
+      }
+     ,"Customization":{
+        "Customizable":"Not Customizable By End Users"
       }
      ,"Attributes":{
         "Settings":{
@@ -1581,7 +2216,7 @@
         "HTML Code":"\u003C!--    CRIADO POR: Daniela Neutzling - 10\/11\/2023\n    \n    \u00DALTIMA ATUALIZA\u00C7\u00C3O:\n        Nome: \n        Data: \n--\u003E\n\n\u003Cstyle\u003E\n    .div *:not(h3,u,b,i) {\n        margin-left: 20px;\n    }\n\u003C\/style\u003E\n\n\u003Cdiv\u003E\n    \u003Cp\u003E\u003Cb\u003ECaminho: \u003Ci\u003EContabilidade \/ Tipo de Movimento\u003C\/i\u003E\u003C\/b\u003E\u003C\/p\u003E\n\n    \u003C!-- Informar se \u00E9 p\u00E1gina de relat\u00F3rio e\/ou manuten\u00E7\u00E3o --\u003E\n    \u003Cp\u003E P\u00E1gina dividida entre relat\u00F3rio e manuten\u00E7\u00E3o de dados.\u003C\/p\u003E\n\n    \u003C!-- Explicar qual o objetivo da p\u00E1gina \/ para que serve --\u003E\n    \u003Cp\u003E P\u00E1gina destinada \u00E0 consulta, inclus\u00E3o, altera\u00E7\u00E3o, exclus\u00E3o e visualiza\u00E7\u00E3o detalhada de Tipos de Movimento.\n    \u003C\/p\u003E\n\n    \u003C!---------------------- RELAT\u00D3RIO ----------------------\u003E\n    \u003Cdiv class=\"div\"\u003E\n        \u003Ch3\u003ERelat\u00F3rio\u003C\/h3\u003E\n            \u003C!-- Informar caso haja campos obrigat\u00F3rios para gera\u00E7\u00E3o do relat\u00F3rio ou alguma outra especifica\u00E7\u00E3o --\u003E\n            \u003Cp\u003ELista informa\u00E7\u00F5es referentes aos tipos de movimento listados.\u003C\/p\u003E\n    \u003C\/div\u003E\n\n    \u003C!---------------------- MANUTEN\u00C7\u00C3O ----------------------\u003E\n    \u003Cdiv class=\"div\"\u003E\n        \u003Ch3\u003EManuten\u00E7\u00E3o\u003C\/h3\u003E\n            \u003Cp\u003EP\u00E1gina para inclus\u00E3o ou altera\u00E7\u00E3o de tipos de movimento.\u003C\/p\u003E\n\n            \u003C!-- Informar caso n\u00E3o seja poss\u00EDvel alterar\/excluir dados ap\u00F3s confirmar\/salvar\n                Informar campos obrigat\u00F3rios e funcionalidade da p\u00E1gina (caso haja algo especifico) --\u003E\n            \u003Cp\u003ECampos obrigat\u00F3rios:\u003C\/p\u003E\n                \u003Cul\u003E\n                    \u003Cli\u003EC\u00F3digo;\u003C\/li\u003E\n                    \u003Cli\u003EDescri\u00E7\u00E3o;\u003C\/li\u003E\n                \u003C\/ul\u003E\n    \u003C\/div\u003E\n\u003C\/div\u003E"
       }
      ,"Layout":{
-        "Sequence":130
+        "Sequence":150
        ,"Parent Region":"Contabilidade (16035528059478589522)"
        ,"Position":"BODY"
        ,"Start New Layout":false
@@ -1628,7 +2263,7 @@
        ,"Type":"Static Content"
       }
      ,"Source":{
-        "HTML Code":"\u003C!--    CRIADO POR: Daniela Neutzling - 10\/11\/2023\n    \n    \u00DALTIMA ATUALIZA\u00C7\u00C3O:\n        Nome: \n        Data: \n--\u003E\n\n\u003Cstyle\u003E\n    .div *:not(h3,u,b,i) {\n        margin-left: 20px;\n    }\n\u003C\/style\u003E\n\n\u003Cdiv\u003E\n    \u003Cp\u003E\u003Cb\u003ECaminho: \u003Ci\u003EM\u00F3dulo \/ Nome da P\u00E1gina\u003C\/i\u003E\u003C\/b\u003E\u003C\/p\u003E\n\n    \u003C!-- Informar se \u00E9 p\u00E1gina de relat\u00F3rio e\/ou manuten\u00E7\u00E3o --\u003E\n    \u003Cp\u003E P\u00E1gina dividida entre relat\u00F3rio e manuten\u00E7\u00E3o de dados.\u003C\/p\u003E\n\n    \u003C!-- Explicar qual o objetivo da p\u00E1gina \/ para que serve --\u003E\n    \u003Cp\u003E P\u00E1gina destinada \u00E0 consulta, inclus\u00E3o, altera\u00E7\u00E3o, exclus\u00E3o e visualiza\u00E7\u00E3o detalhada de documentos a pagar.\n        \u003Cbr\u003E A sele\u00E7\u00E3o \u00E9 ocorre atrav\u00E9s dos filtros para busca de t\u00EDtulos.\n    \u003C\/p\u003E\n\n    \u003C!---------------------- RELAT\u00D3RIO ----------------------\u003E\n    \u003Cdiv class=\"div\"\u003E\n        \u003Ch3\u003ERelat\u00F3rio\u003C\/h3\u003E\n            \u003C!-- Informar caso haja campos obrigat\u00F3rios para gera\u00E7\u00E3o do relat\u00F3rio ou alguma outra especifica\u00E7\u00E3o --\u003E\n            \u003Cp\u003ELista informa\u00E7\u00F5es referentes aos documentos listados conforme filtros escolhidos. Por default, 3 op\u00E7\u00F5es de layout s\u00E3o disponibilizadas:\u003C\/p\u003E\n                \u003Cul\u003E\n                    \u003Cli\u003EGeral;\u003C\/li\u003E\n                    \u003Cli\u003EPor Fornecedor;\u003C\/li\u003E\n                    \u003Cli\u003EPor data de Vencimento.\u003C\/li\u003E\n                \u003C\/ul\u003E\n            \n            \u003C!-- Caso o relat\u00F3rio possua bot\u00F5es interativo, explicar cada um deles (o que faz \/ para que serve) --\u003E\n            \u003Cp\u003EO bot\u00E3o rela\u00E7\u00E3o no relat\u00F3rio de documentos \u00E9 um desvio para as rela\u00E7\u00F5es do documento, possibilitando seu detalhamento:\u003C\/p\u003E\n                \u003Cul\u003E\n                    \u003Cli\u003EFornecedor;\u003C\/li\u003E\n                    \u003Cli\u003ENota Fiscal de Entrada;\u003C\/li\u003E\n                    \u003Cli\u003EPedido de Compra;\u003C\/li\u003E\n                    \u003Cli\u003EPagamentos.\u003C\/li\u003E\n                \u003C\/ul\u003E\n    \u003C\/div\u003E\n\n    \u003C!---------------------- MANUTEN\u00C7\u00C3O ----------------------\u003E\n    \u003Cdiv class=\"div\"\u003E\n        \u003Ch3\u003EManuten\u00E7\u00E3o\u003C\/h3\u003E\n            \u003Cp\u003EP\u00E1gina para inclus\u00E3o ou altera\u00E7\u00E3o de documentos.\u003C\/p\u003E\n\n            \u003C!-- Informar caso n\u00E3o seja poss\u00EDvel alterar\/excluir dados ap\u00F3s confirmar\/salvar\n                Informar campos obrigat\u00F3rios e funcionalidade da p\u00E1gina (caso haja algo especifico) --\u003E\n            \u003Cp\u003ECampos obrigat\u00F3rios:\u003C\/p\u003E\n                \u003Cul\u003E\n                    \u003Cli\u003ETipo Documento;\u003C\/li\u003E\n                    \u003Cli\u003EN\u00FAmero documento;\u003C\/li\u003E\n                    \u003Cli\u003EParcela;\u003C\/li\u003E\n                    \u003Cli\u003EFornecedor;\u003C\/li\u003E\n                    \u003Cli\u003EData Emiss\u00E3o;\u003C\/li\u003E\n                    \u003Cli\u003EData Vencimento;\u003C\/li\u003E\n                    \u003Cli\u003EData Entrada;\u003C\/li\u003E\n                    \u003Cli\u003EValor Emiss\u00E3o;\u003C\/li\u003E\n                    \u003Cli\u003EValor Mercadoria.\u003C\/li\u003E\n                \u003C\/ul\u003E\n    \u003C\/div\u003E\n\n    \u003C!---------------------- MAPA PARA CADASTRO ----------------------\u003E\n    \u003Cdiv style=\"display: flex; justify-content: center; align-items: center; margin: 30px 0px 20px 0px;\"\u003E\n        \u003Cimg src=\"#APP_FILES#mapas\/map_item.png\" alt=\"Item\"\u003E\n    \u003C\/div\u003E\n\n\u003C\/div\u003E"
+        "HTML Code":"\u003Cp\u003E?????\u003C\/p\u003E"
       }
      ,"Layout":{
         "Sequence":340
@@ -1664,9 +2299,6 @@
      ,"Customization":{
         "Customizable":"Not Customizable By End Users"
       }
-     ,"Configuration":{
-        "Build Option":"Comentado (47708896794149297271)"
-      }
      ,"Attributes":{
         "Settings":{
           "Output As":"HTML"
@@ -1684,7 +2316,7 @@
         "HTML Code":"\u003C!--    CRIADO POR: Daniela Neutzling - 10\/11\/2023\n    \n    \u00DALTIMA ATUALIZA\u00C7\u00C3O:\n        Nome: \n        Data: \n--\u003E\n\n\u003Cstyle\u003E\n    .div *:not(h3,u,b,i) {\n        margin-left: 20px;\n    }\n\u003C\/style\u003E\n\n\u003Cdiv\u003E\n    \u003Cp\u003E\u003Cb\u003ECaminho: \u003Ci\u003ECadastro de Par\u00E2metros \/ Par\u00E2metro de Contabilidade\u003C\/i\u003E\u003C\/b\u003E\u003C\/p\u003E\n\n    \u003C!-- Informar se \u00E9 p\u00E1gina de relat\u00F3rio e\/ou manuten\u00E7\u00E3o --\u003E\n    \u003Cp\u003E P\u00E1gina dividida entre relat\u00F3rio e manuten\u00E7\u00E3o de dados.\u003C\/p\u003E\n\n    \u003C!-- Explicar qual o objetivo da p\u00E1gina \/ para que serve --\u003E\n    \u003Cp\u003E P\u00E1gina destinada \u00E0 consulta, inclus\u00E3o, altera\u00E7\u00E3o, exclus\u00E3o e visualiza\u00E7\u00E3o detalhada dos par\u00E2metros de Contabilidade.\n    \u003C\/p\u003E\n\n    \u003C!---------------------- RELAT\u00D3RIO ----------------------\u003E\n    \u003Cdiv class=\"div\"\u003E\n        \u003Ch3\u003ERelat\u00F3rio\u003C\/h3\u003E\n            \u003C!-- Informar caso haja campos obrigat\u00F3rios para gera\u00E7\u00E3o do relat\u00F3rio ou alguma outra especifica\u00E7\u00E3o --\u003E\n            \u003Cp\u003ELista informa\u00E7\u00F5es referentes aos par\u00E2metros listados.\u003C\/p\u003E\n    \u003C\/div\u003E\n\n    \u003C!---------------------- MANUTEN\u00C7\u00C3O ----------------------\u003E\n    \u003Cdiv class=\"div\"\u003E\n        \u003Ch3\u003EManuten\u00E7\u00E3o\u003C\/h3\u003E\n            \u003Cp\u003EP\u00E1gina para inclus\u00E3o ou altera\u00E7\u00E3o de par\u00E2metros de Contabilidade.\u003C\/p\u003E\n\n            \u003C!-- Informar caso n\u00E3o seja poss\u00EDvel alterar\/excluir dados ap\u00F3s confirmar\/salvar\n                Informar campos obrigat\u00F3rios e funcionalidade da p\u00E1gina (caso haja algo especifico) --\u003E\n            \u003Cp\u003ECampos obrigat\u00F3rios:\u003C\/p\u003E\n                \u003Cul\u003E\n                    \u003Cli\u003ESint\u00E9tico Plano;\u003C\/li\u003E\n                    \u003Cli\u003ESint\u00E9tico Gerencial;\u003C\/li\u003E\n                    \u003Cli\u003EAnal\u00EDtico Plano;\u003C\/li\u003E\n                    \u003Cli\u003EAnal\u00EDtico Gerencial;\u003C\/li\u003E\n                    \u003Cli\u003ECliente;\u003C\/li\u003E\n                    \u003Cli\u003EFornecedor;\u003C\/li\u003E\n                    \u003Cli\u003EAdiantamento;\u003C\/li\u003E\n                \u003C\/ul\u003E\n    \u003C\/div\u003E\n\u003C\/div\u003E"
       }
      ,"Layout":{
-        "Sequence":70
+        "Sequence":20
        ,"Parent Region":"Cadastro de Par\u00E2metros (49080958751887577117)"
        ,"Position":"SUB_REGIONS"
        ,"Start New Layout":false
@@ -1734,7 +2366,7 @@
         "HTML Code":"\u003C!--    CRIADO POR: Daniela Neutzling - 10\/11\/2023\n    \n    \u00DALTIMA ATUALIZA\u00C7\u00C3O:\n        Nome: \n        Data: \n--\u003E\n\n\u003Cstyle\u003E\n    .div *:not(h3,u,b,i) {\n        margin-left: 20px;\n    }\n\u003C\/style\u003E\n\n\u003Cdiv\u003E\n    \u003Cp\u003E\u003Cb\u003ECaminho: \u003Ci\u003ECadastro de Par\u00E2metros \/ Par\u00E2metro de Planejamento\u003C\/i\u003E\u003C\/b\u003E\u003C\/p\u003E\n\n    \u003C!-- Informar se \u00E9 p\u00E1gina de relat\u00F3rio e\/ou manuten\u00E7\u00E3o --\u003E\n    \u003Cp\u003E P\u00E1gina dividida entre relat\u00F3rio e manuten\u00E7\u00E3o de dados.\u003C\/p\u003E\n\n    \u003C!-- Explicar qual o objetivo da p\u00E1gina \/ para que serve --\u003E\n    \u003Cp\u003E P\u00E1gina destinada \u00E0 consulta, inclus\u00E3o, altera\u00E7\u00E3o, exclus\u00E3o e visualiza\u00E7\u00E3o detalhada dos par\u00E2metros de Planejamento.\n    \u003C\/p\u003E\n\n    \u003C!---------------------- RELAT\u00D3RIO ----------------------\u003E\n    \u003Cdiv class=\"div\"\u003E\n        \u003Ch3\u003ERelat\u00F3rio\u003C\/h3\u003E\n            \u003C!-- Informar caso haja campos obrigat\u00F3rios para gera\u00E7\u00E3o do relat\u00F3rio ou alguma outra especifica\u00E7\u00E3o --\u003E\n            \u003Cp\u003ELista informa\u00E7\u00F5es referentes aos par\u00E2metros listados.\u003C\/p\u003E\n    \u003C\/div\u003E\n\n    \u003C!---------------------- MANUTEN\u00C7\u00C3O ----------------------\u003E\n    \u003Cdiv class=\"div\"\u003E\n        \u003Ch3\u003EManuten\u00E7\u00E3o\u003C\/h3\u003E\n            \u003Cp\u003EP\u00E1gina para inclus\u00E3o ou altera\u00E7\u00E3o de par\u00E2metros de Planejamento.\u003C\/p\u003E\n\n            \u003C!-- Informar caso n\u00E3o seja poss\u00EDvel alterar\/excluir dados ap\u00F3s confirmar\/salvar\n                Informar campos obrigat\u00F3rios e funcionalidade da p\u00E1gina (caso haja algo especifico) --\u003E\n            \u003Cp\u003ECampos obrigat\u00F3rios:\u003C\/p\u003E\n                \u003Cul\u003E\n                    \u003Cli\u003EFilial;\u003C\/li\u003E\n                    \u003Cli\u003EPlanejamento Discreta;\u003C\/li\u003E\n                    \u003Cli\u003EPedidos Bloqueados;\u003C\/li\u003E\n                    \u003Cli\u003EGerar Demanda Pedido;\u003C\/li\u003E\n                    \u003Cli\u003EGera\u00E7\u00E3o Ordem\/Roteiro;\u003C\/li\u003E\n                    \u003Cli\u003EPedidos Bloqueados;\u003C\/li\u003E\n                    \u003Cli\u003ESolicita\u00E7\u00E3o Liberada;\u003C\/li\u003E\n                \u003C\/ul\u003E\n    \u003C\/div\u003E\n\u003C\/div\u003E"
       }
      ,"Layout":{
-        "Sequence":30
+        "Sequence":160
        ,"Parent Region":"Cadastro de Par\u00E2metros (49080958751887577117)"
        ,"Position":"SUB_REGIONS"
        ,"Start New Layout":false
@@ -1784,7 +2416,7 @@
         "HTML Code":"\u003C!--    CRIADO POR: Daniela Neutzling - 10\/11\/2023\n    \n    \u00DALTIMA ATUALIZA\u00C7\u00C3O:\n        Nome: \n        Data: \n--\u003E\n\n\u003Cstyle\u003E\n    .div *:not(h3,u,b,i) {\n        margin-left: 20px;\n    }\n\u003C\/style\u003E\n\n\u003Cdiv\u003E\n    \u003Cp\u003E\u003Cb\u003ECaminho: \u003Ci\u003ECadastro de Par\u00E2metros \/ Par\u00E2metro de Integra\u00E7\u00E3o\u003C\/i\u003E\u003C\/b\u003E\u003C\/p\u003E\n\n    \u003C!-- Informar se \u00E9 p\u00E1gina de relat\u00F3rio e\/ou manuten\u00E7\u00E3o --\u003E\n    \u003Cp\u003E P\u00E1gina dividida entre relat\u00F3rio e manuten\u00E7\u00E3o de dados.\u003C\/p\u003E\n\n    \u003C!-- Explicar qual o objetivo da p\u00E1gina \/ para que serve --\u003E\n    \u003Cp\u003E P\u00E1gina destinada \u00E0 consulta, inclus\u00E3o, altera\u00E7\u00E3o, exclus\u00E3o e visualiza\u00E7\u00E3o detalhada dos par\u00E2metros de Integra\u00E7\u00E3o.\n    \u003C\/p\u003E\n\n    \u003C!---------------------- RELAT\u00D3RIO ----------------------\u003E\n    \u003Cdiv class=\"div\"\u003E\n        \u003Ch3\u003ERelat\u00F3rio\u003C\/h3\u003E\n            \u003C!-- Informar caso haja campos obrigat\u00F3rios para gera\u00E7\u00E3o do relat\u00F3rio ou alguma outra especifica\u00E7\u00E3o --\u003E\n            \u003Cp\u003ELista informa\u00E7\u00F5es referentes aos par\u00E2metros listados.\u003C\/p\u003E\n    \u003C\/div\u003E\n\n    \u003C!---------------------- MANUTEN\u00C7\u00C3O ----------------------\u003E\n    \u003Cdiv class=\"div\"\u003E\n        \u003Ch3\u003EManuten\u00E7\u00E3o\u003C\/h3\u003E\n            \u003Cp\u003EP\u00E1gina para inclus\u00E3o ou altera\u00E7\u00E3o de par\u00E2metros de Integra\u00E7\u00E3o.\u003C\/p\u003E\n\n            \u003C!-- Informar caso n\u00E3o seja poss\u00EDvel alterar\/excluir dados ap\u00F3s confirmar\/salvar\n                Informar campos obrigat\u00F3rios e funcionalidade da p\u00E1gina (caso haja algo especifico) --\u003E\n            \u003Cp\u003ECampos obrigat\u00F3rios:\u003C\/p\u003E\n                \u003Cul\u003E\n                    \u003Cli\u003EConta;\u003C\/li\u003E\n                \u003C\/ul\u003E\n    \u003C\/div\u003E\n\u003C\/div\u003E"
       }
      ,"Layout":{
-        "Sequence":150
+        "Sequence":110
        ,"Parent Region":"Cadastro de Par\u00E2metros (49080958751887577117)"
        ,"Position":"SUB_REGIONS"
        ,"Start New Layout":false
@@ -1834,7 +2466,7 @@
         "HTML Code":"\u003C!--    CRIADO POR: Daniela Neutzling - 10\/11\/2023\n    \n    \u00DALTIMA ATUALIZA\u00C7\u00C3O:\n        Nome: \n        Data: \n--\u003E\n\n\u003Cstyle\u003E\n    .div *:not(h3,u,b,i) {\n        margin-left: 20px;\n    }\n\u003C\/style\u003E\n\n\u003Cdiv\u003E\n    \u003Cp\u003E\u003Cb\u003ECaminho: \u003Ci\u003ECadastro de Par\u00E2metros \/ Par\u00E2metro de Contas a Receber\u003C\/i\u003E\u003C\/b\u003E\u003C\/p\u003E\n\n    \u003C!-- Informar se \u00E9 p\u00E1gina de relat\u00F3rio e\/ou manuten\u00E7\u00E3o --\u003E\n    \u003Cp\u003E P\u00E1gina dividida entre relat\u00F3rio e manuten\u00E7\u00E3o de dados.\u003C\/p\u003E\n\n    \u003C!-- Explicar qual o objetivo da p\u00E1gina \/ para que serve --\u003E\n    \u003Cp\u003E P\u00E1gina destinada \u00E0 consulta, inclus\u00E3o, altera\u00E7\u00E3o, exclus\u00E3o e visualiza\u00E7\u00E3o detalhada dos Par\u00E2metro de Contas a Receber.\n    \u003C\/p\u003E\n\n    \u003C!---------------------- RELAT\u00D3RIO ----------------------\u003E\n    \u003Cdiv class=\"div\"\u003E\n        \u003Ch3\u003ERelat\u00F3rio\u003C\/h3\u003E\n            \u003C!-- Informar caso haja campos obrigat\u00F3rios para gera\u00E7\u00E3o do relat\u00F3rio ou alguma outra especifica\u00E7\u00E3o --\u003E\n            \u003Cp\u003ELista informa\u00E7\u00F5es referentes aos par\u00E2metros listados.\u003C\/p\u003E\n    \u003C\/div\u003E\n\n    \u003C!---------------------- MANUTEN\u00C7\u00C3O ----------------------\u003E\n    \u003Cdiv class=\"div\"\u003E\n        \u003Ch3\u003EManuten\u00E7\u00E3o\u003C\/h3\u003E\n            \u003Cp\u003EP\u00E1gina para inclus\u00E3o ou altera\u00E7\u00E3o de Par\u00E2metro de Contas a Receber.\u003C\/p\u003E\n\n            \u003C!-- Informar caso n\u00E3o seja poss\u00EDvel alterar\/excluir dados ap\u00F3s confirmar\/salvar\n                Informar campos obrigat\u00F3rios e funcionalidade da p\u00E1gina (caso haja algo especifico) --\u003E\n            \u003Cp\u003ECampos obrigat\u00F3rios:\u003C\/p\u003E\n                \u003Cul\u003E\n                    \u003Cli\u003EFilial;\u003C\/li\u003E\n                \u003C\/ul\u003E\n    \u003C\/div\u003E\n\u003C\/div\u003E"
       }
      ,"Layout":{
-        "Sequence":10
+        "Sequence":40
        ,"Parent Region":"Cadastro de Par\u00E2metros (49080958751887577117)"
        ,"Position":"SUB_REGIONS"
        ,"Start New Layout":false
@@ -1881,10 +2513,10 @@
        ,"Type":"Static Content"
       }
      ,"Source":{
-        "HTML Code":"\u003C!--    CRIADO POR: Daniela Neutzling - 10\/11\/2023\n    \n    \u00DALTIMA ATUALIZA\u00C7\u00C3O:\n        Nome: \n        Data: \n--\u003E\n\n\u003Cstyle\u003E\n    .div *:not(h3,u,b,i) {\n        margin-left: 20px;\n    }\n\u003C\/style\u003E\n\n\u003Cdiv\u003E\n    \u003Cp\u003E\u003Cb\u003ECaminho: \u003Ci\u003EM\u00F3dulo \/ Nome da P\u00E1gina\u003C\/i\u003E\u003C\/b\u003E\u003C\/p\u003E\n\n    \u003C!-- Informar se \u00E9 p\u00E1gina de relat\u00F3rio e\/ou manuten\u00E7\u00E3o --\u003E\n    \u003Cp\u003E P\u00E1gina dividida entre relat\u00F3rio e manuten\u00E7\u00E3o de dados.\u003C\/p\u003E\n\n    \u003C!-- Explicar qual o objetivo da p\u00E1gina \/ para que serve --\u003E\n    \u003Cp\u003E P\u00E1gina destinada \u00E0 consulta, inclus\u00E3o, altera\u00E7\u00E3o, exclus\u00E3o e visualiza\u00E7\u00E3o detalhada de documentos a pagar.\n        \u003Cbr\u003E A sele\u00E7\u00E3o \u00E9 ocorre atrav\u00E9s dos filtros para busca de t\u00EDtulos.\n    \u003C\/p\u003E\n\n    \u003C!---------------------- RELAT\u00D3RIO ----------------------\u003E\n    \u003Cdiv class=\"div\"\u003E\n        \u003Ch3\u003ERelat\u00F3rio\u003C\/h3\u003E\n            \u003C!-- Informar caso haja campos obrigat\u00F3rios para gera\u00E7\u00E3o do relat\u00F3rio ou alguma outra especifica\u00E7\u00E3o --\u003E\n            \u003Cp\u003ELista informa\u00E7\u00F5es referentes aos documentos listados conforme filtros escolhidos. Por default, 3 op\u00E7\u00F5es de layout s\u00E3o disponibilizadas:\u003C\/p\u003E\n                \u003Cul\u003E\n                    \u003Cli\u003EGeral;\u003C\/li\u003E\n                    \u003Cli\u003EPor Fornecedor;\u003C\/li\u003E\n                    \u003Cli\u003EPor data de Vencimento.\u003C\/li\u003E\n                \u003C\/ul\u003E\n            \n            \u003C!-- Caso o relat\u00F3rio possua bot\u00F5es interativo, explicar cada um deles (o que faz \/ para que serve) --\u003E\n            \u003Cp\u003EO bot\u00E3o rela\u00E7\u00E3o no relat\u00F3rio de documentos \u00E9 um desvio para as rela\u00E7\u00F5es do documento, possibilitando seu detalhamento:\u003C\/p\u003E\n                \u003Cul\u003E\n                    \u003Cli\u003EFornecedor;\u003C\/li\u003E\n                    \u003Cli\u003ENota Fiscal de Entrada;\u003C\/li\u003E\n                    \u003Cli\u003EPedido de Compra;\u003C\/li\u003E\n                    \u003Cli\u003EPagamentos.\u003C\/li\u003E\n                \u003C\/ul\u003E\n    \u003C\/div\u003E\n\n    \u003C!---------------------- MANUTEN\u00C7\u00C3O ----------------------\u003E\n    \u003Cdiv class=\"div\"\u003E\n        \u003Ch3\u003EManuten\u00E7\u00E3o\u003C\/h3\u003E\n            \u003Cp\u003EP\u00E1gina para inclus\u00E3o ou altera\u00E7\u00E3o de documentos.\u003C\/p\u003E\n\n            \u003C!-- Informar caso n\u00E3o seja poss\u00EDvel alterar\/excluir dados ap\u00F3s confirmar\/salvar\n                Informar campos obrigat\u00F3rios e funcionalidade da p\u00E1gina (caso haja algo especifico) --\u003E\n            \u003Cp\u003ECampos obrigat\u00F3rios:\u003C\/p\u003E\n                \u003Cul\u003E\n                    \u003Cli\u003ETipo Documento;\u003C\/li\u003E\n                    \u003Cli\u003EN\u00FAmero documento;\u003C\/li\u003E\n                    \u003Cli\u003EParcela;\u003C\/li\u003E\n                    \u003Cli\u003EFornecedor;\u003C\/li\u003E\n                    \u003Cli\u003EData Emiss\u00E3o;\u003C\/li\u003E\n                    \u003Cli\u003EData Vencimento;\u003C\/li\u003E\n                    \u003Cli\u003EData Entrada;\u003C\/li\u003E\n                    \u003Cli\u003EValor Emiss\u00E3o;\u003C\/li\u003E\n                    \u003Cli\u003EValor Mercadoria.\u003C\/li\u003E\n                \u003C\/ul\u003E\n    \u003C\/div\u003E\n\n    \u003C!---------------------- MAPA PARA CADASTRO ----------------------\u003E\n    \u003Cdiv style=\"display: flex; justify-content: center; align-items: center; margin: 30px 0px 20px 0px;\"\u003E\n        \u003Cimg src=\"#APP_FILES#mapas\/map_item.png\" alt=\"Item\"\u003E\n    \u003C\/div\u003E\n\n\u003C\/div\u003E"
+        "HTML Code":"\u003Cp\u003E?????\u003C\/p\u003E"
       }
      ,"Layout":{
-        "Sequence":50
+        "Sequence":10
        ,"Parent Region":"Cadastro de Par\u00E2metros (49080958751887577117)"
        ,"Position":"SUB_REGIONS"
        ,"Start New Layout":false
@@ -1917,9 +2549,6 @@
      ,"Customization":{
         "Customizable":"Not Customizable By End Users"
       }
-     ,"Configuration":{
-        "Build Option":"Comentado (47708896794149297271)"
-      }
      ,"Attributes":{
         "Settings":{
           "Output As":"HTML"
@@ -1934,7 +2563,57 @@
        ,"Type":"Static Content"
       }
      ,"Source":{
-        "HTML Code":"\u003C!--    CRIADO POR: Daniela Neutzling - 10\/11\/2023\n    \n    \u00DALTIMA ATUALIZA\u00C7\u00C3O:\n        Nome: \n        Data: \n--\u003E\n\n\u003Cstyle\u003E\n    .div *:not(h3,u,b,i) {\n        margin-left: 20px;\n    }\n\u003C\/style\u003E\n\n\u003Cdiv\u003E\n    \u003Cp\u003E\u003Cb\u003ECaminho: \u003Ci\u003EM\u00F3dulo \/ Nome da P\u00E1gina\u003C\/i\u003E\u003C\/b\u003E\u003C\/p\u003E\n\n    \u003C!-- Informar se \u00E9 p\u00E1gina de relat\u00F3rio e\/ou manuten\u00E7\u00E3o --\u003E\n    \u003Cp\u003E P\u00E1gina dividida entre relat\u00F3rio e manuten\u00E7\u00E3o de dados.\u003C\/p\u003E\n\n    \u003C!-- Explicar qual o objetivo da p\u00E1gina \/ para que serve --\u003E\n    \u003Cp\u003E P\u00E1gina destinada \u00E0 consulta, inclus\u00E3o, altera\u00E7\u00E3o, exclus\u00E3o e visualiza\u00E7\u00E3o detalhada de documentos a pagar.\n        \u003Cbr\u003E A sele\u00E7\u00E3o \u00E9 ocorre atrav\u00E9s dos filtros para busca de t\u00EDtulos.\n    \u003C\/p\u003E\n\n    \u003C!---------------------- RELAT\u00D3RIO ----------------------\u003E\n    \u003Cdiv class=\"div\"\u003E\n        \u003Ch3\u003ERelat\u00F3rio\u003C\/h3\u003E\n            \u003C!-- Informar caso haja campos obrigat\u00F3rios para gera\u00E7\u00E3o do relat\u00F3rio ou alguma outra especifica\u00E7\u00E3o --\u003E\n            \u003Cp\u003ELista informa\u00E7\u00F5es referentes aos documentos listados conforme filtros escolhidos. Por default, 3 op\u00E7\u00F5es de layout s\u00E3o disponibilizadas:\u003C\/p\u003E\n                \u003Cul\u003E\n                    \u003Cli\u003EGeral;\u003C\/li\u003E\n                    \u003Cli\u003EPor Fornecedor;\u003C\/li\u003E\n                    \u003Cli\u003EPor data de Vencimento.\u003C\/li\u003E\n                \u003C\/ul\u003E\n            \n            \u003C!-- Caso o relat\u00F3rio possua bot\u00F5es interativo, explicar cada um deles (o que faz \/ para que serve) --\u003E\n            \u003Cp\u003EO bot\u00E3o rela\u00E7\u00E3o no relat\u00F3rio de documentos \u00E9 um desvio para as rela\u00E7\u00F5es do documento, possibilitando seu detalhamento:\u003C\/p\u003E\n                \u003Cul\u003E\n                    \u003Cli\u003EFornecedor;\u003C\/li\u003E\n                    \u003Cli\u003ENota Fiscal de Entrada;\u003C\/li\u003E\n                    \u003Cli\u003EPedido de Compra;\u003C\/li\u003E\n                    \u003Cli\u003EPagamentos.\u003C\/li\u003E\n                \u003C\/ul\u003E\n    \u003C\/div\u003E\n\n    \u003C!---------------------- MANUTEN\u00C7\u00C3O ----------------------\u003E\n    \u003Cdiv class=\"div\"\u003E\n        \u003Ch3\u003EManuten\u00E7\u00E3o\u003C\/h3\u003E\n            \u003Cp\u003EP\u00E1gina para inclus\u00E3o ou altera\u00E7\u00E3o de documentos.\u003C\/p\u003E\n\n            \u003C!-- Informar caso n\u00E3o seja poss\u00EDvel alterar\/excluir dados ap\u00F3s confirmar\/salvar\n                Informar campos obrigat\u00F3rios e funcionalidade da p\u00E1gina (caso haja algo especifico) --\u003E\n            \u003Cp\u003ECampos obrigat\u00F3rios:\u003C\/p\u003E\n                \u003Cul\u003E\n                    \u003Cli\u003ETipo Documento;\u003C\/li\u003E\n                    \u003Cli\u003EN\u00FAmero documento;\u003C\/li\u003E\n                    \u003Cli\u003EParcela;\u003C\/li\u003E\n                    \u003Cli\u003EFornecedor;\u003C\/li\u003E\n                    \u003Cli\u003EData Emiss\u00E3o;\u003C\/li\u003E\n                    \u003Cli\u003EData Vencimento;\u003C\/li\u003E\n                    \u003Cli\u003EData Entrada;\u003C\/li\u003E\n                    \u003Cli\u003EValor Emiss\u00E3o;\u003C\/li\u003E\n                    \u003Cli\u003EValor Mercadoria.\u003C\/li\u003E\n                \u003C\/ul\u003E\n    \u003C\/div\u003E\n\n    \u003C!---------------------- MAPA PARA CADASTRO ----------------------\u003E\n    \u003Cdiv style=\"display: flex; justify-content: center; align-items: center; margin: 30px 0px 20px 0px;\"\u003E\n        \u003Cimg src=\"#APP_FILES#mapas\/map_item.png\" alt=\"Item\"\u003E\n    \u003C\/div\u003E\n\n\u003C\/div\u003E"
+        "HTML Code":"\u003Cp\u003E?????\u003C\/p\u003E"
+      }
+     ,"Layout":{
+        "Sequence":100
+       ,"Parent Region":"Cadastro de Par\u00E2metros (49080958751887577117)"
+       ,"Position":"SUB_REGIONS"
+       ,"Start New Layout":false
+       ,"Start New Row":true
+       ,"Column":"Automatic"
+       ,"New Column":true
+       ,"Column Span":"Automatic"
+      }
+     ,"Appearance":{
+        "Template":"Collapsible (47709754763113297300)"
+       ,"Template Options":[
+          "#DEFAULT#"
+         ,"is-collapsed"
+         ,"t-Region--noBorder"
+         ,"t-Region--scrollBody"
+        ]
+       ,"Render Components":"Above Content"
+      }
+     ,"Accessibility":{
+        "Use Landmark":true
+       ,"Landmark Type":"Template Default"
+      }
+     ,"Advanced":{
+        "Region Display Selector":false
+       ,"Exclude Title from Translation":false
+      }
+     ,"Server Cache":{
+        "Caching":"Disabled"
+      }
+     ,"Customization":{
+        "Customizable":"Not Customizable By End Users"
+      }
+     ,"Attributes":{
+        "Settings":{
+          "Output As":"HTML"
+         ,"Expand Shortcuts":false
+        }
+      }
+    }
+   ,{
+      "id":"39423910775901456836"
+     ,"Identification":{
+        "Title":"Par\u00E2metros de Pagamentos"
+       ,"Type":"Static Content"
+      }
+     ,"Source":{
+        "HTML Code":"\u003Cp\u003E?????\u003C\/p\u003E"
       }
      ,"Layout":{
         "Sequence":130
@@ -1969,62 +2648,6 @@
       }
      ,"Customization":{
         "Customizable":"Not Customizable By End Users"
-      }
-     ,"Configuration":{
-        "Build Option":"Comentado (47708896794149297271)"
-      }
-     ,"Attributes":{
-        "Settings":{
-          "Output As":"HTML"
-         ,"Expand Shortcuts":false
-        }
-      }
-    }
-   ,{
-      "id":"39423910775901456836"
-     ,"Identification":{
-        "Title":"Par\u00E2metros de Pagamentos"
-       ,"Type":"Static Content"
-      }
-     ,"Source":{
-        "HTML Code":"\u003C!--    CRIADO POR: Daniela Neutzling - 10\/11\/2023\n    \n    \u00DALTIMA ATUALIZA\u00C7\u00C3O:\n        Nome: \n        Data: \n--\u003E\n\n\u003Cstyle\u003E\n    .div *:not(h3,u,b,i) {\n        margin-left: 20px;\n    }\n\u003C\/style\u003E\n\n\u003Cdiv\u003E\n    \u003Cp\u003E\u003Cb\u003ECaminho: \u003Ci\u003EM\u00F3dulo \/ Nome da P\u00E1gina\u003C\/i\u003E\u003C\/b\u003E\u003C\/p\u003E\n\n    \u003C!-- Informar se \u00E9 p\u00E1gina de relat\u00F3rio e\/ou manuten\u00E7\u00E3o --\u003E\n    \u003Cp\u003E P\u00E1gina dividida entre relat\u00F3rio e manuten\u00E7\u00E3o de dados.\u003C\/p\u003E\n\n    \u003C!-- Explicar qual o objetivo da p\u00E1gina \/ para que serve --\u003E\n    \u003Cp\u003E P\u00E1gina destinada \u00E0 consulta, inclus\u00E3o, altera\u00E7\u00E3o, exclus\u00E3o e visualiza\u00E7\u00E3o detalhada de documentos a pagar.\n        \u003Cbr\u003E A sele\u00E7\u00E3o \u00E9 ocorre atrav\u00E9s dos filtros para busca de t\u00EDtulos.\n    \u003C\/p\u003E\n\n    \u003C!---------------------- RELAT\u00D3RIO ----------------------\u003E\n    \u003Cdiv class=\"div\"\u003E\n        \u003Ch3\u003ERelat\u00F3rio\u003C\/h3\u003E\n            \u003C!-- Informar caso haja campos obrigat\u00F3rios para gera\u00E7\u00E3o do relat\u00F3rio ou alguma outra especifica\u00E7\u00E3o --\u003E\n            \u003Cp\u003ELista informa\u00E7\u00F5es referentes aos documentos listados conforme filtros escolhidos. Por default, 3 op\u00E7\u00F5es de layout s\u00E3o disponibilizadas:\u003C\/p\u003E\n                \u003Cul\u003E\n                    \u003Cli\u003EGeral;\u003C\/li\u003E\n                    \u003Cli\u003EPor Fornecedor;\u003C\/li\u003E\n                    \u003Cli\u003EPor data de Vencimento.\u003C\/li\u003E\n                \u003C\/ul\u003E\n            \n            \u003C!-- Caso o relat\u00F3rio possua bot\u00F5es interativo, explicar cada um deles (o que faz \/ para que serve) --\u003E\n            \u003Cp\u003EO bot\u00E3o rela\u00E7\u00E3o no relat\u00F3rio de documentos \u00E9 um desvio para as rela\u00E7\u00F5es do documento, possibilitando seu detalhamento:\u003C\/p\u003E\n                \u003Cul\u003E\n                    \u003Cli\u003EFornecedor;\u003C\/li\u003E\n                    \u003Cli\u003ENota Fiscal de Entrada;\u003C\/li\u003E\n                    \u003Cli\u003EPedido de Compra;\u003C\/li\u003E\n                    \u003Cli\u003EPagamentos.\u003C\/li\u003E\n                \u003C\/ul\u003E\n    \u003C\/div\u003E\n\n    \u003C!---------------------- MANUTEN\u00C7\u00C3O ----------------------\u003E\n    \u003Cdiv class=\"div\"\u003E\n        \u003Ch3\u003EManuten\u00E7\u00E3o\u003C\/h3\u003E\n            \u003Cp\u003EP\u00E1gina para inclus\u00E3o ou altera\u00E7\u00E3o de documentos.\u003C\/p\u003E\n\n            \u003C!-- Informar caso n\u00E3o seja poss\u00EDvel alterar\/excluir dados ap\u00F3s confirmar\/salvar\n                Informar campos obrigat\u00F3rios e funcionalidade da p\u00E1gina (caso haja algo especifico) --\u003E\n            \u003Cp\u003ECampos obrigat\u00F3rios:\u003C\/p\u003E\n                \u003Cul\u003E\n                    \u003Cli\u003ETipo Documento;\u003C\/li\u003E\n                    \u003Cli\u003EN\u00FAmero documento;\u003C\/li\u003E\n                    \u003Cli\u003EParcela;\u003C\/li\u003E\n                    \u003Cli\u003EFornecedor;\u003C\/li\u003E\n                    \u003Cli\u003EData Emiss\u00E3o;\u003C\/li\u003E\n                    \u003Cli\u003EData Vencimento;\u003C\/li\u003E\n                    \u003Cli\u003EData Entrada;\u003C\/li\u003E\n                    \u003Cli\u003EValor Emiss\u00E3o;\u003C\/li\u003E\n                    \u003Cli\u003EValor Mercadoria.\u003C\/li\u003E\n                \u003C\/ul\u003E\n    \u003C\/div\u003E\n\n    \u003C!---------------------- MAPA PARA CADASTRO ----------------------\u003E\n    \u003Cdiv style=\"display: flex; justify-content: center; align-items: center; margin: 30px 0px 20px 0px;\"\u003E\n        \u003Cimg src=\"#APP_FILES#mapas\/map_item.png\" alt=\"Item\"\u003E\n    \u003C\/div\u003E\n\n\u003C\/div\u003E"
-      }
-     ,"Layout":{
-        "Sequence":180
-       ,"Parent Region":"Cadastro de Par\u00E2metros (49080958751887577117)"
-       ,"Position":"SUB_REGIONS"
-       ,"Start New Layout":false
-       ,"Start New Row":true
-       ,"Column":"Automatic"
-       ,"New Column":true
-       ,"Column Span":"Automatic"
-      }
-     ,"Appearance":{
-        "Template":"Collapsible (47709754763113297300)"
-       ,"Template Options":[
-          "#DEFAULT#"
-         ,"is-collapsed"
-         ,"t-Region--noBorder"
-         ,"t-Region--scrollBody"
-        ]
-       ,"Render Components":"Above Content"
-      }
-     ,"Accessibility":{
-        "Use Landmark":true
-       ,"Landmark Type":"Template Default"
-      }
-     ,"Advanced":{
-        "Region Display Selector":false
-       ,"Exclude Title from Translation":false
-      }
-     ,"Server Cache":{
-        "Caching":"Disabled"
-      }
-     ,"Customization":{
-        "Customizable":"Not Customizable By End Users"
-      }
-     ,"Configuration":{
-        "Build Option":"Comentado (47708896794149297271)"
       }
      ,"Attributes":{
         "Settings":{
@@ -2605,7 +3228,7 @@
        ,"Type":"Static Content"
       }
      ,"Layout":{
-        "Sequence":145
+        "Sequence":40
        ,"Parent Region":"No Parent"
        ,"Position":"BODY"
        ,"Start New Layout":false
@@ -4454,7 +5077,7 @@
        ,"Type":"Static Content"
       }
      ,"Layout":{
-        "Sequence":155
+        "Sequence":50
        ,"Parent Region":"No Parent"
        ,"Position":"BODY"
        ,"Start New Layout":false
@@ -4509,7 +5132,7 @@
         "HTML Code":"\u003Cp\u003EConsiste no registro e organiza\u00E7\u00E3o dos crit\u00E9rios para as configura\u00E7\u00F5es espec\u00EDficas do \u003Cb\u003Esetor de Compras\u003C\/b\u003E da empresa.\u003C\/p\u003E\n"
       }
      ,"Layout":{
-        "Sequence":90
+        "Sequence":30
        ,"Parent Region":"Cadastro de Par\u00E2metros (49080958751887577117)"
        ,"Position":"SUB_REGIONS"
        ,"Start New Layout":false
@@ -4559,7 +5182,7 @@
         "HTML Code":"\u003Cp\u003EConsiste no registro e organiza\u00E7\u00E3o dos crit\u00E9rios para as configura\u00E7\u00F5es espec\u00EDficas da empresa para realizar um \u003Cb\u003EOr\u00E7amento\u003C\/b\u003E.\u003C\/p\u003E"
       }
      ,"Layout":{
-        "Sequence":170
+        "Sequence":120
        ,"Parent Region":"Cadastro de Par\u00E2metros (49080958751887577117)"
        ,"Position":"SUB_REGIONS"
        ,"Start New Layout":false
@@ -4609,7 +5232,7 @@
         "HTML Code":"\u003Cp\u003EConsiste no registro e organiza\u00E7\u00E3o dos crit\u00E9rios para as configura\u00E7\u00F5es espec\u00EDficas do \u003Cb\u003Esetor de Estoque\u003C\/b\u003E da empresa.\u003C\/p\u003E\n"
       }
      ,"Layout":{
-        "Sequence":110
+        "Sequence":80
        ,"Parent Region":"Cadastro de Par\u00E2metros (49080958751887577117)"
        ,"Position":"SUB_REGIONS"
        ,"Start New Layout":false
@@ -4659,7 +5282,7 @@
         "HTML Code":"\u003Cp\u003EConsiste no registro e organiza\u00E7\u00E3o dos crit\u00E9rios para as configura\u00E7\u00F5es espec\u00EDficas da empresa para realizar um \u003Cb\u003Ecadastro de uma Pessoa\u003C\/b\u003E.\u003C\/p\u003E"
       }
      ,"Layout":{
-        "Sequence":210
+        "Sequence":150
        ,"Parent Region":"Cadastro de Par\u00E2metros (49080958751887577117)"
        ,"Position":"SUB_REGIONS"
        ,"Start New Layout":false
@@ -4709,7 +5332,7 @@
         "HTML Code":"\u003C!--    CRIADO POR: Daniela Neutzling - 10\/11\/2023\n    \n    \u00DALTIMA ATUALIZA\u00C7\u00C3O:\n        Nome: \n        Data: \n--\u003E\n\n\u003Cstyle\u003E\n    .div *:not(h3,u,b,i) {\n        margin-left: 20px;\n    }\n\u003C\/style\u003E\n\n\u003Cdiv\u003E\n    \u003Cp\u003E\u003Cb\u003ECaminho: \u003Ci\u003ECadastro de Par\u00E2metros \/ Par\u00E2metro de Engenharia\u003C\/i\u003E\u003C\/b\u003E\u003C\/p\u003E\n\n    \u003C!-- Informar se \u00E9 p\u00E1gina de relat\u00F3rio e\/ou manuten\u00E7\u00E3o --\u003E\n    \u003Cp\u003E P\u00E1gina dividida entre relat\u00F3rio e manuten\u00E7\u00E3o de dados.\u003C\/p\u003E\n\n    \u003C!-- Explicar qual o objetivo da p\u00E1gina \/ para que serve --\u003E\n    \u003Cp\u003E P\u00E1gina destinada \u00E0 consulta, inclus\u00E3o, altera\u00E7\u00E3o, exclus\u00E3o e visualiza\u00E7\u00E3o detalhada dos par\u00E2metros de engenharia.\n    \u003C\/p\u003E\n\n    \u003C!---------------------- RELAT\u00D3RIO ----------------------\u003E\n    \u003Cdiv class=\"div\"\u003E\n        \u003Ch3\u003ERelat\u00F3rio\u003C\/h3\u003E\n            \u003C!-- Informar caso haja campos obrigat\u00F3rios para gera\u00E7\u00E3o do relat\u00F3rio ou alguma outra especifica\u00E7\u00E3o --\u003E\n            \u003Cp\u003ELista informa\u00E7\u00F5es referentes aos par\u00E2metros listados.\u003C\/p\u003E\n    \u003C\/div\u003E\n\n    \u003C!---------------------- MANUTEN\u00C7\u00C3O ----------------------\u003E\n    \u003Cdiv class=\"div\"\u003E\n        \u003Ch3\u003EManuten\u00E7\u00E3o\u003C\/h3\u003E\n            \u003Cp\u003EP\u00E1gina para inclus\u00E3o ou altera\u00E7\u00E3o de par\u00E2metros de engenharia.\u003C\/p\u003E\n\n            \u003C!-- Informar caso n\u00E3o seja poss\u00EDvel alterar\/excluir dados ap\u00F3s confirmar\/salvar\n                Informar campos obrigat\u00F3rios e funcionalidade da p\u00E1gina (caso haja algo especifico) --\u003E\n            \u003Cp\u003ECampos obrigat\u00F3rios:\u003C\/p\u003E\n                \u003Cul\u003E\n                    \u003Cli\u003EFilial;\u003C\/li\u003E\n                    \u003Cli\u003EIndicador de Baixa;\u003C\/li\u003E\n                \u003C\/ul\u003E\n    \u003C\/div\u003E\n\u003C\/div\u003E"
       }
      ,"Layout":{
-        "Sequence":100
+        "Sequence":70
        ,"Parent Region":"Cadastro de Par\u00E2metros (49080958751887577117)"
        ,"Position":"SUB_REGIONS"
        ,"Start New Layout":false
@@ -4759,7 +5382,7 @@
         "HTML Code":"\u003Cp\u003EConsiste no registro e organiza\u00E7\u00E3o dos crit\u00E9rios para as configura\u00E7\u00F5es espec\u00EDficas do \u003Cb\u003Esetor de Faturamento\u003C\/b\u003E da empresa.\u003C\/p\u003E"
       }
      ,"Layout":{
-        "Sequence":120
+        "Sequence":90
        ,"Parent Region":"Cadastro de Par\u00E2metros (49080958751887577117)"
        ,"Position":"SUB_REGIONS"
        ,"Start New Layout":false
@@ -4809,7 +5432,7 @@
         "HTML Code":"\u003Cp\u003EConsiste no registro e organiza\u00E7\u00E3o dos crit\u00E9rios para as configura\u00E7\u00F5es espec\u00EDficas da empresa para realizar um \u003Cb\u003EPedido de Venda\u003C\/b\u003E.\u003C\/p\u003E"
       }
      ,"Layout":{
-        "Sequence":200
+        "Sequence":140
        ,"Parent Region":"Cadastro de Par\u00E2metros (49080958751887577117)"
        ,"Position":"SUB_REGIONS"
        ,"Start New Layout":false
@@ -4859,7 +5482,7 @@
         "HTML Code":"\u003C!--    CRIADO POR: Daniela Neutzling - 10\/11\/2023\n    \n    \u00DALTIMA ATUALIZA\u00C7\u00C3O:\n        Nome: \n        Data: \n--\u003E\n\n\u003Cstyle\u003E\n    .div *:not(h3,u,b,i) {\n        margin-left: 20px;\n    }\n\u003C\/style\u003E\n\n\u003Cdiv\u003E\n    \u003Cp\u003E\u003Cb\u003ECaminho: \u003Ci\u003ECadastro de Par\u00E2metros \/ Par\u00E2metro de Romaneio\u003C\/i\u003E\u003C\/b\u003E\u003C\/p\u003E\n\n    \u003C!-- Informar se \u00E9 p\u00E1gina de relat\u00F3rio e\/ou manuten\u00E7\u00E3o --\u003E\n    \u003Cp\u003E P\u00E1gina dividida entre relat\u00F3rio e manuten\u00E7\u00E3o de dados.\u003C\/p\u003E\n\n    \u003C!-- Explicar qual o objetivo da p\u00E1gina \/ para que serve --\u003E\n    \u003Cp\u003E P\u00E1gina destinada \u00E0 consulta, inclus\u00E3o, altera\u00E7\u00E3o, exclus\u00E3o e visualiza\u00E7\u00E3o detalhada dos par\u00E2metros de Romaneio.\n    \u003C\/p\u003E\n\n    \u003C!---------------------- RELAT\u00D3RIO ----------------------\u003E\n    \u003Cdiv class=\"div\"\u003E\n        \u003Ch3\u003ERelat\u00F3rio\u003C\/h3\u003E\n            \u003C!-- Informar caso haja campos obrigat\u00F3rios para gera\u00E7\u00E3o do relat\u00F3rio ou alguma outra especifica\u00E7\u00E3o --\u003E\n            \u003Cp\u003ELista informa\u00E7\u00F5es referentes aos par\u00E2metros listados.\u003C\/p\u003E\n    \u003C\/div\u003E\n\n    \u003C!---------------------- MANUTEN\u00C7\u00C3O ----------------------\u003E\n    \u003Cdiv class=\"div\"\u003E\n        \u003Ch3\u003EManuten\u00E7\u00E3o\u003C\/h3\u003E\n            \u003Cp\u003EP\u00E1gina para inclus\u00E3o ou altera\u00E7\u00E3o de par\u00E2metros de Romaneio.\u003C\/p\u003E\n\n            \u003C!-- Informar caso n\u00E3o seja poss\u00EDvel alterar\/excluir dados ap\u00F3s confirmar\/salvar\n                Informar campos obrigat\u00F3rios e funcionalidade da p\u00E1gina (caso haja algo especifico) --\u003E\n            \u003Cp\u003ECampos obrigat\u00F3rios:\u003C\/p\u003E\n                \u003Cul\u003E\n                    \u003Cli\u003EFilial;\u003C\/li\u003E\n                    \u003Cli\u003E\u00DAltimo Romaneio;\u003C\/li\u003E\n                \u003C\/ul\u003E\n    \u003C\/div\u003E\n\u003C\/div\u003E"
       }
      ,"Layout":{
-        "Sequence":220
+        "Sequence":170
        ,"Parent Region":"Cadastro de Par\u00E2metros (49080958751887577117)"
        ,"Position":"SUB_REGIONS"
        ,"Start New Layout":false
@@ -5804,11 +6427,11 @@
    ,{
       "id":"49080961631326577146"
      ,"Identification":{
-        "Title":"Empresa"
+        "Title":"Al\u00E7adas de Aprova\u00E7\u00E3o"
        ,"Type":"Static Content"
       }
      ,"Source":{
-        "HTML Code":"\u003Cp\u003EConsiste nos dados gerais da empresa e defini\u00E7\u00E3o de alguns par\u00E2metros espec\u00EDficos.\u003C\/p\u003E"
+        "HTML Code":"\u003Cp\u003E?????\u003C\/p\u003E"
       }
      ,"Layout":{
         "Sequence":10
@@ -5861,7 +6484,7 @@
         "HTML Code":"\u003Cp\u003EConsiste nos dados da filial da empresa.\u003C\/p\u003E"
       }
      ,"Layout":{
-        "Sequence":10
+        "Sequence":30
        ,"Parent Region":"Administra\u00E7\u00E3o (16035527129131589513)"
        ,"Position":"SUB_REGIONS"
        ,"Start New Layout":false
@@ -5911,7 +6534,7 @@
         "HTML Code":"\u003Cp\u003ETem o objetivo de facilitar a libera\u00E7\u00E3o ou restri\u00E7\u00E3o dos usu\u00E1rios a determinadas telas do sistema.\u003C\/p\u003E"
       }
      ,"Layout":{
-        "Sequence":10
+        "Sequence":70
        ,"Parent Region":"Administra\u00E7\u00E3o (16035527129131589513)"
        ,"Position":"SUB_REGIONS"
        ,"Start New Layout":false
@@ -5961,7 +6584,7 @@
         "HTML Code":"\u003Cp\u003EConsiste nos dados do usu\u00E1rio, defini\u00E7\u00E3o de permiss\u00F5es de tela e libera\u00E7\u00E3o de filial(ais).\u003C\/p\u003E\n\u003Cp\u003ELocal onde s\u00E3o cadastrados os novos usu\u00E1rios do sistema.\u003C\/p\u003E"
       }
      ,"Layout":{
-        "Sequence":10
+        "Sequence":80
        ,"Parent Region":"Administra\u00E7\u00E3o (16035527129131589513)"
        ,"Position":"SUB_REGIONS"
        ,"Start New Layout":false
@@ -6011,7 +6634,7 @@
         "HTML Code":"\u003Cp\u003EConsiste na altera\u00E7\u00E3o dos dados do usu\u00E1rio logado e suas prefer\u00EAncias de uso.\u003C\/p\u003E"
       }
      ,"Layout":{
-        "Sequence":10
+        "Sequence":90
        ,"Parent Region":"Administra\u00E7\u00E3o (16035527129131589513)"
        ,"Position":"SUB_REGIONS"
        ,"Start New Layout":false
@@ -6061,7 +6684,7 @@
         "HTML Code":"\u003Cp\u003ETem o objetivo de alterar a senha do usu\u00E1rio logado.\u003C\/p\u003E"
       }
      ,"Layout":{
-        "Sequence":10
+        "Sequence":100
        ,"Parent Region":"Administra\u00E7\u00E3o (16035527129131589513)"
        ,"Position":"SUB_REGIONS"
        ,"Start New Layout":false
@@ -6104,14 +6727,14 @@
    ,{
       "id":"49351585837637027003"
      ,"Identification":{
-        "Title":"Grupos \/ Usu\u00E1rio"
+        "Title":"Grupo\/Usu\u00E1rio"
        ,"Type":"Static Content"
       }
      ,"Source":{
         "HTML Code":"\u003Cp\u003EConsiste no cadastro de Grupos de Usu\u00E1rio para ???????????????????????????????????????\u003C\/p\u003E"
       }
      ,"Layout":{
-        "Sequence":10
+        "Sequence":40
        ,"Parent Region":"Administra\u00E7\u00E3o (16035527129131589513)"
        ,"Position":"SUB_REGIONS"
        ,"Start New Layout":false
@@ -6413,7 +7036,7 @@
         "HTML Code":"\u003Cdiv style=\"width: 900px; heigth: auto; margin: 0 auto; padding: 0px;\"\u003E\n    \u003Cimg src=\"#APP_FILES#help\/suporte_detalhe_modulo.png\" alt=\"Imagem de Suporte\" style=\"width: 100%;\"\u003E\n\u003C\/div\u003E\n\n\u003Cdiv style=\"margin-top:10px;\"\u003E\n    \u003Cinput id=\"pesquisar-help\" type=\"text\" name=\"search\" placeholder=\"Pesquisar\"\n    style=\"margin:0% 0% 1.5% 1%; padding:8px; border:1px solid #ccc; border-radius:5px; width:600px;\"\n    \/\u003E\n\u003C\/div\u003E"
       }
      ,"Layout":{
-        "Sequence":30
+        "Sequence":10
        ,"Parent Region":"No Parent"
        ,"Position":"BODY"
        ,"Start New Layout":false
@@ -6907,7 +7530,7 @@
        ,"Type":"Static Content"
       }
      ,"Layout":{
-        "Sequence":165
+        "Sequence":60
        ,"Parent Region":"No Parent"
        ,"Position":"BODY"
        ,"Start New Layout":false
@@ -7012,7 +7635,7 @@
         "HTML Code":"\u003Cp\u003EConsiste em realizar um pedido de venda.\u003C\/p\u003E"
       }
      ,"Layout":{
-        "Sequence":50
+        "Sequence":60
        ,"Parent Region":"Compras (49351590353764027048)"
        ,"Position":"SUB_REGIONS"
        ,"Start New Layout":false
@@ -7062,7 +7685,7 @@
         "HTML Code":"\u003Cp\u003EConsiste em realizar uma solicita\u00E7\u00E3o de compra.\u003C\/p\u003E"
       }
      ,"Layout":{
-        "Sequence":70
+        "Sequence":80
        ,"Parent Region":"Compras (49351590353764027048)"
        ,"Position":"SUB_REGIONS"
        ,"Start New Layout":false
@@ -7561,7 +8184,7 @@
         "HTML Code":"\u003Cp\u003EConsiste em realizar uma pr\u00E9 nota fiscal de entrada.\u003C\/p\u003E"
       }
      ,"Layout":{
-        "Sequence":60
+        "Sequence":70
        ,"Parent Region":"Compras (49351590353764027048)"
        ,"Position":"SUB_REGIONS"
        ,"Start New Layout":false
@@ -8415,7 +9038,7 @@
         "HTML Code":"\u003C!--    CRIADO POR: Daniela Neutzling - 10\/11\/2023\n    \n    \u00DALTIMA ATUALIZA\u00C7\u00C3O:\n        Nome: \n        Data: \n--\u003E\n\n\u003Cstyle\u003E\n    .div *:not(h3,u,b,i) {\n        margin-left: 20px;\n    }\n\u003C\/style\u003E\n\n\u003Cdiv\u003E\n    \u003Cp\u003E\u003Cb\u003ECaminho: \u003Ci\u003EM\u00F3dulo \/ Nome da P\u00E1gina\u003C\/i\u003E\u003C\/b\u003E\u003C\/p\u003E\n\n    \u003C!-- Informar se \u00E9 p\u00E1gina de relat\u00F3rio e\/ou manuten\u00E7\u00E3o --\u003E\n    \u003Cp\u003E P\u00E1gina dividida entre relat\u00F3rio e manuten\u00E7\u00E3o de dados.\u003C\/p\u003E\n\n    \u003C!-- Explicar qual o objetivo da p\u00E1gina \/ para que serve --\u003E\n    \u003Cp\u003E P\u00E1gina destinada \u00E0 consulta, inclus\u00E3o, altera\u00E7\u00E3o, exclus\u00E3o e visualiza\u00E7\u00E3o detalhada de documentos a pagar.\n        \u003Cbr\u003E A sele\u00E7\u00E3o \u00E9 ocorre atrav\u00E9s dos filtros para busca de t\u00EDtulos.\n    \u003C\/p\u003E\n\n    \u003C!---------------------- RELAT\u00D3RIO ----------------------\u003E\n    \u003Cdiv class=\"div\"\u003E\n        \u003Ch3\u003ERelat\u00F3rio\u003C\/h3\u003E\n            \u003C!-- Informar caso haja campos obrigat\u00F3rios para gera\u00E7\u00E3o do relat\u00F3rio ou alguma outra especifica\u00E7\u00E3o --\u003E\n            \u003Cp\u003ELista informa\u00E7\u00F5es referentes aos documentos listados conforme filtros escolhidos. Por default, 3 op\u00E7\u00F5es de layout s\u00E3o disponibilizadas:\u003C\/p\u003E\n                \u003Cul\u003E\n                    \u003Cli\u003EGeral;\u003C\/li\u003E\n                    \u003Cli\u003EPor Fornecedor;\u003C\/li\u003E\n                    \u003Cli\u003EPor data de Vencimento.\u003C\/li\u003E\n                \u003C\/ul\u003E\n            \n            \u003C!-- Caso o relat\u00F3rio possua bot\u00F5es interativo, explicar cada um deles (o que faz \/ para que serve) --\u003E\n            \u003Cp\u003EO bot\u00E3o rela\u00E7\u00E3o no relat\u00F3rio de documentos \u00E9 um desvio para as rela\u00E7\u00F5es do documento, possibilitando seu detalhamento:\u003C\/p\u003E\n                \u003Cul\u003E\n                    \u003Cli\u003EFornecedor;\u003C\/li\u003E\n                    \u003Cli\u003ENota Fiscal de Entrada;\u003C\/li\u003E\n                    \u003Cli\u003EPedido de Compra;\u003C\/li\u003E\n                    \u003Cli\u003EPagamentos.\u003C\/li\u003E\n                \u003C\/ul\u003E\n    \u003C\/div\u003E\n\n    \u003C!---------------------- MANUTEN\u00C7\u00C3O ----------------------\u003E\n    \u003Cdiv class=\"div\"\u003E\n        \u003Ch3\u003EManuten\u00E7\u00E3o\u003C\/h3\u003E\n            \u003Cp\u003EP\u00E1gina para inclus\u00E3o ou altera\u00E7\u00E3o de documentos.\u003C\/p\u003E\n\n            \u003C!-- Informar caso n\u00E3o seja poss\u00EDvel alterar\/excluir dados ap\u00F3s confirmar\/salvar\n                Informar campos obrigat\u00F3rios e funcionalidade da p\u00E1gina (caso haja algo especifico) --\u003E\n            \u003Cp\u003ECampos obrigat\u00F3rios:\u003C\/p\u003E\n                \u003Cul\u003E\n                    \u003Cli\u003ETipo Documento;\u003C\/li\u003E\n                    \u003Cli\u003EN\u00FAmero documento;\u003C\/li\u003E\n                    \u003Cli\u003EParcela;\u003C\/li\u003E\n                    \u003Cli\u003EFornecedor;\u003C\/li\u003E\n                    \u003Cli\u003EData Emiss\u00E3o;\u003C\/li\u003E\n                    \u003Cli\u003EData Vencimento;\u003C\/li\u003E\n                    \u003Cli\u003EData Entrada;\u003C\/li\u003E\n                    \u003Cli\u003EValor Emiss\u00E3o;\u003C\/li\u003E\n                    \u003Cli\u003EValor Mercadoria.\u003C\/li\u003E\n                \u003C\/ul\u003E\n    \u003C\/div\u003E\n\n    \u003C!---------------------- MAPA PARA CADASTRO ----------------------\u003E\n    \u003Cdiv style=\"display: flex; justify-content: center; align-items: center; margin: 30px 0px 20px 0px;\"\u003E\n        \u003Cimg src=\"#APP_FILES#mapas\/map_item.png\" alt=\"Item\"\u003E\n    \u003C\/div\u003E\n\n\u003C\/div\u003E"
       }
      ,"Layout":{
-        "Sequence":55
+        "Sequence":20
        ,"Parent Region":"No Parent"
        ,"Position":"BODY"
        ,"Start New Layout":false
@@ -8876,7 +9499,7 @@
         "Value Protected":false
       }
      ,"Layout":{
-        "Sequence":45
+        "Sequence":5
        ,"Region":"No Parent"
        ,"Position":"BODY"
       }
