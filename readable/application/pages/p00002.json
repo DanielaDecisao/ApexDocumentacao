@@ -47,6 +47,210 @@
   }
  ,"Regions":[
     {
+      "id":"24507260259210857652"
+     ,"Identification":{
+        "Title":"Configurador do Produto"
+       ,"Type":"Static Content"
+      }
+     ,"Layout":{
+        "Sequence":175
+       ,"Parent Region":"No Parent"
+       ,"Position":"BODY"
+       ,"Start New Layout":false
+       ,"Start New Row":true
+       ,"Column":"2"
+       ,"New Column":true
+       ,"Column Span":"7"
+      }
+     ,"Appearance":{
+        "Template":"Standard (47709802464834297321)"
+       ,"Template Options":[
+          "#DEFAULT#"
+         ,"t-Region--removeHeader js-removeLandmark"
+         ,"t-Region--textContent"
+         ,"t-Region--scrollBody"
+        ]
+       ,"Render Components":"Above Content"
+      }
+     ,"Accessibility":{
+        "Use Landmark":true
+       ,"Landmark Type":"Template Default"
+      }
+     ,"Advanced":{
+        "Region Display Selector":false
+       ,"Exclude Title from Translation":false
+      }
+     ,"Server-side Condition":{
+        "Type":"Item = Value"
+       ,"Item":"P2_IN_MODULO"
+       ,"Value":"CFG"
+      }
+     ,"Server Cache":{
+        "Caching":"Disabled"
+      }
+     ,"Customization":{
+        "Customizable":"Not Customizable By End Users"
+      }
+     ,"Attributes":{
+        "Settings":{
+          "Output As":"HTML"
+         ,"Expand Shortcuts":false
+        }
+      }
+    }
+   ,{
+      "id":"24507260024816857650"
+     ,"Identification":{
+        "Title":"Fluxo de Caixa"
+       ,"Type":"Static Content"
+      }
+     ,"Layout":{
+        "Sequence":215
+       ,"Parent Region":"No Parent"
+       ,"Position":"BODY"
+       ,"Start New Layout":false
+       ,"Start New Row":true
+       ,"Column":"2"
+       ,"New Column":true
+       ,"Column Span":"7"
+      }
+     ,"Appearance":{
+        "Template":"Standard (47709802464834297321)"
+       ,"Template Options":[
+          "#DEFAULT#"
+         ,"t-Region--removeHeader js-removeLandmark"
+         ,"t-Region--textContent"
+         ,"t-Region--scrollBody"
+        ]
+       ,"Render Components":"Above Content"
+      }
+     ,"Accessibility":{
+        "Use Landmark":true
+       ,"Landmark Type":"Template Default"
+      }
+     ,"Advanced":{
+        "Region Display Selector":false
+       ,"Exclude Title from Translation":false
+      }
+     ,"Server-side Condition":{
+        "Type":"Item = Value"
+       ,"Item":"P2_IN_MODULO"
+       ,"Value":"FLUXO"
+      }
+     ,"Server Cache":{
+        "Caching":"Disabled"
+      }
+     ,"Customization":{
+        "Customizable":"Not Customizable By End Users"
+      }
+     ,"Attributes":{
+        "Settings":{
+          "Output As":"HTML"
+         ,"Expand Shortcuts":false
+        }
+      }
+    }
+   ,{
+      "id":"24507259907375857649"
+     ,"Identification":{
+        "Title":"Virada de Estoque e Abertura de M\u00EAs"
+       ,"Type":"Static Content"
+      }
+     ,"Source":{
+        "HTML Code":"\u003Cp\u003EConsiste em um processo com o objetivo de fazer a virada de estoque e abertura de meses simultaneamente, de acordo com a filial informada.\u003C\/p\u003E"
+      }
+     ,"Layout":{
+        "Sequence":10
+       ,"Parent Region":"Fluxo de Caixa (24507260024816857650)"
+       ,"Position":"SUB_REGIONS"
+       ,"Start New Layout":false
+       ,"Start New Row":true
+       ,"Column":"Automatic"
+       ,"New Column":true
+       ,"Column Span":"Automatic"
+      }
+     ,"Appearance":{
+        "Template":"Collapsible (47709754763113297300)"
+       ,"Template Options":[
+          "#DEFAULT#"
+         ,"is-collapsed"
+         ,"t-Region--noBorder"
+         ,"t-Region--scrollBody"
+        ]
+       ,"Render Components":"Above Content"
+      }
+     ,"Accessibility":{
+        "Use Landmark":true
+       ,"Landmark Type":"Template Default"
+      }
+     ,"Advanced":{
+        "Region Display Selector":false
+       ,"Exclude Title from Translation":false
+      }
+     ,"Server Cache":{
+        "Caching":"Disabled"
+      }
+     ,"Customization":{
+        "Customizable":"Not Customizable By End Users"
+      }
+     ,"Attributes":{
+        "Settings":{
+          "Output As":"HTML"
+         ,"Expand Shortcuts":false
+        }
+      }
+    }
+   ,{
+      "id":"24507259835474857648"
+     ,"Identification":{
+        "Title":"Solicita\u00E7\u00E3o de Compra"
+       ,"Type":"Static Content"
+      }
+     ,"Source":{
+        "HTML Code":"\u003Cp\u003EConsiste em realizar uma solicita\u00E7\u00E3o de compra.\u003C\/p\u003E"
+      }
+     ,"Layout":{
+        "Sequence":10
+       ,"Parent Region":"Configurador do Produto (24507260259210857652)"
+       ,"Position":"SUB_REGIONS"
+       ,"Start New Layout":false
+       ,"Start New Row":true
+       ,"Column":"Automatic"
+       ,"New Column":true
+       ,"Column Span":"Automatic"
+      }
+     ,"Appearance":{
+        "Template":"Collapsible (47709754763113297300)"
+       ,"Template Options":[
+          "#DEFAULT#"
+         ,"is-collapsed"
+         ,"t-Region--noBorder"
+         ,"t-Region--scrollBody"
+        ]
+       ,"Render Components":"Above Content"
+      }
+     ,"Accessibility":{
+        "Use Landmark":true
+       ,"Landmark Type":"Template Default"
+      }
+     ,"Advanced":{
+        "Region Display Selector":false
+       ,"Exclude Title from Translation":false
+      }
+     ,"Server Cache":{
+        "Caching":"Disabled"
+      }
+     ,"Customization":{
+        "Customizable":"Not Customizable By End Users"
+      }
+     ,"Attributes":{
+        "Settings":{
+          "Output As":"HTML"
+         ,"Expand Shortcuts":false
+        }
+      }
+    }
+   ,{
       "id":"14637408333298802101"
      ,"Identification":{
         "Title":"Estorno de Substitui\u00E7\u00E3o"
@@ -355,7 +559,7 @@
        ,"Type":"Static Content"
       }
      ,"Layout":{
-        "Sequence":175
+        "Sequence":185
        ,"Parent Region":"No Parent"
        ,"Position":"BODY"
        ,"Start New Layout":false
@@ -407,7 +611,7 @@
        ,"Type":"Static Content"
       }
      ,"Layout":{
-        "Sequence":215
+        "Sequence":235
        ,"Parent Region":"No Parent"
        ,"Position":"BODY"
        ,"Start New Layout":false
@@ -4702,7 +4906,7 @@
        ,"Type":"Static Content"
       }
      ,"Layout":{
-        "Sequence":195
+        "Sequence":205
        ,"Parent Region":"No Parent"
        ,"Position":"BODY"
        ,"Start New Layout":false
@@ -5954,7 +6158,7 @@
        ,"Type":"Static Content"
       }
      ,"Layout":{
-        "Sequence":235
+        "Sequence":255
        ,"Parent Region":"No Parent"
        ,"Position":"BODY"
        ,"Start New Layout":false
@@ -6758,7 +6962,7 @@
         "HTML Code":"\u003Cp\u003EConsiste na libera\u00E7\u00E3o ou cancelamento de solicita\u00E7\u00F5es de compra que est\u00E3o pendentes.\u003C\/p\u003E"
       }
      ,"Layout":{
-        "Sequence":30
+        "Sequence":40
        ,"Parent Region":"Compras (49351590353764027048)"
        ,"Position":"SUB_REGIONS"
        ,"Start New Layout":false
@@ -6808,7 +7012,7 @@
         "HTML Code":"\u003Cp\u003EConsiste em realizar um pedido de venda.\u003C\/p\u003E"
       }
      ,"Layout":{
-        "Sequence":40
+        "Sequence":50
        ,"Parent Region":"Compras (49351590353764027048)"
        ,"Position":"SUB_REGIONS"
        ,"Start New Layout":false
@@ -6858,7 +7062,7 @@
         "HTML Code":"\u003Cp\u003EConsiste em realizar uma solicita\u00E7\u00E3o de compra.\u003C\/p\u003E"
       }
      ,"Layout":{
-        "Sequence":60
+        "Sequence":70
        ,"Parent Region":"Compras (49351590353764027048)"
        ,"Position":"SUB_REGIONS"
        ,"Start New Layout":false
@@ -7002,7 +7206,7 @@
        ,"Type":"Static Content"
       }
      ,"Layout":{
-        "Sequence":205
+        "Sequence":225
        ,"Parent Region":"No Parent"
        ,"Position":"BODY"
        ,"Start New Layout":false
@@ -7307,7 +7511,7 @@
         "HTML Code":"\u003Cp\u003E\nConsiste em um \u003Cb\u003Erelat\u00F3rio de pedidos\u003C\/b\u003E de compra, com possibilidade de redirecionamento para:\n\u003Cul\u003E\n    \u003Cli\u003ENovo Pedido;\u003C\/li\u003E\n    \u003Cli\u003ENova Solicita\u00E7\u00E3o;\u003C\/li\u003E\n    \u003Cli\u003ENovo Cota\u00E7\u00E3o;\u003C\/li\u003E\n    \u003Cli\u003ENova Nota Fiscal de Entrada;\u003C\/li\u003E\n    \u003Cli\u003EDados de Fornecedores;\u003C\/li\u003E\n    \u003Cli\u003ERela\u00E7\u00E3o;\u003C\/li\u003E\n    \u003Cli\u003ELibera\u00E7\u00E3o de Solicita\u00E7\u00F5es.\u003C\/li\u003E\n\u003C\/ul\u003E\n\u003C\/p\u003E"
       }
      ,"Layout":{
-        "Sequence":20
+        "Sequence":30
        ,"Parent Region":"Compras (49351590353764027048)"
        ,"Position":"SUB_REGIONS"
        ,"Start New Layout":false
@@ -7357,7 +7561,7 @@
         "HTML Code":"\u003Cp\u003EConsiste em realizar uma pr\u00E9 nota fiscal de entrada.\u003C\/p\u003E"
       }
      ,"Layout":{
-        "Sequence":50
+        "Sequence":60
        ,"Parent Region":"Compras (49351590353764027048)"
        ,"Position":"SUB_REGIONS"
        ,"Start New Layout":false
@@ -7404,7 +7608,7 @@
        ,"Type":"Static Content"
       }
      ,"Layout":{
-        "Sequence":185
+        "Sequence":195
        ,"Parent Region":"No Parent"
        ,"Position":"BODY"
        ,"Start New Layout":false
@@ -7456,7 +7660,7 @@
        ,"Type":"Static Content"
       }
      ,"Layout":{
-        "Sequence":225
+        "Sequence":245
        ,"Parent Region":"No Parent"
        ,"Position":"BODY"
        ,"Start New Layout":false
