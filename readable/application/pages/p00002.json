@@ -153,11 +153,11 @@
    ,{
       "id":"24507259907375857649"
      ,"Identification":{
-        "Title":"Virada de Estoque e Abertura de M\u00EAs"
+        "Title":"Grupo de Fluxo"
        ,"Type":"Static Content"
       }
      ,"Source":{
-        "HTML Code":"\u003Cp\u003EConsiste em um processo com o objetivo de fazer a virada de estoque e abertura de meses simultaneamente, de acordo com a filial informada.\u003C\/p\u003E"
+        "HTML Code":"\u003Cp\u003E?????\u003C\/p\u003E"
       }
      ,"Layout":{
         "Sequence":10
@@ -901,6 +901,406 @@
       }
     }
    ,{
+      "id":"24507258502209857634"
+     ,"Identification":{
+        "Title":"Abertura de Meses"
+       ,"Type":"Static Content"
+      }
+     ,"Source":{
+        "HTML Code":"\u003Cp\u003E?????\u003C\/p\u003E"
+      }
+     ,"Layout":{
+        "Sequence":160
+       ,"Parent Region":"Contabilidade (16035528059478589522)"
+       ,"Position":"BODY"
+       ,"Start New Layout":false
+       ,"Start New Row":true
+       ,"Column":"Automatic"
+       ,"New Column":true
+       ,"Column Span":"Automatic"
+      }
+     ,"Appearance":{
+        "Template":"Collapsible (47709754763113297300)"
+       ,"Template Options":[
+          "#DEFAULT#"
+         ,"is-collapsed"
+         ,"t-Region--noBorder"
+         ,"t-Region--scrollBody"
+        ]
+       ,"Render Components":"Above Content"
+      }
+     ,"Accessibility":{
+        "Use Landmark":true
+       ,"Landmark Type":"Template Default"
+      }
+     ,"Advanced":{
+        "Region Display Selector":false
+       ,"Exclude Title from Translation":false
+      }
+     ,"Server Cache":{
+        "Caching":"Disabled"
+      }
+     ,"Customization":{
+        "Customizable":"Not Customizable By End Users"
+      }
+     ,"Attributes":{
+        "Settings":{
+          "Output As":"HTML"
+         ,"Expand Shortcuts":false
+        }
+      }
+    }
+   ,{
+      "id":"24507258304229857633"
+     ,"Identification":{
+        "Title":"Etiqueta de Itens"
+       ,"Type":"Static Content"
+      }
+     ,"Source":{
+        "HTML Code":"\u003Cp\u003E?????\u003C\/p\u003E"
+      }
+     ,"Layout":{
+        "Sequence":30
+       ,"Parent Region":"Estoque (49080959638798577126)"
+       ,"Position":"SUB_REGIONS"
+       ,"Start New Layout":false
+       ,"Start New Row":true
+       ,"Column":"Automatic"
+       ,"New Column":true
+       ,"Column Span":"Automatic"
+      }
+     ,"Appearance":{
+        "Template":"Collapsible (47709754763113297300)"
+       ,"Template Options":[
+          "#DEFAULT#"
+         ,"is-collapsed"
+         ,"t-Region--noBorder"
+         ,"t-Region--scrollBody"
+        ]
+       ,"Render Components":"Above Content"
+      }
+     ,"Accessibility":{
+        "Use Landmark":true
+       ,"Landmark Type":"Template Default"
+      }
+     ,"Advanced":{
+        "Region Display Selector":false
+       ,"Exclude Title from Translation":false
+      }
+     ,"Server Cache":{
+        "Caching":"Disabled"
+      }
+     ,"Customization":{
+        "Customizable":"Not Customizable By End Users"
+      }
+     ,"Attributes":{
+        "Settings":{
+          "Output As":"HTML"
+         ,"Expand Shortcuts":false
+        }
+      }
+    }
+   ,{
+      "id":"24507258232579857632"
+     ,"Identification":{
+        "Title":"Atualiza\u00E7\u00E3o de Tipo de Item"
+       ,"Type":"Static Content"
+      }
+     ,"Source":{
+        "HTML Code":"\u003Cp\u003E?????\u003C\/p\u003E"
+      }
+     ,"Layout":{
+        "Sequence":140
+       ,"Parent Region":"Estoque (49080959638798577126)"
+       ,"Position":"SUB_REGIONS"
+       ,"Start New Layout":false
+       ,"Start New Row":true
+       ,"Column":"Automatic"
+       ,"New Column":true
+       ,"Column Span":"Automatic"
+      }
+     ,"Appearance":{
+        "Template":"Collapsible (47709754763113297300)"
+       ,"Template Options":[
+          "#DEFAULT#"
+         ,"is-collapsed"
+         ,"t-Region--noBorder"
+         ,"t-Region--scrollBody"
+        ]
+       ,"Render Components":"Above Content"
+      }
+     ,"Accessibility":{
+        "Use Landmark":true
+       ,"Landmark Type":"Template Default"
+      }
+     ,"Advanced":{
+        "Region Display Selector":false
+       ,"Exclude Title from Translation":false
+      }
+     ,"Server Cache":{
+        "Caching":"Disabled"
+      }
+     ,"Customization":{
+        "Customizable":"Not Customizable By End Users"
+      }
+     ,"Attributes":{
+        "Settings":{
+          "Output As":"HTML"
+         ,"Expand Shortcuts":false
+        }
+      }
+    }
+   ,{
+      "id":"24507258175224857631"
+     ,"Identification":{
+        "Title":"Subgrupo de Fluxo"
+       ,"Type":"Static Content"
+      }
+     ,"Source":{
+        "HTML Code":"\u003Cp\u003E?????\u003C\/p\u003E"
+      }
+     ,"Layout":{
+        "Sequence":30
+       ,"Parent Region":"Fluxo de Caixa (24507260024816857650)"
+       ,"Position":"SUB_REGIONS"
+       ,"Start New Layout":false
+       ,"Start New Row":true
+       ,"Column":"Automatic"
+       ,"New Column":true
+       ,"Column Span":"Automatic"
+      }
+     ,"Appearance":{
+        "Template":"Collapsible (47709754763113297300)"
+       ,"Template Options":[
+          "#DEFAULT#"
+         ,"is-collapsed"
+         ,"t-Region--noBorder"
+         ,"t-Region--scrollBody"
+        ]
+       ,"Render Components":"Above Content"
+      }
+     ,"Accessibility":{
+        "Use Landmark":true
+       ,"Landmark Type":"Template Default"
+      }
+     ,"Advanced":{
+        "Region Display Selector":false
+       ,"Exclude Title from Translation":false
+      }
+     ,"Server Cache":{
+        "Caching":"Disabled"
+      }
+     ,"Customization":{
+        "Customizable":"Not Customizable By End Users"
+      }
+     ,"Attributes":{
+        "Settings":{
+          "Output As":"HTML"
+         ,"Expand Shortcuts":false
+        }
+      }
+    }
+   ,{
+      "id":"24507258094016857630"
+     ,"Identification":{
+        "Title":"Relat\u00F3rio Fluxo de Caixa"
+       ,"Type":"Static Content"
+      }
+     ,"Source":{
+        "HTML Code":"\u003Cp\u003E?????\u003C\/p\u003E"
+      }
+     ,"Layout":{
+        "Sequence":20
+       ,"Parent Region":"Fluxo de Caixa (24507260024816857650)"
+       ,"Position":"SUB_REGIONS"
+       ,"Start New Layout":false
+       ,"Start New Row":true
+       ,"Column":"Automatic"
+       ,"New Column":true
+       ,"Column Span":"Automatic"
+      }
+     ,"Appearance":{
+        "Template":"Collapsible (47709754763113297300)"
+       ,"Template Options":[
+          "#DEFAULT#"
+         ,"is-collapsed"
+         ,"t-Region--noBorder"
+         ,"t-Region--scrollBody"
+        ]
+       ,"Render Components":"Above Content"
+      }
+     ,"Accessibility":{
+        "Use Landmark":true
+       ,"Landmark Type":"Template Default"
+      }
+     ,"Advanced":{
+        "Region Display Selector":false
+       ,"Exclude Title from Translation":false
+      }
+     ,"Server Cache":{
+        "Caching":"Disabled"
+      }
+     ,"Customization":{
+        "Customizable":"Not Customizable By End Users"
+      }
+     ,"Attributes":{
+        "Settings":{
+          "Output As":"HTML"
+         ,"Expand Shortcuts":false
+        }
+      }
+    }
+   ,{
+      "id":"24507257912928857629"
+     ,"Identification":{
+        "Title":"Gera\u00E7\u00E3o Fluxo de Caixa"
+       ,"Type":"Static Content"
+      }
+     ,"Source":{
+        "HTML Code":"\u003Cp\u003E?????\u003C\/p\u003E"
+      }
+     ,"Layout":{
+        "Sequence":40
+       ,"Parent Region":"Fluxo de Caixa (24507260024816857650)"
+       ,"Position":"SUB_REGIONS"
+       ,"Start New Layout":false
+       ,"Start New Row":true
+       ,"Column":"Automatic"
+       ,"New Column":true
+       ,"Column Span":"Automatic"
+      }
+     ,"Appearance":{
+        "Template":"Collapsible (47709754763113297300)"
+       ,"Template Options":[
+          "#DEFAULT#"
+         ,"is-collapsed"
+         ,"t-Region--noBorder"
+         ,"t-Region--scrollBody"
+        ]
+       ,"Render Components":"Above Content"
+      }
+     ,"Accessibility":{
+        "Use Landmark":true
+       ,"Landmark Type":"Template Default"
+      }
+     ,"Advanced":{
+        "Region Display Selector":false
+       ,"Exclude Title from Translation":false
+      }
+     ,"Server Cache":{
+        "Caching":"Disabled"
+      }
+     ,"Customization":{
+        "Customizable":"Not Customizable By End Users"
+      }
+     ,"Attributes":{
+        "Settings":{
+          "Output As":"HTML"
+         ,"Expand Shortcuts":false
+        }
+      }
+    }
+   ,{
+      "id":"24507257845892857628"
+     ,"Identification":{
+        "Title":"Demanda Planejada"
+       ,"Type":"Static Content"
+      }
+     ,"Source":{
+        "HTML Code":"\u003Cp\u003E?????\u003C\/p\u003E"
+      }
+     ,"Layout":{
+        "Sequence":30
+       ,"Parent Region":"Produ\u00E7\u00E3o (16035528139362589523)"
+       ,"Position":"SUB_REGIONS"
+       ,"Start New Layout":false
+       ,"Start New Row":true
+       ,"Column":"Automatic"
+       ,"New Column":true
+       ,"Column Span":"Automatic"
+      }
+     ,"Appearance":{
+        "Template":"Collapsible (47709754763113297300)"
+       ,"Template Options":[
+          "#DEFAULT#"
+         ,"is-collapsed"
+         ,"t-Region--noBorder"
+         ,"t-Region--scrollBody"
+        ]
+       ,"Render Components":"Above Content"
+      }
+     ,"Accessibility":{
+        "Use Landmark":true
+       ,"Landmark Type":"Template Default"
+      }
+     ,"Advanced":{
+        "Region Display Selector":false
+       ,"Exclude Title from Translation":false
+      }
+     ,"Server Cache":{
+        "Caching":"Disabled"
+      }
+     ,"Customization":{
+        "Customizable":"Not Customizable By End Users"
+      }
+     ,"Attributes":{
+        "Settings":{
+          "Output As":"HTML"
+         ,"Expand Shortcuts":false
+        }
+      }
+    }
+   ,{
+      "id":"24507257786392857627"
+     ,"Identification":{
+        "Title":"Demanda Liberada"
+       ,"Type":"Static Content"
+      }
+     ,"Source":{
+        "HTML Code":"\u003Cp\u003E?????\u003C\/p\u003E"
+      }
+     ,"Layout":{
+        "Sequence":20
+       ,"Parent Region":"Produ\u00E7\u00E3o (16035528139362589523)"
+       ,"Position":"SUB_REGIONS"
+       ,"Start New Layout":false
+       ,"Start New Row":true
+       ,"Column":"Automatic"
+       ,"New Column":true
+       ,"Column Span":"Automatic"
+      }
+     ,"Appearance":{
+        "Template":"Collapsible (47709754763113297300)"
+       ,"Template Options":[
+          "#DEFAULT#"
+         ,"is-collapsed"
+         ,"t-Region--noBorder"
+         ,"t-Region--scrollBody"
+        ]
+       ,"Render Components":"Above Content"
+      }
+     ,"Accessibility":{
+        "Use Landmark":true
+       ,"Landmark Type":"Template Default"
+      }
+     ,"Advanced":{
+        "Region Display Selector":false
+       ,"Exclude Title from Translation":false
+      }
+     ,"Server Cache":{
+        "Caching":"Disabled"
+      }
+     ,"Customization":{
+        "Customizable":"Not Customizable By End Users"
+      }
+     ,"Attributes":{
+        "Settings":{
+          "Output As":"HTML"
+         ,"Expand Shortcuts":false
+        }
+      }
+    }
+   ,{
       "id":"14637408333298802101"
      ,"Identification":{
         "Title":"Estorno de Substitui\u00E7\u00E3o"
@@ -910,7 +1310,7 @@
         "HTML Code":"\u003Cp\u003EConsiste em realizar estorno de documentos gerados por substitui\u00E7\u00E3o.\u003C\/p\u003E"
       }
      ,"Layout":{
-        "Sequence":70
+        "Sequence":20
        ,"Parent Region":"Recebimentos (52718146025805469017)"
        ,"Position":"SUB_REGIONS"
        ,"Start New Layout":false
@@ -960,7 +1360,7 @@
         "HTML Code":"\u003Cp\u003EConsiste em criar novas parcelas para documentos em aberto.\u003C\/p\u003E"
       }
      ,"Layout":{
-        "Sequence":80
+        "Sequence":30
        ,"Parent Region":"Recebimentos (52718146025805469017)"
        ,"Position":"SUB_REGIONS"
        ,"Start New Layout":false
@@ -1010,7 +1410,7 @@
         "HTML Code":"\u003Cp\u003EConsiste em um relat\u00F3rio ABC de documentos a receber por clientes.\u003C\/p\u003E"
       }
      ,"Layout":{
-        "Sequence":90
+        "Sequence":80
        ,"Parent Region":"Recebimentos (52718146025805469017)"
        ,"Position":"SUB_REGIONS"
        ,"Start New Layout":false
@@ -1060,7 +1460,7 @@
         "HTML Code":"\u003Cp\u003EConsiste em um relat\u00F3rio de documentos, possuindo filtros variados permitindo flexibilidade na gera\u00E7\u00E3o do relat\u00F3rio.\u003C\/p\u003E"
       }
      ,"Layout":{
-        "Sequence":100
+        "Sequence":90
        ,"Parent Region":"Recebimentos (52718146025805469017)"
        ,"Position":"SUB_REGIONS"
        ,"Start New Layout":false
@@ -1110,7 +1510,7 @@
         "HTML Code":"\u003Cp\u003EConsiste em um relat\u00F3rio de documentos, com \u00EAnfase na data de vencimento dos documentos a receber.\u003C\/p\u003E"
       }
      ,"Layout":{
-        "Sequence":110
+        "Sequence":100
        ,"Parent Region":"Recebimentos (52718146025805469017)"
        ,"Position":"SUB_REGIONS"
        ,"Start New Layout":false
@@ -1566,7 +1966,7 @@
         "HTML Code":"\u003Cstyle\u003E\n    .div *:not(h3,u,b,i) {\n        margin-left: 20px;\n    }\n\u003C\/style\u003E\n\n\u003Cdiv\u003E\n    \u003Cp\u003E\u003Cb\u003ECaminho: \u003Ci\u003EProdu\u00E7\u00E3o \/ Gest\u00E3o da Produ\u00E7\u00E3o\u003C\/i\u003E\u003C\/b\u003E\u003C\/p\u003E\n\n    \u003C!-- Informar se \u00E9 p\u00E1gina de relat\u00F3rio e\/ou manuten\u00E7\u00E3o --\u003E\n    \u003Cp\u003E P\u00E1gina com relat\u00F3rio e a\u00E7\u00F5es\/desvios referentes \u00E0 Produ\u00E7\u00E3o\u003C\/p\u003E\n\n    \u003C!-- Explicar qual o objetivo da p\u00E1gina \/ para que serve --\u003E\n    \u003Cp\u003E Destinada a gest\u00E3o de toda produ\u00E7\u00E3o da empresa.\n        \u003Cbr\u003E Nesta tela, o PCP tem toda vis\u00E3o do processo de produ\u00E7\u00E3o de sua f\u00E1brica. Consulta ordem pendentes, encerradas, verifica perfil de materiais, roda o planejamento, entre outras a\u00E7\u00F5es dispon\u00EDveis \n    \u003C\/p\u003E\n\n    \u003C!---------------------- MANUTEN\u00C7\u00C3O ----------------------\u003E\n    \u003Cdiv class=\"div\"\u003E\n        \u003Ch3\u003EFuncionalidades\u003C\/h3\u003E\n            \n            \u003C!-- Informar caso n\u00E3o seja poss\u00EDvel alterar\/excluir dados ap\u00F3s confirmar\/salvar\n                Informar campos obrigat\u00F3rios e funcionalidade da p\u00E1gina (caso haja algo especifico) --\u003E\n        \u003Ch5\u003EConsulta\u003C\/h5\u003E\n            \u003Cp\u003EAtrav\u00E9s dos filtros dispon\u00EDveis, a consulta gera um retorno sobre todas Ordens de Produ\u00E7\u00E3o existentes no sistema. O filtro pode ser realizado por per\u00EDodo, n\u00FAmero de ordem(ns) ou situa\u00E7\u00E3o\u003C\/p\u003E\n            \u003Cp\u003ECampos de Filtro\u003C\/p\u003E\n                \u003Cul\u003E\n                    \u003Cli\u003EFilial;\u003C\/li\u003E\n                    \u003Cli\u003EData de In\u00EDcio;\u003C\/li\u003E\n                    \u003Cli\u003EData de Fim;\u003C\/li\u003E\n                    \u003Cli\u003ESele\u00E7\u00E3o de Ordens;\u003C\/li\u003E\n                    \u003Cli\u003ESitua\u00E7\u00E3o da Ordem;\u003C\/li\u003E\n                \u003C\/ul\u003E\n            \u003Cbr\u003E\n            \n            \u003Ch5\u003EDesvios\/Detalhamentos\u003C\/h5\u003E\n             \u003Cp\u003EExiste a op\u00E7\u00E3o de detalhamento das informa\u00E7\u00F5es a partir desta tela, facilitando a navega\u00E7\u00E3o e centralizando o uso em uma \u00FAnica tela para os usu\u00E1rios\u003C\/p\u003E\n             \u003Cp\u003EOp\u00E7\u00F5es Dispon\u00EDveis\u003C\/p\u003E\n                \u003Cul\u003E\n                    \u003Cli\u003EResumo da OP: resume dados da OP e do produto a ser fabricado\u003C\/li\u003E\n                    \u003Cli\u003EDemandas: mostra as demandas de consumo da OP\u003C\/li\u003E\n                    \u003Cli\u003EEstrutura: desvio para a consulta gr\u00E1fica da estrutura do item da OP\u003C\/li\u003E\n                    \u003Cli\u003EPerfil do Materia: desvio para a consulta do perfil do item da OP\u003C\/li\u003E\n                    \u003Cli\u003ERela\u00E7\u00E3o: demonstra as rela\u00E7\u00F5es da Ordem de produ\u00E7\u00E3o, desde o cliente at\u00E9 a nota fiscal\u003C\/li\u003E\n                    \u003Cli\u003EImpress\u00E3o da Ordem: individual ou geral para a sele\u00E7\u00E3o realizada\u003C\/li\u003E\n                \u003C\/ul\u003E    \n            \n            \u003Ch5\u003EA\u00E7\u00F5es\u003C\/h5\u003E\n             \u003Cp\u003EExiste a op\u00E7\u00E3o de executar a\u00E7\u00F5es a partir desta tela,como gerar ordens, entrega de produ\u00E7\u00E3o,...\u003C\/p\u003E\n             \u003Cp\u003EOp\u00E7\u00F5es Dispon\u00EDveis\u003C\/p\u003E\n                \u003Cul\u003E\n                    \u003Cli\u003EInclus\u00E3o Manual de Ordem\u003C\/li\u003E\n                    \u003Cli\u003EInclus\u00E3o de Ordem por Explos\u00E3o\u003C\/li\u003E\n                    \u003Cli\u003ELibera\u00E7\u00E3o de Ordem Planejada de Produ\u00E7\u00E3o\u003C\/li\u003E\n                    \u003Cli\u003ELibera\u00E7\u00E3o de Ordem Planejada de Compra\u003C\/li\u003E\n                    \u003Cli\u003EEntrega de Produ\u00E7\u00E3o\u003C\/li\u003E\n                    \u003Cli\u003ERdar o c\u00E1lculo do Planejamento - MRP\u003C\/li\u003E\n                \u003C\/ul\u003E        \n    \u003C\/div\u003E\n\n\n\u003C\/div\u003E"
       }
      ,"Layout":{
-        "Sequence":20
+        "Sequence":60
        ,"Parent Region":"Produ\u00E7\u00E3o (16035528139362589523)"
        ,"Position":"SUB_REGIONS"
        ,"Start New Layout":false
@@ -2863,7 +3263,7 @@
        ,"Type":"Static Content"
       }
      ,"Source":{
-        "HTML Code":"\u003C!--    CRIADO POR: Daniela Neutzling - 10\/11\/2023\n    \n    \u00DALTIMA ATUALIZA\u00C7\u00C3O:\n        Nome: \n        Data: \n--\u003E\n\n\u003Cstyle\u003E\n    .div *:not(h3,u,b,i) {\n        margin-left: 20px;\n    }\n\u003C\/style\u003E\n\n\u003Cdiv\u003E\n    \u003Cp\u003E\u003Cb\u003ECaminho: \u003Ci\u003EM\u00F3dulo \/ Nome da P\u00E1gina\u003C\/i\u003E\u003C\/b\u003E\u003C\/p\u003E\n\n    \u003C!-- Informar se \u00E9 p\u00E1gina de relat\u00F3rio e\/ou manuten\u00E7\u00E3o --\u003E\n    \u003Cp\u003E P\u00E1gina dividida entre relat\u00F3rio e manuten\u00E7\u00E3o de dados.\u003C\/p\u003E\n\n    \u003C!-- Explicar qual o objetivo da p\u00E1gina \/ para que serve --\u003E\n    \u003Cp\u003E P\u00E1gina destinada \u00E0 consulta, inclus\u00E3o, altera\u00E7\u00E3o, exclus\u00E3o e visualiza\u00E7\u00E3o detalhada de documentos a pagar.\n        \u003Cbr\u003E A sele\u00E7\u00E3o \u00E9 ocorre atrav\u00E9s dos filtros para busca de t\u00EDtulos.\n    \u003C\/p\u003E\n\n    \u003C!---------------------- RELAT\u00D3RIO ----------------------\u003E\n    \u003Cdiv class=\"div\"\u003E\n        \u003Ch3\u003ERelat\u00F3rio\u003C\/h3\u003E\n            \u003C!-- Informar caso haja campos obrigat\u00F3rios para gera\u00E7\u00E3o do relat\u00F3rio ou alguma outra especifica\u00E7\u00E3o --\u003E\n            \u003Cp\u003ELista informa\u00E7\u00F5es referentes aos documentos listados conforme filtros escolhidos. Por default, 3 op\u00E7\u00F5es de layout s\u00E3o disponibilizadas:\u003C\/p\u003E\n                \u003Cul\u003E\n                    \u003Cli\u003EGeral;\u003C\/li\u003E\n                    \u003Cli\u003EPor Fornecedor;\u003C\/li\u003E\n                    \u003Cli\u003EPor data de Vencimento.\u003C\/li\u003E\n                \u003C\/ul\u003E\n            \n            \u003C!-- Caso o relat\u00F3rio possua bot\u00F5es interativo, explicar cada um deles (o que faz \/ para que serve) --\u003E\n            \u003Cp\u003EO bot\u00E3o rela\u00E7\u00E3o no relat\u00F3rio de documentos \u00E9 um desvio para as rela\u00E7\u00F5es do documento, possibilitando seu detalhamento:\u003C\/p\u003E\n                \u003Cul\u003E\n                    \u003Cli\u003EFornecedor;\u003C\/li\u003E\n                    \u003Cli\u003ENota Fiscal de Entrada;\u003C\/li\u003E\n                    \u003Cli\u003EPedido de Compra;\u003C\/li\u003E\n                    \u003Cli\u003EPagamentos.\u003C\/li\u003E\n                \u003C\/ul\u003E\n    \u003C\/div\u003E\n\n    \u003C!---------------------- MANUTEN\u00C7\u00C3O ----------------------\u003E\n    \u003Cdiv class=\"div\"\u003E\n        \u003Ch3\u003EManuten\u00E7\u00E3o\u003C\/h3\u003E\n            \u003Cp\u003EP\u00E1gina para inclus\u00E3o ou altera\u00E7\u00E3o de documentos.\u003C\/p\u003E\n\n            \u003C!-- Informar caso n\u00E3o seja poss\u00EDvel alterar\/excluir dados ap\u00F3s confirmar\/salvar\n                Informar campos obrigat\u00F3rios e funcionalidade da p\u00E1gina (caso haja algo especifico) --\u003E\n            \u003Cp\u003ECampos obrigat\u00F3rios:\u003C\/p\u003E\n                \u003Cul\u003E\n                    \u003Cli\u003ETipo Documento;\u003C\/li\u003E\n                    \u003Cli\u003EN\u00FAmero documento;\u003C\/li\u003E\n                    \u003Cli\u003EParcela;\u003C\/li\u003E\n                    \u003Cli\u003EFornecedor;\u003C\/li\u003E\n                    \u003Cli\u003EData Emiss\u00E3o;\u003C\/li\u003E\n                    \u003Cli\u003EData Vencimento;\u003C\/li\u003E\n                    \u003Cli\u003EData Entrada;\u003C\/li\u003E\n                    \u003Cli\u003EValor Emiss\u00E3o;\u003C\/li\u003E\n                    \u003Cli\u003EValor Mercadoria.\u003C\/li\u003E\n                \u003C\/ul\u003E\n    \u003C\/div\u003E\n\n    \u003C!---------------------- MAPA PARA CADASTRO ----------------------\u003E\n    \u003Cdiv style=\"display: flex; justify-content: center; align-items: center; margin: 30px 0px 20px 0px;\"\u003E\n        \u003Cimg src=\"#APP_FILES#mapas\/map_item.png\" alt=\"Item\"\u003E\n    \u003C\/div\u003E\n\n\u003C\/div\u003E"
+        "HTML Code":"\u003Cp\u003E?????\u003C\/p\u003E"
       }
      ,"Layout":{
         "Sequence":100
@@ -2898,9 +3298,6 @@
       }
      ,"Customization":{
         "Customizable":"Not Customizable By End Users"
-      }
-     ,"Configuration":{
-        "Build Option":"Comentado (47708896794149297271)"
       }
      ,"Attributes":{
         "Settings":{
@@ -2962,11 +3359,11 @@
    ,{
       "id":"39423911888610456847"
      ,"Identification":{
-        "Title":"Entrega de Produ\u00E7\u00E3o"
+        "Title":"Cadastro de Fun\u00E7\u00E3o de Apontamento"
        ,"Type":"Static Content"
       }
      ,"Source":{
-        "HTML Code":"\u003C!--    CRIADO POR: Daniela Neutzling - 10\/11\/2023\n    \n    \u00DALTIMA ATUALIZA\u00C7\u00C3O:\n        Nome: \n        Data: \n--\u003E\n\n\u003Cstyle\u003E\n    .div *:not(h3,u,b,i) {\n        margin-left: 20px;\n    }\n\u003C\/style\u003E\n\n\u003Cdiv\u003E\n    \u003Cp\u003E\u003Cb\u003ECaminho: \u003Ci\u003EM\u00F3dulo \/ Nome da P\u00E1gina\u003C\/i\u003E\u003C\/b\u003E\u003C\/p\u003E\n\n    \u003C!-- Informar se \u00E9 p\u00E1gina de relat\u00F3rio e\/ou manuten\u00E7\u00E3o --\u003E\n    \u003Cp\u003E P\u00E1gina dividida entre relat\u00F3rio e manuten\u00E7\u00E3o de dados.\u003C\/p\u003E\n\n    \u003C!-- Explicar qual o objetivo da p\u00E1gina \/ para que serve --\u003E\n    \u003Cp\u003E P\u00E1gina destinada \u00E0 consulta, inclus\u00E3o, altera\u00E7\u00E3o, exclus\u00E3o e visualiza\u00E7\u00E3o detalhada de documentos a pagar.\n        \u003Cbr\u003E A sele\u00E7\u00E3o \u00E9 ocorre atrav\u00E9s dos filtros para busca de t\u00EDtulos.\n    \u003C\/p\u003E\n\n    \u003C!---------------------- RELAT\u00D3RIO ----------------------\u003E\n    \u003Cdiv class=\"div\"\u003E\n        \u003Ch3\u003ERelat\u00F3rio\u003C\/h3\u003E\n            \u003C!-- Informar caso haja campos obrigat\u00F3rios para gera\u00E7\u00E3o do relat\u00F3rio ou alguma outra especifica\u00E7\u00E3o --\u003E\n            \u003Cp\u003ELista informa\u00E7\u00F5es referentes aos documentos listados conforme filtros escolhidos. Por default, 3 op\u00E7\u00F5es de layout s\u00E3o disponibilizadas:\u003C\/p\u003E\n                \u003Cul\u003E\n                    \u003Cli\u003EGeral;\u003C\/li\u003E\n                    \u003Cli\u003EPor Fornecedor;\u003C\/li\u003E\n                    \u003Cli\u003EPor data de Vencimento.\u003C\/li\u003E\n                \u003C\/ul\u003E\n            \n            \u003C!-- Caso o relat\u00F3rio possua bot\u00F5es interativo, explicar cada um deles (o que faz \/ para que serve) --\u003E\n            \u003Cp\u003EO bot\u00E3o rela\u00E7\u00E3o no relat\u00F3rio de documentos \u00E9 um desvio para as rela\u00E7\u00F5es do documento, possibilitando seu detalhamento:\u003C\/p\u003E\n                \u003Cul\u003E\n                    \u003Cli\u003EFornecedor;\u003C\/li\u003E\n                    \u003Cli\u003ENota Fiscal de Entrada;\u003C\/li\u003E\n                    \u003Cli\u003EPedido de Compra;\u003C\/li\u003E\n                    \u003Cli\u003EPagamentos.\u003C\/li\u003E\n                \u003C\/ul\u003E\n    \u003C\/div\u003E\n\n    \u003C!---------------------- MANUTEN\u00C7\u00C3O ----------------------\u003E\n    \u003Cdiv class=\"div\"\u003E\n        \u003Ch3\u003EManuten\u00E7\u00E3o\u003C\/h3\u003E\n            \u003Cp\u003EP\u00E1gina para inclus\u00E3o ou altera\u00E7\u00E3o de documentos.\u003C\/p\u003E\n\n            \u003C!-- Informar caso n\u00E3o seja poss\u00EDvel alterar\/excluir dados ap\u00F3s confirmar\/salvar\n                Informar campos obrigat\u00F3rios e funcionalidade da p\u00E1gina (caso haja algo especifico) --\u003E\n            \u003Cp\u003ECampos obrigat\u00F3rios:\u003C\/p\u003E\n                \u003Cul\u003E\n                    \u003Cli\u003ETipo Documento;\u003C\/li\u003E\n                    \u003Cli\u003EN\u00FAmero documento;\u003C\/li\u003E\n                    \u003Cli\u003EParcela;\u003C\/li\u003E\n                    \u003Cli\u003EFornecedor;\u003C\/li\u003E\n                    \u003Cli\u003EData Emiss\u00E3o;\u003C\/li\u003E\n                    \u003Cli\u003EData Vencimento;\u003C\/li\u003E\n                    \u003Cli\u003EData Entrada;\u003C\/li\u003E\n                    \u003Cli\u003EValor Emiss\u00E3o;\u003C\/li\u003E\n                    \u003Cli\u003EValor Mercadoria.\u003C\/li\u003E\n                \u003C\/ul\u003E\n    \u003C\/div\u003E\n\n    \u003C!---------------------- MAPA PARA CADASTRO ----------------------\u003E\n    \u003Cdiv style=\"display: flex; justify-content: center; align-items: center; margin: 30px 0px 20px 0px;\"\u003E\n        \u003Cimg src=\"#APP_FILES#mapas\/map_item.png\" alt=\"Item\"\u003E\n    \u003C\/div\u003E\n\n\u003C\/div\u003E"
+        "HTML Code":"\u003Cp\u003E?????\u003C\/p\u003E"
       }
      ,"Layout":{
         "Sequence":10
@@ -3002,9 +3399,6 @@
      ,"Customization":{
         "Customizable":"Not Customizable By End Users"
       }
-     ,"Configuration":{
-        "Build Option":"Comentado (47708896794149297271)"
-      }
      ,"Attributes":{
         "Settings":{
           "Output As":"HTML"
@@ -3019,10 +3413,10 @@
        ,"Type":"Static Content"
       }
      ,"Source":{
-        "HTML Code":"\u003C!--    CRIADO POR: Daniela Neutzling - 10\/11\/2023\n    \n    \u00DALTIMA ATUALIZA\u00C7\u00C3O:\n        Nome: \n        Data: \n--\u003E\n\n\u003Cstyle\u003E\n    .div *:not(h3,u,b,i) {\n        margin-left: 20px;\n    }\n\u003C\/style\u003E\n\n\u003Cdiv\u003E\n    \u003Cp\u003E\u003Cb\u003ECaminho: \u003Ci\u003EM\u00F3dulo \/ Nome da P\u00E1gina\u003C\/i\u003E\u003C\/b\u003E\u003C\/p\u003E\n\n    \u003C!-- Informar se \u00E9 p\u00E1gina de relat\u00F3rio e\/ou manuten\u00E7\u00E3o --\u003E\n    \u003Cp\u003E P\u00E1gina dividida entre relat\u00F3rio e manuten\u00E7\u00E3o de dados.\u003C\/p\u003E\n\n    \u003C!-- Explicar qual o objetivo da p\u00E1gina \/ para que serve --\u003E\n    \u003Cp\u003E P\u00E1gina destinada \u00E0 consulta, inclus\u00E3o, altera\u00E7\u00E3o, exclus\u00E3o e visualiza\u00E7\u00E3o detalhada de documentos a pagar.\n        \u003Cbr\u003E A sele\u00E7\u00E3o \u00E9 ocorre atrav\u00E9s dos filtros para busca de t\u00EDtulos.\n    \u003C\/p\u003E\n\n    \u003C!---------------------- RELAT\u00D3RIO ----------------------\u003E\n    \u003Cdiv class=\"div\"\u003E\n        \u003Ch3\u003ERelat\u00F3rio\u003C\/h3\u003E\n            \u003C!-- Informar caso haja campos obrigat\u00F3rios para gera\u00E7\u00E3o do relat\u00F3rio ou alguma outra especifica\u00E7\u00E3o --\u003E\n            \u003Cp\u003ELista informa\u00E7\u00F5es referentes aos documentos listados conforme filtros escolhidos. Por default, 3 op\u00E7\u00F5es de layout s\u00E3o disponibilizadas:\u003C\/p\u003E\n                \u003Cul\u003E\n                    \u003Cli\u003EGeral;\u003C\/li\u003E\n                    \u003Cli\u003EPor Fornecedor;\u003C\/li\u003E\n                    \u003Cli\u003EPor data de Vencimento.\u003C\/li\u003E\n                \u003C\/ul\u003E\n            \n            \u003C!-- Caso o relat\u00F3rio possua bot\u00F5es interativo, explicar cada um deles (o que faz \/ para que serve) --\u003E\n            \u003Cp\u003EO bot\u00E3o rela\u00E7\u00E3o no relat\u00F3rio de documentos \u00E9 um desvio para as rela\u00E7\u00F5es do documento, possibilitando seu detalhamento:\u003C\/p\u003E\n                \u003Cul\u003E\n                    \u003Cli\u003EFornecedor;\u003C\/li\u003E\n                    \u003Cli\u003ENota Fiscal de Entrada;\u003C\/li\u003E\n                    \u003Cli\u003EPedido de Compra;\u003C\/li\u003E\n                    \u003Cli\u003EPagamentos.\u003C\/li\u003E\n                \u003C\/ul\u003E\n    \u003C\/div\u003E\n\n    \u003C!---------------------- MANUTEN\u00C7\u00C3O ----------------------\u003E\n    \u003Cdiv class=\"div\"\u003E\n        \u003Ch3\u003EManuten\u00E7\u00E3o\u003C\/h3\u003E\n            \u003Cp\u003EP\u00E1gina para inclus\u00E3o ou altera\u00E7\u00E3o de documentos.\u003C\/p\u003E\n\n            \u003C!-- Informar caso n\u00E3o seja poss\u00EDvel alterar\/excluir dados ap\u00F3s confirmar\/salvar\n                Informar campos obrigat\u00F3rios e funcionalidade da p\u00E1gina (caso haja algo especifico) --\u003E\n            \u003Cp\u003ECampos obrigat\u00F3rios:\u003C\/p\u003E\n                \u003Cul\u003E\n                    \u003Cli\u003ETipo Documento;\u003C\/li\u003E\n                    \u003Cli\u003EN\u00FAmero documento;\u003C\/li\u003E\n                    \u003Cli\u003EParcela;\u003C\/li\u003E\n                    \u003Cli\u003EFornecedor;\u003C\/li\u003E\n                    \u003Cli\u003EData Emiss\u00E3o;\u003C\/li\u003E\n                    \u003Cli\u003EData Vencimento;\u003C\/li\u003E\n                    \u003Cli\u003EData Entrada;\u003C\/li\u003E\n                    \u003Cli\u003EValor Emiss\u00E3o;\u003C\/li\u003E\n                    \u003Cli\u003EValor Mercadoria.\u003C\/li\u003E\n                \u003C\/ul\u003E\n    \u003C\/div\u003E\n\n    \u003C!---------------------- MAPA PARA CADASTRO ----------------------\u003E\n    \u003Cdiv style=\"display: flex; justify-content: center; align-items: center; margin: 30px 0px 20px 0px;\"\u003E\n        \u003Cimg src=\"#APP_FILES#mapas\/map_item.png\" alt=\"Item\"\u003E\n    \u003C\/div\u003E\n\n\u003C\/div\u003E"
+        "HTML Code":"\u003Cp\u003E?????\u003C\/p\u003E"
       }
      ,"Layout":{
-        "Sequence":90
+        "Sequence":120
        ,"Parent Region":"Produ\u00E7\u00E3o (16035528139362589523)"
        ,"Position":"SUB_REGIONS"
        ,"Start New Layout":false
@@ -3054,9 +3448,6 @@
       }
      ,"Customization":{
         "Customizable":"Not Customizable By End Users"
-      }
-     ,"Configuration":{
-        "Build Option":"Comentado (47708896794149297271)"
       }
      ,"Attributes":{
         "Settings":{
@@ -3072,10 +3463,10 @@
        ,"Type":"Static Content"
       }
      ,"Source":{
-        "HTML Code":"\u003C!--    CRIADO POR: Daniela Neutzling - 10\/11\/2023\n    \n    \u00DALTIMA ATUALIZA\u00C7\u00C3O:\n        Nome: \n        Data: \n--\u003E\n\n\u003Cstyle\u003E\n    .div *:not(h3,u,b,i) {\n        margin-left: 20px;\n    }\n\u003C\/style\u003E\n\n\u003Cdiv\u003E\n    \u003Cp\u003E\u003Cb\u003ECaminho: \u003Ci\u003EM\u00F3dulo \/ Nome da P\u00E1gina\u003C\/i\u003E\u003C\/b\u003E\u003C\/p\u003E\n\n    \u003C!-- Informar se \u00E9 p\u00E1gina de relat\u00F3rio e\/ou manuten\u00E7\u00E3o --\u003E\n    \u003Cp\u003E P\u00E1gina dividida entre relat\u00F3rio e manuten\u00E7\u00E3o de dados.\u003C\/p\u003E\n\n    \u003C!-- Explicar qual o objetivo da p\u00E1gina \/ para que serve --\u003E\n    \u003Cp\u003E P\u00E1gina destinada \u00E0 consulta, inclus\u00E3o, altera\u00E7\u00E3o, exclus\u00E3o e visualiza\u00E7\u00E3o detalhada de documentos a pagar.\n        \u003Cbr\u003E A sele\u00E7\u00E3o \u00E9 ocorre atrav\u00E9s dos filtros para busca de t\u00EDtulos.\n    \u003C\/p\u003E\n\n    \u003C!---------------------- RELAT\u00D3RIO ----------------------\u003E\n    \u003Cdiv class=\"div\"\u003E\n        \u003Ch3\u003ERelat\u00F3rio\u003C\/h3\u003E\n            \u003C!-- Informar caso haja campos obrigat\u00F3rios para gera\u00E7\u00E3o do relat\u00F3rio ou alguma outra especifica\u00E7\u00E3o --\u003E\n            \u003Cp\u003ELista informa\u00E7\u00F5es referentes aos documentos listados conforme filtros escolhidos. Por default, 3 op\u00E7\u00F5es de layout s\u00E3o disponibilizadas:\u003C\/p\u003E\n                \u003Cul\u003E\n                    \u003Cli\u003EGeral;\u003C\/li\u003E\n                    \u003Cli\u003EPor Fornecedor;\u003C\/li\u003E\n                    \u003Cli\u003EPor data de Vencimento.\u003C\/li\u003E\n                \u003C\/ul\u003E\n            \n            \u003C!-- Caso o relat\u00F3rio possua bot\u00F5es interativo, explicar cada um deles (o que faz \/ para que serve) --\u003E\n            \u003Cp\u003EO bot\u00E3o rela\u00E7\u00E3o no relat\u00F3rio de documentos \u00E9 um desvio para as rela\u00E7\u00F5es do documento, possibilitando seu detalhamento:\u003C\/p\u003E\n                \u003Cul\u003E\n                    \u003Cli\u003EFornecedor;\u003C\/li\u003E\n                    \u003Cli\u003ENota Fiscal de Entrada;\u003C\/li\u003E\n                    \u003Cli\u003EPedido de Compra;\u003C\/li\u003E\n                    \u003Cli\u003EPagamentos.\u003C\/li\u003E\n                \u003C\/ul\u003E\n    \u003C\/div\u003E\n\n    \u003C!---------------------- MANUTEN\u00C7\u00C3O ----------------------\u003E\n    \u003Cdiv class=\"div\"\u003E\n        \u003Ch3\u003EManuten\u00E7\u00E3o\u003C\/h3\u003E\n            \u003Cp\u003EP\u00E1gina para inclus\u00E3o ou altera\u00E7\u00E3o de documentos.\u003C\/p\u003E\n\n            \u003C!-- Informar caso n\u00E3o seja poss\u00EDvel alterar\/excluir dados ap\u00F3s confirmar\/salvar\n                Informar campos obrigat\u00F3rios e funcionalidade da p\u00E1gina (caso haja algo especifico) --\u003E\n            \u003Cp\u003ECampos obrigat\u00F3rios:\u003C\/p\u003E\n                \u003Cul\u003E\n                    \u003Cli\u003ETipo Documento;\u003C\/li\u003E\n                    \u003Cli\u003EN\u00FAmero documento;\u003C\/li\u003E\n                    \u003Cli\u003EParcela;\u003C\/li\u003E\n                    \u003Cli\u003EFornecedor;\u003C\/li\u003E\n                    \u003Cli\u003EData Emiss\u00E3o;\u003C\/li\u003E\n                    \u003Cli\u003EData Vencimento;\u003C\/li\u003E\n                    \u003Cli\u003EData Entrada;\u003C\/li\u003E\n                    \u003Cli\u003EValor Emiss\u00E3o;\u003C\/li\u003E\n                    \u003Cli\u003EValor Mercadoria.\u003C\/li\u003E\n                \u003C\/ul\u003E\n    \u003C\/div\u003E\n\n    \u003C!---------------------- MAPA PARA CADASTRO ----------------------\u003E\n    \u003Cdiv style=\"display: flex; justify-content: center; align-items: center; margin: 30px 0px 20px 0px;\"\u003E\n        \u003Cimg src=\"#APP_FILES#mapas\/map_item.png\" alt=\"Item\"\u003E\n    \u003C\/div\u003E\n\n\u003C\/div\u003E"
+        "HTML Code":"\u003Cp\u003E?????\u003C\/p\u003E"
       }
      ,"Layout":{
-        "Sequence":130
+        "Sequence":160
        ,"Parent Region":"Produ\u00E7\u00E3o (16035528139362589523)"
        ,"Position":"SUB_REGIONS"
        ,"Start New Layout":false
@@ -3107,9 +3498,6 @@
       }
      ,"Customization":{
         "Customizable":"Not Customizable By End Users"
-      }
-     ,"Configuration":{
-        "Build Option":"Comentado (47708896794149297271)"
       }
      ,"Attributes":{
         "Settings":{
@@ -3125,10 +3513,10 @@
        ,"Type":"Static Content"
       }
      ,"Source":{
-        "HTML Code":"\u003C!--    CRIADO POR: Daniela Neutzling - 10\/11\/2023\n    \n    \u00DALTIMA ATUALIZA\u00C7\u00C3O:\n        Nome: \n        Data: \n--\u003E\n\n\u003Cstyle\u003E\n    .div *:not(h3,u,b,i) {\n        margin-left: 20px;\n    }\n\u003C\/style\u003E\n\n\u003Cdiv\u003E\n    \u003Cp\u003E\u003Cb\u003ECaminho: \u003Ci\u003EM\u00F3dulo \/ Nome da P\u00E1gina\u003C\/i\u003E\u003C\/b\u003E\u003C\/p\u003E\n\n    \u003C!-- Informar se \u00E9 p\u00E1gina de relat\u00F3rio e\/ou manuten\u00E7\u00E3o --\u003E\n    \u003Cp\u003E P\u00E1gina dividida entre relat\u00F3rio e manuten\u00E7\u00E3o de dados.\u003C\/p\u003E\n\n    \u003C!-- Explicar qual o objetivo da p\u00E1gina \/ para que serve --\u003E\n    \u003Cp\u003E P\u00E1gina destinada \u00E0 consulta, inclus\u00E3o, altera\u00E7\u00E3o, exclus\u00E3o e visualiza\u00E7\u00E3o detalhada de documentos a pagar.\n        \u003Cbr\u003E A sele\u00E7\u00E3o \u00E9 ocorre atrav\u00E9s dos filtros para busca de t\u00EDtulos.\n    \u003C\/p\u003E\n\n    \u003C!---------------------- RELAT\u00D3RIO ----------------------\u003E\n    \u003Cdiv class=\"div\"\u003E\n        \u003Ch3\u003ERelat\u00F3rio\u003C\/h3\u003E\n            \u003C!-- Informar caso haja campos obrigat\u00F3rios para gera\u00E7\u00E3o do relat\u00F3rio ou alguma outra especifica\u00E7\u00E3o --\u003E\n            \u003Cp\u003ELista informa\u00E7\u00F5es referentes aos documentos listados conforme filtros escolhidos. Por default, 3 op\u00E7\u00F5es de layout s\u00E3o disponibilizadas:\u003C\/p\u003E\n                \u003Cul\u003E\n                    \u003Cli\u003EGeral;\u003C\/li\u003E\n                    \u003Cli\u003EPor Fornecedor;\u003C\/li\u003E\n                    \u003Cli\u003EPor data de Vencimento.\u003C\/li\u003E\n                \u003C\/ul\u003E\n            \n            \u003C!-- Caso o relat\u00F3rio possua bot\u00F5es interativo, explicar cada um deles (o que faz \/ para que serve) --\u003E\n            \u003Cp\u003EO bot\u00E3o rela\u00E7\u00E3o no relat\u00F3rio de documentos \u00E9 um desvio para as rela\u00E7\u00F5es do documento, possibilitando seu detalhamento:\u003C\/p\u003E\n                \u003Cul\u003E\n                    \u003Cli\u003EFornecedor;\u003C\/li\u003E\n                    \u003Cli\u003ENota Fiscal de Entrada;\u003C\/li\u003E\n                    \u003Cli\u003EPedido de Compra;\u003C\/li\u003E\n                    \u003Cli\u003EPagamentos.\u003C\/li\u003E\n                \u003C\/ul\u003E\n    \u003C\/div\u003E\n\n    \u003C!---------------------- MANUTEN\u00C7\u00C3O ----------------------\u003E\n    \u003Cdiv class=\"div\"\u003E\n        \u003Ch3\u003EManuten\u00E7\u00E3o\u003C\/h3\u003E\n            \u003Cp\u003EP\u00E1gina para inclus\u00E3o ou altera\u00E7\u00E3o de documentos.\u003C\/p\u003E\n\n            \u003C!-- Informar caso n\u00E3o seja poss\u00EDvel alterar\/excluir dados ap\u00F3s confirmar\/salvar\n                Informar campos obrigat\u00F3rios e funcionalidade da p\u00E1gina (caso haja algo especifico) --\u003E\n            \u003Cp\u003ECampos obrigat\u00F3rios:\u003C\/p\u003E\n                \u003Cul\u003E\n                    \u003Cli\u003ETipo Documento;\u003C\/li\u003E\n                    \u003Cli\u003EN\u00FAmero documento;\u003C\/li\u003E\n                    \u003Cli\u003EParcela;\u003C\/li\u003E\n                    \u003Cli\u003EFornecedor;\u003C\/li\u003E\n                    \u003Cli\u003EData Emiss\u00E3o;\u003C\/li\u003E\n                    \u003Cli\u003EData Vencimento;\u003C\/li\u003E\n                    \u003Cli\u003EData Entrada;\u003C\/li\u003E\n                    \u003Cli\u003EValor Emiss\u00E3o;\u003C\/li\u003E\n                    \u003Cli\u003EValor Mercadoria.\u003C\/li\u003E\n                \u003C\/ul\u003E\n    \u003C\/div\u003E\n\n    \u003C!---------------------- MAPA PARA CADASTRO ----------------------\u003E\n    \u003Cdiv style=\"display: flex; justify-content: center; align-items: center; margin: 30px 0px 20px 0px;\"\u003E\n        \u003Cimg src=\"#APP_FILES#mapas\/map_item.png\" alt=\"Item\"\u003E\n    \u003C\/div\u003E\n\n\u003C\/div\u003E"
+        "HTML Code":"\u003Cp\u003E?????\u003C\/p\u003E"
       }
      ,"Layout":{
-        "Sequence":70
+        "Sequence":100
        ,"Parent Region":"Produ\u00E7\u00E3o (16035528139362589523)"
        ,"Position":"SUB_REGIONS"
        ,"Start New Layout":false
@@ -3160,9 +3548,6 @@
       }
      ,"Customization":{
         "Customizable":"Not Customizable By End Users"
-      }
-     ,"Configuration":{
-        "Build Option":"Comentado (47708896794149297271)"
       }
      ,"Attributes":{
         "Settings":{
@@ -5634,7 +6019,7 @@
         "HTML Code":"\u003Cp\u003E\u003Cb\u003ERelat\u00F3rio detalhado\u003C\/b\u003E com filtros sobre posi\u00E7\u00E3o f\u00EDsica e financeira do item informado, apresentando \u003Cb\u003Esaldos\u003C\/b\u003E do item na \u003Cb\u003Efilial\u003C\/b\u003E que est\u00E1 habilitado, no \u003Cb\u003Ealmoxarifado\u003C\/b\u003E e \u003Cb\u003E\u00E1rea\/box\u003C\/b\u003E, caso houver.\u003C\/p\u003E"
       }
      ,"Layout":{
-        "Sequence":100
+        "Sequence":110
        ,"Parent Region":"Estoque (49080959638798577126)"
        ,"Position":"SUB_REGIONS"
        ,"Start New Layout":false
@@ -5684,7 +6069,7 @@
         "HTML Code":"\u003Cp\u003ERelat\u00F3rio com filtros para itens com localiza\u00E7\u00E3o e possibilidade de liberar \u003Cb\u003Ealmoxarifado\u003C\/b\u003E e \u003Cb\u003E\u00E1rea\/box\u003C\/b\u003E para os itens.\u003C\/p\u003E"
       }
      ,"Layout":{
-        "Sequence":60
+        "Sequence":70
        ,"Parent Region":"Estoque (49080959638798577126)"
        ,"Position":"SUB_REGIONS"
        ,"Start New Layout":false
@@ -5734,7 +6119,7 @@
         "HTML Code":"\u003Cp\u003EConsiste em um processo com o objetivo de fazer o desc\u00E1lculo do estoque para a filial e data de refer\u00EAncia informados.\u003C\/p\u003E"
       }
      ,"Layout":{
-        "Sequence":140
+        "Sequence":160
        ,"Parent Region":"Estoque (49080959638798577126)"
        ,"Position":"SUB_REGIONS"
        ,"Start New Layout":false
@@ -5784,7 +6169,7 @@
         "HTML Code":"\u003Cp\u003ERelat\u00F3rio de estoque com filtros e possibilidade de editar dados relacionado ao item.\u003C\/p\u003E\n\u003Cp\u003EEdi\u00E7\u00E3o de dados e par\u00E2metros do item, como \u003Cb\u003Edados de SPED\u003C\/b\u003E, \u003Cb\u003Ecompras\u003C\/b\u003E e \u003Cb\u003Efaturamento\u003C\/b\u003E, al\u00E9m de \u003Cb\u003Edados de estoque\u003C\/b\u003E. \u003Cb\u003EFatores de convers\u00E3o\u003C\/b\u003E e \u003Cb\u003Eroteiro de item\u003C\/b\u003E tamb\u00E9m s\u00E3o adicionados\/alterados nesta tela.\u003C\/p\u003E"
       }
      ,"Layout":{
-        "Sequence":40
+        "Sequence":50
        ,"Parent Region":"Estoque (49080959638798577126)"
        ,"Position":"SUB_REGIONS"
        ,"Start New Layout":false
@@ -5834,7 +6219,7 @@
         "HTML Code":"\u003Cp\u003E\u003Cb\u003EConsulta r\u00E1pida\u003C\/b\u003E com filtros sobre movimenta\u00E7\u00F5es interna de estoque do m\u00EAs atual, com a possibilidade de \u003Cb\u003Edetalhar as movimenta\u00E7\u00F5es\u003C\/b\u003E de forma \u003Cb\u003Eresumida\u003C\/b\u003E.\u003C\/p\u003E"
       }
      ,"Layout":{
-        "Sequence":80
+        "Sequence":90
        ,"Parent Region":"Estoque (49080959638798577126)"
        ,"Position":"SUB_REGIONS"
        ,"Start New Layout":false
@@ -5884,7 +6269,7 @@
         "HTML Code":"\u003Cp\u003EConsiste em um processo com o objetivo de ampliar os meses de estoque para a filial informada.\u003C\/p\u003E"
       }
      ,"Layout":{
-        "Sequence":120
+        "Sequence":130
        ,"Parent Region":"Estoque (49080959638798577126)"
        ,"Position":"SUB_REGIONS"
        ,"Start New Layout":false
@@ -5934,7 +6319,7 @@
         "HTML Code":"\u003Cp\u003EConsiste em um processo com o objetivo de reduzir os meses do horizonte de estoque de acordo com a filial e m\u00EAs de horizonte informados.\u003C\/p\u003E"
       }
      ,"Layout":{
-        "Sequence":160
+        "Sequence":180
        ,"Parent Region":"Estoque (49080959638798577126)"
        ,"Position":"SUB_REGIONS"
        ,"Start New Layout":false
@@ -5984,7 +6369,7 @@
         "HTML Code":"\u003Cp\u003ERelat\u00F3rio com filtros para consultar a quantidade e valor do item, com possibilidade de \u003Cb\u003Edetalhar a movimenta\u00E7\u00E3o\u003C\/b\u003E e consultar seu \u003Cb\u003Eresumo\u003C\/b\u003E, verificar os \u003Cb\u003Econsumos\u003C\/b\u003E e \u003Cb\u003Edisponibilidade\u003C\/b\u003E do item.\u003C\/p\u003E"
       }
      ,"Layout":{
-        "Sequence":30
+        "Sequence":40
        ,"Parent Region":"Estoque (49080959638798577126)"
        ,"Position":"SUB_REGIONS"
        ,"Start New Layout":false
@@ -6034,7 +6419,7 @@
         "HTML Code":"\u003Cp\u003ERelat\u00F3rio de item com filtros e possibilidade de incluir e\/ou alterar itens.\u003C\/p\u003E\n\u003Cp\u003ECadastro e\/ou altera\u00E7\u00E3o de \u003Cb\u003Edados gerais\u003C\/b\u003E do item e dados do item na \u003Cb\u003Efilial\u003C\/b\u003E e \u003Cb\u003Ealmoxarifado\u003C\/b\u003E que est\u00E1 liberado.\u003C\/p\u003E\n\u003Cdiv style=\"display:flex;justify-content:center;align-items:center;\"\u003E\n    \u003Cimg style=\"width:60%;\" src=\"#APP_FILES#mapas\/map_item.png\" alt=\"Item\"\u003E\n\u003C\/div\u003E"
       }
      ,"Layout":{
-        "Sequence":50
+        "Sequence":60
        ,"Parent Region":"Estoque (49080959638798577126)"
        ,"Position":"SUB_REGIONS"
        ,"Start New Layout":false
@@ -6084,7 +6469,7 @@
         "HTML Code":"\u003Cp\u003EConsiste em realizar movimenta\u00E7\u00F5es interna de \u003Cb\u003Eentrada\u003C\/b\u003E, \u003Cb\u003Esa\u00EDda\u003C\/b\u003E e\/ou \u003Cb\u003Etransfer\u00EAncia\u003C\/b\u003E no estoque.\u003C\/p\u003E\n\u003Cp\u003EApresenta um relat\u00F3rio de movimenta\u00E7\u00F5es interna de acordo com os par\u00E2metros que est\u00E3o sendo manipulados.\u003C\/p\u003E\n\u003Cdiv style=\"display:flex;justify-content:center;align-items:center;\"\u003E\n    \u003Cimg style=\"width:60%;\" src=\"#APP_FILES#mapas\/map_mov_interna_estoque.PNG\" alt=\"Movimenta\u00E7\u00E3o Interna de Estoque\"\u003E\n\u003C\/div\u003E"
       }
      ,"Layout":{
-        "Sequence":70
+        "Sequence":80
        ,"Parent Region":"Estoque (49080959638798577126)"
        ,"Position":"SUB_REGIONS"
        ,"Start New Layout":false
@@ -6134,7 +6519,7 @@
         "HTML Code":"\u003Cp\u003E\u003Cb\u003ERelat\u00F3rio geral\u003C\/b\u003E com filtros sobre posi\u00E7\u00E3o f\u00EDsica e financeira dos itens.\u003C\/p\u003E"
       }
      ,"Layout":{
-        "Sequence":90
+        "Sequence":100
        ,"Parent Region":"Estoque (49080959638798577126)"
        ,"Position":"SUB_REGIONS"
        ,"Start New Layout":false
@@ -6184,7 +6569,7 @@
         "HTML Code":"\u003Cp\u003ERelat\u00F3rio com filtros sobre registros de invent\u00E1rio divido por grupo de estoque.\u003C\/p\u003E"
       }
      ,"Layout":{
-        "Sequence":110
+        "Sequence":120
        ,"Parent Region":"Estoque (49080959638798577126)"
        ,"Position":"SUB_REGIONS"
        ,"Start New Layout":false
@@ -6234,7 +6619,7 @@
         "HTML Code":"\u003Cp\u003EConsiste em um processo com o objetivo de calcular o consumo m\u00E9dio de estoque para a filial informada.\u003C\/p\u003E"
       }
      ,"Layout":{
-        "Sequence":130
+        "Sequence":150
        ,"Parent Region":"Estoque (49080959638798577126)"
        ,"Position":"SUB_REGIONS"
        ,"Start New Layout":false
@@ -6284,7 +6669,7 @@
         "HTML Code":"\u003Cp\u003EConsiste em um processo com o objetivo de fazer a recomposi\u00E7\u00E3o de estoque para os dados informados, al\u00E9m da possibilidade de \u003Cb\u003Eagendar\u003C\/b\u003E a recomposi\u00E7\u00E3o.\u003C\/p\u003E"
       }
      ,"Layout":{
-        "Sequence":150
+        "Sequence":170
        ,"Parent Region":"Estoque (49080959638798577126)"
        ,"Position":"SUB_REGIONS"
        ,"Start New Layout":false
@@ -6334,7 +6719,7 @@
         "HTML Code":"\u003Cp\u003EConsiste em um processo com o objetivo de fazer a virada de estoque e abertura de meses simultaneamente, de acordo com a filial informada.\u003C\/p\u003E"
       }
      ,"Layout":{
-        "Sequence":170
+        "Sequence":190
        ,"Parent Region":"Estoque (49080959638798577126)"
        ,"Position":"SUB_REGIONS"
        ,"Start New Layout":false
@@ -6781,7 +7166,7 @@
        ,"Type":"Static Content"
       }
      ,"Layout":{
-        "Sequence":255
+        "Sequence":265
        ,"Parent Region":"No Parent"
        ,"Position":"BODY"
        ,"Start New Layout":false
@@ -6836,7 +7221,7 @@
         "HTML Code":"\u003Cp\u003EConsiste em encerrar um or\u00E7amento em aberto seja, por desist\u00EAncia do cliente ou algum outro motivo. \n    Ao realizar a opera\u00E7\u00E3o, o motivo do encerramento ser\u00E1 solicitado para fins de documenta\u00E7\u00E3o.\n    \u003Cbr\u003EO motivo do encerramento pode ser consultado na manuten\u00E7\u00E3o de or\u00E7amentos, selecionando no filtro os or\u00E7amentos encerrados para ajudar na busca.\u003C\/p\u003E\n"
       }
      ,"Layout":{
-        "Sequence":20
+        "Sequence":10
        ,"Parent Region":"Vendas (49351586651954027011)"
        ,"Position":"SUB_REGIONS"
        ,"Start New Layout":false
@@ -6929,7 +7314,7 @@
    ,{
       "id":"49351586966970027014"
      ,"Identification":{
-        "Title":"Lista de Pre\u00E7o"
+        "Title":"Lista de Pre\u00E7os"
        ,"Type":"Static Content"
       }
      ,"Source":{
@@ -6979,14 +7364,14 @@
    ,{
       "id":"49351587008300027015"
      ,"Identification":{
-        "Title":"Reajuste de Lista de Pre\u00E7o"
+        "Title":"Reajuste de Lista de Pre\u00E7os"
        ,"Type":"Static Content"
       }
      ,"Source":{
         "HTML Code":"\u003Cp\u003EConsiste em alterar os valores dos produtos contidos em uma lista de pre\u00E7o.\u003C\/p\u003E"
       }
      ,"Layout":{
-        "Sequence":130
+        "Sequence":180
        ,"Parent Region":"Vendas (49351586651954027011)"
        ,"Position":"SUB_REGIONS"
        ,"Start New Layout":false
@@ -7433,7 +7818,7 @@
         "HTML Code":"\u003Cp\u003ERelat\u00F3rio de curva ABC de faturamento.\u003C\/p\u003E"
       }
      ,"Layout":{
-        "Sequence":140
+        "Sequence":130
        ,"Parent Region":"Vendas (49351586651954027011)"
        ,"Position":"SUB_REGIONS"
        ,"Start New Layout":false
@@ -7483,7 +7868,7 @@
         "HTML Code":"\u003Cp\u003EConsiste em realizar um romaneio avulso.\u003C\/p\u003E\n\u003Cdiv style=\"display:flex;justify-content:center;align-items:center;\"\u003E\n    \u003Cimg style=\"width:60%;\" src=\"#APP_FILES#mapas\/map_romaneio_avulso.PNG\" alt=\"Romaneio Avulso\"\u003E\n\u003C\/div\u003E"
       }
      ,"Layout":{
-        "Sequence":150
+        "Sequence":140
        ,"Parent Region":"Vendas (49351586651954027011)"
        ,"Position":"SUB_REGIONS"
        ,"Start New Layout":false
@@ -7782,7 +8167,7 @@
         "HTML Code":"\u003Cp\u003EProcesso para ativa\u00E7\u00E3o ou inativa\u00E7\u00E3o de uma s\u00E9rie utilizada na emiss\u00E3o de Notas Fiscais.\u003C\/p\u003E\n\u003Cul\u003E\n    \u003Cli\u003ECaso a s\u00E9rie esteja com status de \"Ativa\", ser\u00E1 inativada;\u003C\/li\u003E\n    \u003Cli\u003ECaso a s\u00E9rie esteja com status de \"Inativa\", ser\u00E1 ativada;\u003C\/li\u003E\n    \u003Cli\u003EO usu\u00E1rio corrente \u00E9 sempre gravado referindo-se a quem realizou a opera\u00E7\u00E3o;\u003C\/li\u003E\n    \u003Cli\u003ES\u00E9ries inativas n\u00E3o poder\u00E3o ser mais utilizadas nas emiss\u00F5es de Nota Fiscal e nem serem alteradas.\u003C\/li\u003E\n\u003C\/ul\u003E\n\u003C\/p\u003E"
       }
      ,"Layout":{
-        "Sequence":10
+        "Sequence":170
        ,"Parent Region":"Vendas (49351586651954027011)"
        ,"Position":"SUB_REGIONS"
        ,"Start New Layout":false
@@ -8034,7 +8419,7 @@
         "HTML Code":"\u003Cp\u003EConsiste em realizar separa\u00E7\u00F5es de mercadoria para expedi\u00E7\u00E3o.\u003C\/p\u003E"
       }
      ,"Layout":{
-        "Sequence":160
+        "Sequence":150
        ,"Parent Region":"Vendas (49351586651954027011)"
        ,"Position":"SUB_REGIONS"
        ,"Start New Layout":false
@@ -8084,7 +8469,7 @@
         "HTML Code":"\u003Cp\u003EConsiste em visualizar os pedidos e estoque dispon\u00EDvel com data de entrega.\u003C\/p\u003E"
       }
      ,"Layout":{
-        "Sequence":170
+        "Sequence":160
        ,"Parent Region":"Vendas (49351586651954027011)"
        ,"Position":"SUB_REGIONS"
        ,"Start New Layout":false
@@ -8338,7 +8723,7 @@
         "HTML Code":"\u003Cstyle\u003E\n    .div *:not(h3,u,b,i) {\n        margin-left: 20px;\n    }\n\u003C\/style\u003E\n\n\u003Cdiv\u003E\n    \u003Cp\u003E\u003Cb\u003ECaminho: \u003Ci\u003EProdu\u00E7\u00E3o \/ Gest\u00E3o da Produ\u00E7\u00E3o \/ Inclus\u00E3o Manual de Ordem\u003C\/i\u003E\u003C\/b\u003E\u003C\/p\u003E\n\n    \u003C!-- Informar se \u00E9 p\u00E1gina de relat\u00F3rio e\/ou manuten\u00E7\u00E3o --\u003E\n    \u003Cp\u003E Chamada a partir de um bot\u00E3o de desvio na Gest\u00E3o de Produ\u00E7\u00E3o, \u00E9 uma p\u00E1gina modal com os campos necess\u00E1rios para inclus\u00E3o de OP.\u003C\/p\u003E\n\n    \u003C!-- Explicar qual o objetivo da p\u00E1gina \/ para que serve --\u003E\n    \u003Cp\u003E Destinada \u00E0 inclus\u00E3o de ordens de produ\u00E7\u00E3o manuais conforme item selecionado.\n        \u003Cbr\u003E Ap\u00F3s ecolha do item, outros campos dever\u00E3o ser preenchidos, como quantidade, datas de in\u00EDcio e fim da produ\u00E7\u00E3o, se gera demandas, tipo de ordem, observa\u00E7\u00E3o, entre outros. \n    \u003C\/p\u003E\n\n    \u003C!---------------------- MANUTEN\u00C7\u00C3O ----------------------\u003E\n    \u003Cdiv class=\"div\"\u003E\n        \u003Ch3\u003EInclus\u00E3o\u003C\/h3\u003E\n            \n            \u003C!-- Informar caso n\u00E3o seja poss\u00EDvel alterar\/excluir dados ap\u00F3s confirmar\/salvar\n                Informar campos obrigat\u00F3rios e funcionalidade da p\u00E1gina (caso haja algo especifico) --\u003E\n            \u003Cp\u003ECampos obrigat\u00F3rios:\u003C\/p\u003E\n                \u003Cul\u003E\n                    \u003Cli\u003EC\u00F3digo do Item;\u003C\/li\u003E\n                    \u003Cli\u003EData de In\u00EDcio;\u003C\/li\u003E\n                    \u003Cli\u003EData de Fim;\u003C\/li\u003E\n                    \u003Cli\u003EQuantidade a ser Produzida (sempre na unidade padr\u00E3o do item);\u003C\/li\u003E\n                \u003C\/ul\u003E\n            \u003Cbr\u003E\n            \u003Cp\u003EDemais Campos:\u003C\/p\u003E\n                \u003Cul\u003E\n                    \u003Cli\u003ELote: informar caso o indicador de tratamento do item for LO - LOTE\u003C\/li\u003E\n                    \u003Cli\u003ESitua\u00E7\u00E3o da Ordem: Firme ou Liberada\u003C\/li\u003E\n                    \u003Cli\u003EGerar Demanda: carrega default dos par\u00E2metros da produ\u00E7\u00E3o.\u003C\/li\u003E\n                    \u003Cli\u003ETipo de Demanda: Dependente ou Independente\u003C\/li\u003E\n                    \u003Cli\u003EObserva\u00E7\u00E3o\u003C\/li\u003E\n                    \u003Cli\u003ETipo de Ordem: tipos conforme cadastro de Tipod de Ordem\u003C\/li\u003E\n                    \u003Cli\u003ERoteiro Alternativo: informar caso a OP precise utilizar um roteiro diferente do padr\u00E3o do Item selecionado\u003C\/li\u003E\n                \u003C\/ul\u003E    \n    \u003C\/div\u003E\n\n\n\u003C\/div\u003E"
       }
      ,"Layout":{
-        "Sequence":50
+        "Sequence":90
        ,"Parent Region":"Produ\u00E7\u00E3o (16035528139362589523)"
        ,"Position":"SUB_REGIONS"
        ,"Start New Layout":false
@@ -8488,7 +8873,7 @@
         "HTML Code":"\u003Cp\u003EConsiste em realizar manuten\u00E7\u00E3o\/consulta em documentos. Permitindo tanto a inclus\u00E3o de novos documentos ou a altera\u00E7\u00E3o e exclus\u00E3o de documento.\u003C\/p\u003E"
       }
      ,"Layout":{
-        "Sequence":30
+        "Sequence":40
        ,"Parent Region":"Recebimentos (52718146025805469017)"
        ,"Position":"SUB_REGIONS"
        ,"Start New Layout":false
@@ -8538,7 +8923,7 @@
         "HTML Code":"\u003Cp\u003EConsiste em realizar substitui\u00E7\u00F5es de documentos, permitindo criar novos documentos a receber a partir de documentos em aberto.\u003C\/p\u003E"
       }
      ,"Layout":{
-        "Sequence":60
+        "Sequence":110
        ,"Parent Region":"Recebimentos (52718146025805469017)"
        ,"Position":"SUB_REGIONS"
        ,"Start New Layout":false
@@ -9091,7 +9476,7 @@
         "HTML Code":"\u003C!--    CRIADO POR: Daniela Neutzling - 10\/11\/2023\n    \n    \u00DALTIMA ATUALIZA\u00C7\u00C3O:\n        Nome: \n        Data: \n--\u003E\n\n\u003Cstyle\u003E\n    .div *:not(h3,u,b,i) {\n        margin-left: 20px;\n    }\n\u003C\/style\u003E\n\n\u003Cdiv\u003E\n    \u003Cp\u003E\u003Cb\u003ECaminho: \u003Ci\u003EProdu\u00E7\u00E3o \/ Turno Funcion\u00E1rio\u003C\/i\u003E\u003C\/b\u003E\u003C\/p\u003E\n\n    \u003C!-- Informar se \u00E9 p\u00E1gina de relat\u00F3rio e\/ou manuten\u00E7\u00E3o --\u003E\n    \u003Cp\u003E P\u00E1gina dividida entre relat\u00F3rio e manuten\u00E7\u00E3o de dados.\u003C\/p\u003E\n\n    \u003C!-- Explicar qual o objetivo da p\u00E1gina \/ para que serve --\u003E\n    \u003Cp\u003E P\u00E1gina destinada \u00E0 consulta, inclus\u00E3o, altera\u00E7\u00E3o, exclus\u00E3o e visualiza\u00E7\u00E3o detalhada de turno de funcion\u00E1rios.\n    \u003C\/p\u003E\n\n    \u003C!---------------------- RELAT\u00D3RIO ----------------------\u003E\n    \u003Cdiv class=\"div\"\u003E\n        \u003Ch3\u003ERelat\u00F3rio\u003C\/h3\u003E\n            \u003C!-- Informar caso haja campos obrigat\u00F3rios para gera\u00E7\u00E3o do relat\u00F3rio ou alguma outra especifica\u00E7\u00E3o --\u003E\n            \u003Cp\u003ELista informa\u00E7\u00F5es referentes ao turno de funcion\u00E1rios\u003C\/p\u003E\n    \u003C\/div\u003E\n\n    \u003C!---------------------- MANUTEN\u00C7\u00C3O ----------------------\u003E\n    \u003Cdiv class=\"div\"\u003E\n        \u003Ch3\u003EManuten\u00E7\u00E3o\u003C\/h3\u003E\n            \u003Cp\u003EP\u00E1gina para inclus\u00E3o ou altera\u00E7\u00E3o de turno de funcion\u00E1rios.\u003C\/p\u003E\n\n            \u003C!-- Informar caso n\u00E3o seja poss\u00EDvel alterar\/excluir dados ap\u00F3s confirmar\/salvar\n                Informar campos obrigat\u00F3rios e funcionalidade da p\u00E1gina (caso haja algo especifico) --\u003E\n            \u003Cp\u003ECampos obrigat\u00F3rios:\u003C\/p\u003E\n                \u003Cul\u003E\n                    \u003Cli\u003EFilial;\u003C\/li\u003E\n                    \u003Cli\u003EFuncion\u00E1rio;\u003C\/li\u003E\n                    \u003Cli\u003ETurno;\u003C\/li\u003E\n                \u003C\/ul\u003E\n    \u003C\/div\u003E\n\n\u003C\/div\u003E"
       }
      ,"Layout":{
-        "Sequence":110
+        "Sequence":140
        ,"Parent Region":"Produ\u00E7\u00E3o (16035528139362589523)"
        ,"Position":"SUB_REGIONS"
        ,"Start New Layout":false
@@ -9141,7 +9526,7 @@
         "HTML Code":"\u003C!--    CRIADO POR: Daniela Neutzling - 10\/11\/2023\n    \n    \u00DALTIMA ATUALIZA\u00C7\u00C3O:\n        Nome: \n        Data: \n--\u003E\n\n\u003Cstyle\u003E\n    .div *:not(h3,u,b,i) {\n        margin-left: 20px;\n    }\n\u003C\/style\u003E\n\n\u003Cdiv\u003E\n    \u003Cp\u003E\u003Cb\u003ECaminho: \u003Ci\u003EProdu\u00E7\u00E3o \/ Rancho Linha\u003C\/i\u003E\u003C\/b\u003E\u003C\/p\u003E\n\n    \u003C!-- Informar se \u00E9 p\u00E1gina de relat\u00F3rio e\/ou manuten\u00E7\u00E3o --\u003E\n    \u003Cp\u003E P\u00E1gina de processo.\u003C\/p\u003E\n\n    \u003C!-- Explicar qual o objetivo da p\u00E1gina \/ para que serve --\u003E\n    \u003Cp\u003E P\u00E1gina destinada \u00E0 gera\u00E7\u00E3o de Rancho Linha.\n        \u003Cbr\u003E A sele\u00E7\u00E3o de dados ocorre atrav\u00E9s dos filtros para busca de ordens.\n    \u003C\/p\u003E\n\n    \u003C!---------------------- RELAT\u00D3RIO ----------------------\u003E\n    \u003Cdiv class=\"div\"\u003E\n        \u003Ch3\u003ERelat\u00F3rio\u003C\/h3\u003E\n            \u003C!-- Informar caso haja campos obrigat\u00F3rios para gera\u00E7\u00E3o do relat\u00F3rio ou alguma outra especifica\u00E7\u00E3o --\u003E\n            \u003Cp\u003ELista informa\u00E7\u00F5es referentes as ordens listadas conforme filtros escolhidos.\u003C\/p\u003E\n            \n            \u003C!-- Caso o relat\u00F3rio possua bot\u00F5es interativo, explicar cada um deles (o que faz \/ para que serve) --\u003E\n            \u003Cp\u003EA checkbox \"Marcar Todos\" tem como fun\u00E7\u00E3o marcar todos os registros no relat\u00F3rio da tela ou desmarc\u00E1-los.\u003C\/p\u003E\n \n    \u003C\/div\u003E\n\n    \u003C!---------------------- MANUTEN\u00C7\u00C3O ----------------------\u003E\n    \u003Cdiv class=\"div\"\u003E\n        \u003Ch3\u003EProcesso\u003C\/h3\u003E\n            \u003C!-- Informar caso n\u00E3o seja poss\u00EDvel alterar\/excluir dados ap\u00F3s confirmar\/salvar\n                Informar campos obrigat\u00F3rios e funcionalidade da p\u00E1gina (caso haja algo especifico) --\u003E\n                \u003Cul\u003E\n                    \u003Cli\u003E1. Alterar filtros para encontrar a ordem desejada;\u003C\/li\u003E\n                    \u003Cli\u003E2. Marcar ordens que ir\u00E3o compor o rancho linha;\u003C\/li\u003E\n                    \u003Cli\u003E3. Clicar em \"Confirmar Rancho\";\u003C\/li\u003E\n                \u003C\/ul\u003E\n    \u003C\/div\u003E\n\n    \u003C!---------------------- MAPA PARA CADASTRO ----------------------\u003E\n\n\n\u003C\/div\u003E"
       }
      ,"Layout":{
-        "Sequence":150
+        "Sequence":180
        ,"Parent Region":"Produ\u00E7\u00E3o (16035528139362589523)"
        ,"Position":"SUB_REGIONS"
        ,"Start New Layout":false
@@ -9191,7 +9576,7 @@
         "HTML Code":"\u003C!--    CRIADO POR: Daniela Neutzling - 10\/11\/2023\n    \n    \u00DALTIMA ATUALIZA\u00C7\u00C3O:\n        Nome: \n        Data: \n--\u003E\n\n\u003Cstyle\u003E\n    .div *:not(h3,u,b,i) {\n        margin-left: 20px;\n    }\n\u003C\/style\u003E\n\n\u003Cdiv\u003E\n    \u003Cp\u003E\u003Cb\u003ECaminho: \u003Ci\u003EProdu\u00E7\u00E3o \/ Hist\u00F3rico Apontamento\u003C\/i\u003E\u003C\/b\u003E\u003C\/p\u003E\n\n    \u003C!-- Informar se \u00E9 p\u00E1gina de relat\u00F3rio e\/ou manuten\u00E7\u00E3o --\u003E\n    \u003Cp\u003E P\u00E1gina dividida entre relat\u00F3rio e manuten\u00E7\u00E3o de dados.\u003C\/p\u003E\n\n    \u003C!-- Explicar qual o objetivo da p\u00E1gina \/ para que serve --\u003E\n    \u003Cp\u003E P\u00E1gina destinada \u00E0 consulta, inclus\u00E3o, altera\u00E7\u00E3o, exclus\u00E3o e visualiza\u00E7\u00E3o detalhada de Hist\u00F3rico de Apontamento.\n    \u003C\/p\u003E\n\n    \u003C!---------------------- RELAT\u00D3RIO ----------------------\u003E\n    \u003Cdiv class=\"div\"\u003E\n        \u003Ch3\u003ERelat\u00F3rio\u003C\/h3\u003E\n            \u003C!-- Informar caso haja campos obrigat\u00F3rios para gera\u00E7\u00E3o do relat\u00F3rio ou alguma outra especifica\u00E7\u00E3o --\u003E\n            \u003Cp\u003ELista informa\u00E7\u00F5es referentes aos Hist\u00F3ricos de Apontamento.\u003C\/p\u003E\n    \u003C\/div\u003E\n\n    \u003C!---------------------- MANUTEN\u00C7\u00C3O ----------------------\u003E\n    \u003Cdiv class=\"div\"\u003E\n        \u003Ch3\u003EManuten\u00E7\u00E3o\u003C\/h3\u003E\n            \u003Cp\u003EP\u00E1gina para inclus\u00E3o ou altera\u00E7\u00E3o de Hist\u00F3rico de Apontamento.\u003C\/p\u003E\n\n            \u003C!-- Informar caso n\u00E3o seja poss\u00EDvel alterar\/excluir dados ap\u00F3s confirmar\/salvar\n                Informar campos obrigat\u00F3rios e funcionalidade da p\u00E1gina (caso haja algo especifico) --\u003E\n            \u003Cp\u003ECampos obrigat\u00F3rios:\u003C\/p\u003E\n                \u003Cul\u003E\n                    \u003Cli\u003EHist\u00F3rico;\u003C\/li\u003E\n                    \u003Cli\u003EDescri\u00E7\u00E3o;\u003C\/li\u003E\n                \u003C\/ul\u003E\n    \u003C\/div\u003E\n\n\u003C\/div\u003E"
       }
      ,"Layout":{
-        "Sequence":40
+        "Sequence":80
        ,"Parent Region":"Produ\u00E7\u00E3o (16035528139362589523)"
        ,"Position":"SUB_REGIONS"
        ,"Start New Layout":false
@@ -9238,10 +9623,10 @@
        ,"Type":"Static Content"
       }
      ,"Source":{
-        "HTML Code":"\u003C!--    CRIADO POR: Daniela Neutzling - 10\/11\/2023\n    \n    \u00DALTIMA ATUALIZA\u00C7\u00C3O:\n        Nome: \n        Data: \n--\u003E\n\n\u003Cstyle\u003E\n    .div *:not(h3,u,b,i) {\n        margin-left: 20px;\n    }\n\u003C\/style\u003E\n\n\u003Cdiv\u003E\n    \u003Cp\u003E\u003Cb\u003ECaminho: \u003Ci\u003EM\u00F3dulo \/ Nome da P\u00E1gina\u003C\/i\u003E\u003C\/b\u003E\u003C\/p\u003E\n\n    \u003C!-- Informar se \u00E9 p\u00E1gina de relat\u00F3rio e\/ou manuten\u00E7\u00E3o --\u003E\n    \u003Cp\u003E P\u00E1gina dividida entre relat\u00F3rio e manuten\u00E7\u00E3o de dados.\u003C\/p\u003E\n\n    \u003C!-- Explicar qual o objetivo da p\u00E1gina \/ para que serve --\u003E\n    \u003Cp\u003E P\u00E1gina destinada \u00E0 consulta, inclus\u00E3o, altera\u00E7\u00E3o, exclus\u00E3o e visualiza\u00E7\u00E3o detalhada de documentos a pagar.\n        \u003Cbr\u003E A sele\u00E7\u00E3o \u00E9 ocorre atrav\u00E9s dos filtros para busca de t\u00EDtulos.\n    \u003C\/p\u003E\n\n    \u003C!---------------------- RELAT\u00D3RIO ----------------------\u003E\n    \u003Cdiv class=\"div\"\u003E\n        \u003Ch3\u003ERelat\u00F3rio\u003C\/h3\u003E\n            \u003C!-- Informar caso haja campos obrigat\u00F3rios para gera\u00E7\u00E3o do relat\u00F3rio ou alguma outra especifica\u00E7\u00E3o --\u003E\n            \u003Cp\u003ELista informa\u00E7\u00F5es referentes aos documentos listados conforme filtros escolhidos. Por default, 3 op\u00E7\u00F5es de layout s\u00E3o disponibilizadas:\u003C\/p\u003E\n                \u003Cul\u003E\n                    \u003Cli\u003EGeral;\u003C\/li\u003E\n                    \u003Cli\u003EPor Fornecedor;\u003C\/li\u003E\n                    \u003Cli\u003EPor data de Vencimento.\u003C\/li\u003E\n                \u003C\/ul\u003E\n            \n            \u003C!-- Caso o relat\u00F3rio possua bot\u00F5es interativo, explicar cada um deles (o que faz \/ para que serve) --\u003E\n            \u003Cp\u003EO bot\u00E3o rela\u00E7\u00E3o no relat\u00F3rio de documentos \u00E9 um desvio para as rela\u00E7\u00F5es do documento, possibilitando seu detalhamento:\u003C\/p\u003E\n                \u003Cul\u003E\n                    \u003Cli\u003EFornecedor;\u003C\/li\u003E\n                    \u003Cli\u003ENota Fiscal de Entrada;\u003C\/li\u003E\n                    \u003Cli\u003EPedido de Compra;\u003C\/li\u003E\n                    \u003Cli\u003EPagamentos.\u003C\/li\u003E\n                \u003C\/ul\u003E\n    \u003C\/div\u003E\n\n    \u003C!---------------------- MANUTEN\u00C7\u00C3O ----------------------\u003E\n    \u003Cdiv class=\"div\"\u003E\n        \u003Ch3\u003EManuten\u00E7\u00E3o\u003C\/h3\u003E\n            \u003Cp\u003EP\u00E1gina para inclus\u00E3o ou altera\u00E7\u00E3o de documentos.\u003C\/p\u003E\n\n            \u003C!-- Informar caso n\u00E3o seja poss\u00EDvel alterar\/excluir dados ap\u00F3s confirmar\/salvar\n                Informar campos obrigat\u00F3rios e funcionalidade da p\u00E1gina (caso haja algo especifico) --\u003E\n            \u003Cp\u003ECampos obrigat\u00F3rios:\u003C\/p\u003E\n                \u003Cul\u003E\n                    \u003Cli\u003ETipo Documento;\u003C\/li\u003E\n                    \u003Cli\u003EN\u00FAmero documento;\u003C\/li\u003E\n                    \u003Cli\u003EParcela;\u003C\/li\u003E\n                    \u003Cli\u003EFornecedor;\u003C\/li\u003E\n                    \u003Cli\u003EData Emiss\u00E3o;\u003C\/li\u003E\n                    \u003Cli\u003EData Vencimento;\u003C\/li\u003E\n                    \u003Cli\u003EData Entrada;\u003C\/li\u003E\n                    \u003Cli\u003EValor Emiss\u00E3o;\u003C\/li\u003E\n                    \u003Cli\u003EValor Mercadoria.\u003C\/li\u003E\n                \u003C\/ul\u003E\n    \u003C\/div\u003E\n\n    \u003C!---------------------- MAPA PARA CADASTRO ----------------------\u003E\n    \u003Cdiv style=\"display: flex; justify-content: center; align-items: center; margin: 30px 0px 20px 0px;\"\u003E\n        \u003Cimg src=\"#APP_FILES#mapas\/map_item.png\" alt=\"Item\"\u003E\n    \u003C\/div\u003E\n\n\u003C\/div\u003E"
+        "HTML Code":"\u003Cp\u003E?????\u003C\/p\u003E"
       }
      ,"Layout":{
-        "Sequence":80
+        "Sequence":110
        ,"Parent Region":"Produ\u00E7\u00E3o (16035528139362589523)"
        ,"Position":"SUB_REGIONS"
        ,"Start New Layout":false
@@ -9274,9 +9659,6 @@
      ,"Customization":{
         "Customizable":"Not Customizable By End Users"
       }
-     ,"Configuration":{
-        "Build Option":"Comentado (47708896794149297271)"
-      }
      ,"Attributes":{
         "Settings":{
           "Output As":"HTML"
@@ -9294,7 +9676,7 @@
         "HTML Code":"\u003C!--    CRIADO POR: Daniela Neutzling - 10\/11\/2023\n    \n    \u00DALTIMA ATUALIZA\u00C7\u00C3O:\n        Nome: \n        Data: \n--\u003E\n\n\u003Cstyle\u003E\n    .div *:not(h3,u,b,i) {\n        margin-left: 20px;\n    }\n\u003C\/style\u003E\n\n\u003Cdiv\u003E\n    \u003Cp\u003E\u003Cb\u003ECaminho: \u003Ci\u003EProdu\u00E7\u00E3o \/ Turno\u003C\/i\u003E\u003C\/b\u003E\u003C\/p\u003E\n\n    \u003C!-- Informar se \u00E9 p\u00E1gina de relat\u00F3rio e\/ou manuten\u00E7\u00E3o --\u003E\n    \u003Cp\u003E P\u00E1gina dividida entre relat\u00F3rio e manuten\u00E7\u00E3o de dados.\u003C\/p\u003E\n\n    \u003C!-- Explicar qual o objetivo da p\u00E1gina \/ para que serve --\u003E\n    \u003Cp\u003E P\u00E1gina destinada \u00E0 consulta, inclus\u00E3o, altera\u00E7\u00E3o, exclus\u00E3o e visualiza\u00E7\u00E3o detalhada de turnos.\n    \u003C\/p\u003E\n\n    \u003C!---------------------- RELAT\u00D3RIO ----------------------\u003E\n    \u003Cdiv class=\"div\"\u003E\n        \u003Ch3\u003ERelat\u00F3rio\u003C\/h3\u003E\n            \u003C!-- Informar caso haja campos obrigat\u00F3rios para gera\u00E7\u00E3o do relat\u00F3rio ou alguma outra especifica\u00E7\u00E3o --\u003E\n            \u003Cp\u003ELista informa\u00E7\u00F5es referentes aos turnos.\u003C\/p\u003E\n    \u003C\/div\u003E\n\n    \u003C!---------------------- MANUTEN\u00C7\u00C3O ----------------------\u003E\n    \u003Cdiv class=\"div\"\u003E\n        \u003Ch3\u003EManuten\u00E7\u00E3o\u003C\/h3\u003E\n            \u003Cp\u003EP\u00E1gina para inclus\u00E3o ou altera\u00E7\u00E3o de turnos.\u003C\/p\u003E\n\n            \u003C!-- Informar caso n\u00E3o seja poss\u00EDvel alterar\/excluir dados ap\u00F3s confirmar\/salvar\n                Informar campos obrigat\u00F3rios e funcionalidade da p\u00E1gina (caso haja algo especifico) --\u003E\n            \u003Cp\u003ECampos obrigat\u00F3rios:\u003C\/p\u003E\n                \u003Cul\u003E\n                    \u003Cli\u003EFilial;\u003C\/li\u003E\n                    \u003Cli\u003ETurno;\u003C\/li\u003E\n                    \u003Cli\u003EDescri\u00E7\u00E3o;\u003C\/li\u003E\n                    \u003Cli\u003EDia Semana Inicial;\u003C\/li\u003E\n                    \u003Cli\u003EDia Semana Final;\u003C\/li\u003E\n                \u003C\/ul\u003E\n    \u003C\/div\u003E\n\n\u003C\/div\u003E"
       }
      ,"Layout":{
-        "Sequence":100
+        "Sequence":130
        ,"Parent Region":"Produ\u00E7\u00E3o (16035528139362589523)"
        ,"Position":"SUB_REGIONS"
        ,"Start New Layout":false
@@ -9341,10 +9723,10 @@
        ,"Type":"Static Content"
       }
      ,"Source":{
-        "HTML Code":"\u003C!--    CRIADO POR: Daniela Neutzling - 10\/11\/2023\n    \n    \u00DALTIMA ATUALIZA\u00C7\u00C3O:\n        Nome: \n        Data: \n--\u003E\n\n\u003Cstyle\u003E\n    .div *:not(h3,u,b,i) {\n        margin-left: 20px;\n    }\n\u003C\/style\u003E\n\n\u003Cdiv\u003E\n    \u003Cp\u003E\u003Cb\u003ECaminho: \u003Ci\u003EM\u00F3dulo \/ Nome da P\u00E1gina\u003C\/i\u003E\u003C\/b\u003E\u003C\/p\u003E\n\n    \u003C!-- Informar se \u00E9 p\u00E1gina de relat\u00F3rio e\/ou manuten\u00E7\u00E3o --\u003E\n    \u003Cp\u003E P\u00E1gina dividida entre relat\u00F3rio e manuten\u00E7\u00E3o de dados.\u003C\/p\u003E\n\n    \u003C!-- Explicar qual o objetivo da p\u00E1gina \/ para que serve --\u003E\n    \u003Cp\u003E P\u00E1gina destinada \u00E0 consulta, inclus\u00E3o, altera\u00E7\u00E3o, exclus\u00E3o e visualiza\u00E7\u00E3o detalhada de documentos a pagar.\n        \u003Cbr\u003E A sele\u00E7\u00E3o \u00E9 ocorre atrav\u00E9s dos filtros para busca de t\u00EDtulos.\n    \u003C\/p\u003E\n\n    \u003C!---------------------- RELAT\u00D3RIO ----------------------\u003E\n    \u003Cdiv class=\"div\"\u003E\n        \u003Ch3\u003ERelat\u00F3rio\u003C\/h3\u003E\n            \u003C!-- Informar caso haja campos obrigat\u00F3rios para gera\u00E7\u00E3o do relat\u00F3rio ou alguma outra especifica\u00E7\u00E3o --\u003E\n            \u003Cp\u003ELista informa\u00E7\u00F5es referentes aos documentos listados conforme filtros escolhidos. Por default, 3 op\u00E7\u00F5es de layout s\u00E3o disponibilizadas:\u003C\/p\u003E\n                \u003Cul\u003E\n                    \u003Cli\u003EGeral;\u003C\/li\u003E\n                    \u003Cli\u003EPor Fornecedor;\u003C\/li\u003E\n                    \u003Cli\u003EPor data de Vencimento.\u003C\/li\u003E\n                \u003C\/ul\u003E\n            \n            \u003C!-- Caso o relat\u00F3rio possua bot\u00F5es interativo, explicar cada um deles (o que faz \/ para que serve) --\u003E\n            \u003Cp\u003EO bot\u00E3o rela\u00E7\u00E3o no relat\u00F3rio de documentos \u00E9 um desvio para as rela\u00E7\u00F5es do documento, possibilitando seu detalhamento:\u003C\/p\u003E\n                \u003Cul\u003E\n                    \u003Cli\u003EFornecedor;\u003C\/li\u003E\n                    \u003Cli\u003ENota Fiscal de Entrada;\u003C\/li\u003E\n                    \u003Cli\u003EPedido de Compra;\u003C\/li\u003E\n                    \u003Cli\u003EPagamentos.\u003C\/li\u003E\n                \u003C\/ul\u003E\n    \u003C\/div\u003E\n\n    \u003C!---------------------- MANUTEN\u00C7\u00C3O ----------------------\u003E\n    \u003Cdiv class=\"div\"\u003E\n        \u003Ch3\u003EManuten\u00E7\u00E3o\u003C\/h3\u003E\n            \u003Cp\u003EP\u00E1gina para inclus\u00E3o ou altera\u00E7\u00E3o de documentos.\u003C\/p\u003E\n\n            \u003C!-- Informar caso n\u00E3o seja poss\u00EDvel alterar\/excluir dados ap\u00F3s confirmar\/salvar\n                Informar campos obrigat\u00F3rios e funcionalidade da p\u00E1gina (caso haja algo especifico) --\u003E\n            \u003Cp\u003ECampos obrigat\u00F3rios:\u003C\/p\u003E\n                \u003Cul\u003E\n                    \u003Cli\u003ETipo Documento;\u003C\/li\u003E\n                    \u003Cli\u003EN\u00FAmero documento;\u003C\/li\u003E\n                    \u003Cli\u003EParcela;\u003C\/li\u003E\n                    \u003Cli\u003EFornecedor;\u003C\/li\u003E\n                    \u003Cli\u003EData Emiss\u00E3o;\u003C\/li\u003E\n                    \u003Cli\u003EData Vencimento;\u003C\/li\u003E\n                    \u003Cli\u003EData Entrada;\u003C\/li\u003E\n                    \u003Cli\u003EValor Emiss\u00E3o;\u003C\/li\u003E\n                    \u003Cli\u003EValor Mercadoria.\u003C\/li\u003E\n                \u003C\/ul\u003E\n    \u003C\/div\u003E\n\n    \u003C!---------------------- MAPA PARA CADASTRO ----------------------\u003E\n    \u003Cdiv style=\"display: flex; justify-content: center; align-items: center; margin: 30px 0px 20px 0px;\"\u003E\n        \u003Cimg src=\"#APP_FILES#mapas\/map_item.png\" alt=\"Item\"\u003E\n    \u003C\/div\u003E\n\n\u003C\/div\u003E"
+        "HTML Code":"\u003Cp\u003E?????\u003C\/p\u003E"
       }
      ,"Layout":{
-        "Sequence":120
+        "Sequence":150
        ,"Parent Region":"Produ\u00E7\u00E3o (16035528139362589523)"
        ,"Position":"SUB_REGIONS"
        ,"Start New Layout":false
@@ -9377,9 +9759,6 @@
      ,"Customization":{
         "Customizable":"Not Customizable By End Users"
       }
-     ,"Configuration":{
-        "Build Option":"Comentado (47708896794149297271)"
-      }
      ,"Attributes":{
         "Settings":{
           "Output As":"HTML"
@@ -9397,7 +9776,7 @@
         "HTML Code":"\u003C!--    CRIADO POR: Daniela Neutzling - 10\/11\/2023\n    \n    \u00DALTIMA ATUALIZA\u00C7\u00C3O:\n        Nome: \n        Data: \n--\u003E\n\n\u003Cstyle\u003E\n    .div *:not(h3,u,b,i) {\n        margin-left: 20px;\n    }\n\u003C\/style\u003E\n\n\u003Cdiv\u003E\n    \u003Cp\u003E\u003Cb\u003ECaminho: \u003Ci\u003EProdu\u00E7\u00E3o \/ Rancho\u003C\/i\u003E\u003C\/b\u003E\u003C\/p\u003E\n\n    \u003C!-- Informar se \u00E9 p\u00E1gina de relat\u00F3rio e\/ou manuten\u00E7\u00E3o --\u003E\n    \u003Cp\u003E P\u00E1gina de processo.\u003C\/p\u003E\n\n    \u003C!-- Explicar qual o objetivo da p\u00E1gina \/ para que serve --\u003E\n    \u003Cp\u003E P\u00E1gina destinada \u00E0 gera\u00E7\u00E3o de Rancho.\n        \u003Cbr\u003E A sele\u00E7\u00E3o de dados ocorre atrav\u00E9s dos filtros para busca de ordens.\n    \u003C\/p\u003E\n\n    \u003C!---------------------- RELAT\u00D3RIO ----------------------\u003E\n    \u003Cdiv class=\"div\"\u003E\n        \u003Ch3\u003ERelat\u00F3rio\u003C\/h3\u003E\n            \u003C!-- Informar caso haja campos obrigat\u00F3rios para gera\u00E7\u00E3o do relat\u00F3rio ou alguma outra especifica\u00E7\u00E3o --\u003E\n            \u003Cp\u003ELista informa\u00E7\u00F5es referentes as ordens listadas conforme filtros escolhidos.\u003C\/p\u003E\n            \n            \u003C!-- Caso o relat\u00F3rio possua bot\u00F5es interativo, explicar cada um deles (o que faz \/ para que serve) --\u003E\n            \u003Cp\u003EA checkbox \"Marcar Todos\" tem como fun\u00E7\u00E3o marcar todos os registros no relat\u00F3rio da tela ou desmarc\u00E1-los.\u003C\/p\u003E\n \n    \u003C\/div\u003E\n\n    \u003C!---------------------- MANUTEN\u00C7\u00C3O ----------------------\u003E\n    \u003Cdiv class=\"div\"\u003E\n        \u003Ch3\u003EProcesso\u003C\/h3\u003E\n            \u003C!-- Informar caso n\u00E3o seja poss\u00EDvel alterar\/excluir dados ap\u00F3s confirmar\/salvar\n                Informar campos obrigat\u00F3rios e funcionalidade da p\u00E1gina (caso haja algo especifico) --\u003E\n                \u003Cul\u003E\n                    \u003Cli\u003E1. Alterar filtros para encontrar a ordem desejada;\u003C\/li\u003E\n                    \u003Cli\u003E2. Marcar ordens que ir\u00E3o compor o rancho;\u003C\/li\u003E\n                    \u003Cli\u003E3. Clicar em \"Confirmar Rancho\";\u003C\/li\u003E\n                \u003C\/ul\u003E\n    \u003C\/div\u003E\n\n    \u003C!---------------------- MAPA PARA CADASTRO ----------------------\u003E\n\n\n\u003C\/div\u003E"
       }
      ,"Layout":{
-        "Sequence":140
+        "Sequence":170
        ,"Parent Region":"Produ\u00E7\u00E3o (16035528139362589523)"
        ,"Position":"SUB_REGIONS"
        ,"Start New Layout":false
@@ -9447,7 +9826,7 @@
         "HTML Code":"\u003Cstyle\u003E\n    .div *:not(h3,u,b,i) {\n        margin-left: 20px;\n    }\n\u003C\/style\u003E\n\n\u003Cdiv\u003E\n    \u003Cp\u003E\u003Cb\u003ECaminho: \u003Ci\u003EProdu\u00E7\u00E3o \/ Entrega de Produ\u00E7\u00E3o\u003C\/i\u003E\u003C\/b\u003E\u003C\/p\u003E\n\n    \u003C!-- Informar se \u00E9 p\u00E1gina de relat\u00F3rio e\/ou manuten\u00E7\u00E3o --\u003E\n    \u003Cp\u003E P\u00E1gina com a\u00E7\u00F5es\/desvios referentes \u00E0 Entrega de Produ\u00E7\u00E3o\u003C\/p\u003E\n\n    \u003C!-- Explicar qual o objetivo da p\u00E1gina \/ para que serve --\u003E\n    \u003Cp\u003E Destinada a garantir que os produtos fabricados sejam entregues de forma eficiente.\n        \u003Cbr\u003E Nesta tela, \u00E9 poss\u00EDvel definir a entrega de produ\u00E7\u00E3o, podendo visualizar as ordens pendentes.\n    \u003C\/p\u003E\n\n    \u003C!---------------------- MANUTEN\u00C7\u00C3O ----------------------\u003E\n    \u003Cdiv class=\"div\"\u003E\n        \u003Ch3\u003EFuncionalidades\u003C\/h3\u003E\n            \n            \u003C!-- Informar caso n\u00E3o seja poss\u00EDvel alterar\/excluir dados ap\u00F3s confirmar\/salvar\n                Informar campos obrigat\u00F3rios e funcionalidade da p\u00E1gina (caso haja algo especifico) --\u003E\n            \n            \u003Ch5\u003EDesvios\/Detalhamentos\u003C\/h5\u003E\n             \u003Cp\u003EExiste a op\u00E7\u00E3o de detalhamento das informa\u00E7\u00F5es a partir desta tela, facilitando a navega\u00E7\u00E3o e centralizando o uso em uma \u00FAnica tela para os usu\u00E1rios\u003C\/p\u003E\n             \u003Cp\u003EOp\u00E7\u00F5es Dispon\u00EDveis\u003C\/p\u003E\n                \u003Cul\u003E\n                    \u003Cli\u003EDisponibilidade: direciona para a tela de estoque do produto a ser entregue.\u003C\/li\u003E\n                \u003C\/ul\u003E           \n    \u003C\/div\u003E\n\n\n\u003C\/div\u003E"
       }
      ,"Layout":{
-        "Sequence":30
+        "Sequence":40
        ,"Parent Region":"Produ\u00E7\u00E3o (16035528139362589523)"
        ,"Position":"SUB_REGIONS"
        ,"Start New Layout":false
