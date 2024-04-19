@@ -145,7 +145,7 @@
      ,"Source":{
         "Location":"Local Database"
        ,"Type":"SQL Query"
-       ,"SQL Query":"select DUVIDA,\n       substr(EXPLICACAO, 1, 50) || \u0027...\u0027 EXPLICACAO,\n       ID\n  from HELP_DUVIDAS_FREQ"
+       ,"SQL Query":"SELECT duvida\n     , SUBSTR(explicacao, 1, 50) || \u0027...\u0027   explicacao\n     , id\n  FROM HELP_PERGUNTAS_FREQ"
       }
      ,"Layout":{
         "Sequence":40
@@ -330,6 +330,42 @@
           "Output As":"HTML"
          ,"Expand Shortcuts":false
         }
+      }
+    }
+  ]
+ ,"Buttons":[
+    {
+      "id":"10793154214359807665"
+     ,"Identification":{
+        "Button Name":"NOVO"
+       ,"Label":"Novo"
+      }
+     ,"Layout":{
+        "Sequence":10
+       ,"Region":"Pesquisa (16035527501312589517)"
+       ,"Position":"NEXT"
+       ,"Start New Layout":false
+       ,"Start New Row":true
+       ,"Column":"Automatic"
+       ,"New Column":true
+       ,"Column Span":"Automatic"
+      }
+     ,"Appearance":{
+        "Button Template":"Text with Icon (47709875827306297355)"
+       ,"Hot":true
+       ,"Template Options":[
+          "#DEFAULT#"
+         ,"t-Button--iconRight"
+        ]
+       ,"Icon":"fa-plus"
+      }
+     ,"Behavior":{
+        "Action":"Redirect to Page in this Application"
+       ,"Target":{
+          "url":"f?p=\u0026APP_ID.:5:\u0026SESSION.::\u0026DEBUG.:::"
+         ,"Page":"5"
+        }
+       ,"Warn on Unsaved Changes":"Do Not Check"
       }
     }
   ]

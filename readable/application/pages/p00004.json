@@ -100,7 +100,7 @@
         "Location":"Local Database"
        ,"Type":"Table \/ View"
        ,"Table Owner":"Parsing Schema"
-       ,"Table Name":"HELP_DUVIDAS_FREQ"
+       ,"Table Name":"HELP_PERGUNTAS_FREQ"
        ,"Include ROWID Column":false
       }
      ,"Layout":{
