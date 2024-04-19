@@ -129,7 +129,7 @@
    ,"Source":{
       "Location":"Local Database"
      ,"Type":"SQL Query"
-     ,"SQL Query":"SELECT id\n     , duvida\n     , explicacao\n  FROM DUVIDAS_FREQUENTES"
+     ,"SQL Query":"SELECT id\r\n     , duvida\r\n     , explicacao\r\n  FROM HELP_PERGUNTAS_FREQ"
     }
    ,"Column Mapping":{
       "Return":"ID"

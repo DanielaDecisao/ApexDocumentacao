@@ -1,7 +1,7 @@
 
   <TABLE xmlns="http://xmlns.oracle.com/ku" version="1.0">
    <SCHEMA></SCHEMA>
-   <NAME>HELP_DUVIDAS_FREQ</NAME>
+   <NAME>HELP_PERGUNTAS_FREQ</NAME>
    <RELATIONAL_TABLE>
       <COL_LIST>
          <COL_LIST_ITEM>

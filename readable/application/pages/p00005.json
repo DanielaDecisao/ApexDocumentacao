@@ -1,16 +1,19 @@
 {
   "id":"5"
  ,"Identification":{
-    "Name":"Cadastro de D\u00FAvidas Frequentes"
-   ,"Alias":"CADASTRO-D\u00DAVIDAS-FREQUENTES"
-   ,"Title":"Cadastro de D\u00FAvidas Frequentes"
+    "Name":"Cadastro de Perguntas Frequentes"
+   ,"Alias":"CADASTRO-PERGUNTAS-FREQUENTES"
+   ,"Title":"Cadastro de Perguntas Frequentes"
   }
  ,"Appearance":{
-    "Page Mode":"Normal"
-   ,"Page Template":"Theme Default"
+    "Page Mode":"Modal Dialog"
+   ,"Dialog Template":"Theme Default"
    ,"Template Options":[
       "#DEFAULT#"
     ]
+  }
+ ,"Dialog":{
+    "Chained":true
   }
  ,"Navigation Menu":{
     "Override User Interface Level":false
@@ -47,7 +50,7 @@
         "Location":"Local Database"
        ,"Type":"Table \/ View"
        ,"Table Owner":"Parsing Schema"
-       ,"Table Name":"HELP_DUVIDAS_FREQ"
+       ,"Table Name":"HELP_PERGUNTAS_FREQ"
        ,"Include ROWID Column":false
       }
      ,"Layout":{
@@ -93,13 +96,10 @@
         "Title":"Bot\u00F5es"
        ,"Type":"Static Content"
       }
-     ,"Source":{
-        "HTML Code":"\u003Cspan style=\"margin-left:20px;font-family:Segoe UI\"\u003E\u003Cb\u003ECadastro de D\u00FAvidas Frequentes\u003C\/b\u003E\u003C\/span\u003E"
-      }
      ,"Layout":{
         "Sequence":10
        ,"Parent Region":"No Parent"
-       ,"Position":"REGION_POSITION_01"
+       ,"Position":"REGION_POSITION_03"
        ,"Start New Layout":false
        ,"Start New Row":true
        ,"Column":"Automatic"
@@ -110,7 +110,6 @@
         "Template":"Buttons Container (47709738462474297293)"
        ,"Template Options":[
           "#DEFAULT#"
-         ,"t-ButtonRegion--noUI"
         ]
        ,"Render Components":"Above Content"
       }
@@ -337,6 +336,38 @@
   ]
  ,"Buttons":[
     {
+      "id":"10793154175624807664"
+     ,"Identification":{
+        "Button Name":"CANCELAR"
+       ,"Label":"Cancelar"
+      }
+     ,"Layout":{
+        "Sequence":10
+       ,"Region":"Bot\u00F5es (49870606286263132147)"
+       ,"Position":"BODY"
+       ,"Start New Layout":false
+       ,"Start New Row":true
+       ,"Column":"Automatic"
+       ,"New Column":true
+       ,"Column Span":"Automatic"
+       ,"Alignment":"Left center"
+      }
+     ,"Appearance":{
+        "Button Template":"Text with Icon (47709875827306297355)"
+       ,"Hot":true
+       ,"Template Options":[
+          "#DEFAULT#"
+         ,"t-Button--link"
+         ,"t-Button--iconLeft"
+        ]
+       ,"Icon":"fa-angle-left"
+      }
+     ,"Behavior":{
+        "Action":"Defined by Dynamic Action"
+       ,"Execute Validations":true
+      }
+    }
+   ,{
       "id":"49870605809668132143"
      ,"Identification":{
         "Button Name":"CONFIRMAR"
@@ -374,7 +405,7 @@
        ,"Label":"Salvar"
       }
      ,"Layout":{
-        "Sequence":30
+        "Sequence":20
        ,"Region":"Bot\u00F5es (49870606286263132147)"
        ,"Position":"NEXT"
        ,"Start New Layout":false
@@ -437,6 +468,36 @@
   ]
  ,"Dynamic Actions":[
     {
+      "id":"10793154066259807663"
+     ,"Identification":{
+        "Name":"Close Dialog"
+      }
+     ,"Execution":{
+        "Sequence":20
+       ,"Event Scope":"Static"
+       ,"Type":"Immediate"
+      }
+     ,"When":{
+        "Event":"EVENT.EVENT.BROWSER.CLICK"
+       ,"Selection Type":"Button"
+       ,"Button":"CANCELAR (10793154175624807664)"
+      }
+     ,"Actions":[
+        {
+          "id":"10793153962027807662"
+         ,"Identification":{
+            "Action":"Close Dialog"
+          }
+         ,"Execution":{
+            "Sequence":10
+           ,"Event":"Close Dialog (10793154066259807663)"
+           ,"Fire When Event Result Is":"True"
+           ,"Fire on Initialization":false
+          }
+        }
+      ]
+    }
+   ,{
       "id":"49870606366158132148"
      ,"Identification":{
         "Name":"Show\/Hide Bot\u00F5es"

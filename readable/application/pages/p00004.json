@@ -100,7 +100,7 @@
         "Location":"Local Database"
        ,"Type":"Table \/ View"
        ,"Table Owner":"Parsing Schema"
-       ,"Table Name":"HELP_DUVIDAS_FREQ"
+       ,"Table Name":"HELP_PERGUNTAS_FREQ"
        ,"Include ROWID Column":false
       }
      ,"Layout":{
@@ -230,18 +230,41 @@
       "id":"51052732265866678518"
      ,"Identification":{
         "Name":"P4_DUVIDA"
-       ,"Type":"Hidden"
+       ,"Type":"Display Only"
+      }
+     ,"Label":{
+        "Label":"\u0026nbsp;"
+       ,"Alignment":"Left"
       }
      ,"Settings":{
-        "Value Protected":true
+        "Format":"Plain Text"
+       ,"Based On":"Item Value"
+       ,"Show Line Breaks":true
+       ,"Send On Page Submit":false
       }
      ,"Layout":{
         "Sequence":20
        ,"Region":"Cadastro de D\u00FAvidas Frequentes (51052731485879678516)"
        ,"Position":"BODY"
+       ,"Alignment":"Left"
+       ,"Start New Layout":false
+       ,"Start New Row":true
+       ,"Column":"Automatic"
+       ,"New Column":true
+       ,"Column Span":"Automatic"
+       ,"Label Column Span":"Page Template Default"
+      }
+     ,"Appearance":{
+        "Template":"Optional - Floating (47709873299516297353)"
+       ,"Template Options":[
+          "#DEFAULT#"
+        ]
       }
      ,"Advanced":{
-        "Warn on Unsaved Changes":"Page Default"
+        "CSS Classes":[
+          "u-bold"
+        ]
+       ,"Warn on Unsaved Changes":"Page Default"
       }
      ,"Source":{
         "Form Region":"Cadastro de D\u00FAvidas Frequentes (51052731485879678516)"
@@ -264,15 +287,35 @@
       "id":"51052732670823678518"
      ,"Identification":{
         "Name":"P4_EXPLICACAO"
-       ,"Type":"Hidden"
+       ,"Type":"Display Only"
+      }
+     ,"Label":{
+        "Label":"\u0026nbsp;"
+       ,"Alignment":"Left"
       }
      ,"Settings":{
-        "Value Protected":true
+        "Format":"Plain Text"
+       ,"Based On":"Item Value"
+       ,"Show Line Breaks":true
+       ,"Send On Page Submit":false
       }
      ,"Layout":{
         "Sequence":30
        ,"Region":"Cadastro de D\u00FAvidas Frequentes (51052731485879678516)"
        ,"Position":"BODY"
+       ,"Alignment":"Left"
+       ,"Start New Layout":false
+       ,"Start New Row":true
+       ,"Column":"Automatic"
+       ,"New Column":true
+       ,"Column Span":"Automatic"
+       ,"Label Column Span":"Page Template Default"
+      }
+     ,"Appearance":{
+        "Template":"Optional - Floating (47709873299516297353)"
+       ,"Template Options":[
+          "#DEFAULT#"
+        ]
       }
      ,"Advanced":{
         "Warn on Unsaved Changes":"Page Default"
