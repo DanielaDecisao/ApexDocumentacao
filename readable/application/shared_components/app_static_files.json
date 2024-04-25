@@ -20,6 +20,26 @@
     }
   }
  ,{
+    "id":"13511131965810515159"
+   ,"Identification":{
+      "File Name":"help\/duplicar_registro.gif"
+    }
+   ,"Attributes":{
+      "Mime Type":"image\/gif"
+     ,"File Character Set":"Unicode UTF-8"
+    }
+  }
+ ,{
+    "id":"13511176107277522950"
+   ,"Identification":{
+      "File Name":"help\/atalho_clique_duplo.gif"
+    }
+   ,"Attributes":{
+      "Mime Type":"image\/gif"
+     ,"File Character Set":"Unicode UTF-8"
+    }
+  }
+ ,{
     "id":"16204016286760646245"
    ,"Identification":{
       "File Name":"help\/quem_somos.png"
