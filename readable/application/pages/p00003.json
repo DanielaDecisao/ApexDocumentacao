@@ -181,19 +181,17 @@
      ,"Attributes":{
         "id":"49870601817082132103"
        ,"Appearance":{
-          "Layout":"Grid"
-         ,"Grid Columns":"Auto"
+          "Layout":"Horizontal (Row)"
         }
        ,"Title":{
           "Advanced Formatting":false
-         ,"Column":"DUVIDA"
         }
        ,"Subtitle":{
           "Advanced Formatting":false
         }
        ,"Body":{
           "Advanced Formatting":false
-         ,"Column":"EXPLICACAO"
+         ,"Column":"DUVIDA"
         }
        ,"Secondary Body":{
           "Advanced Formatting":false

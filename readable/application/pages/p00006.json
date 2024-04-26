@@ -137,7 +137,7 @@
        ,"SQL Query":"SELECT nome_item\n  FROM LISTA\n WHERE nome_lista = \u0027ASSUNTOS_RELEVANTES\u0027"
       }
      ,"Layout":{
-        "Sequence":70
+        "Sequence":80
        ,"Parent Region":"No Parent"
        ,"Position":"BODY"
        ,"Start New Layout":false
@@ -292,6 +292,54 @@
         "Template":"Blank with Attributes (47709735633685297291)"
        ,"Template Options":[
           "#DEFAULT#"
+        ]
+       ,"Render Components":"Above Content"
+      }
+     ,"Accessibility":{
+        "Use Landmark":true
+       ,"Landmark Type":"Template Default"
+      }
+     ,"Advanced":{
+        "Region Display Selector":false
+       ,"Exclude Title from Translation":false
+      }
+     ,"Server Cache":{
+        "Caching":"Disabled"
+      }
+     ,"Customization":{
+        "Customizable":"Not Customizable By End Users"
+      }
+     ,"Attributes":{
+        "Settings":{
+          "Output As":"HTML"
+         ,"Expand Shortcuts":false
+        }
+      }
+    }
+   ,{
+      "id":"166137949900657225677"
+     ,"Identification":{
+        "Title":"WhatsApp"
+       ,"Type":"Static Content"
+      }
+     ,"Source":{
+        "HTML Code":" \u003Cstyle\u003E\n  .contact-info {\n    text-align: center;\n    margin-top: 20px;\n  }\n\n  .contact-info .contact-icon {\n    display: inline-block;\n    background-color: #3498db;\n    color: white;\n    padding: 10px 20px;\n    border-radius: 10px;\n    cursor: pointer;\n    transition: transform 0.2s ease-in-out, background-color 0.2s ease-in-out;\n  }\n\n  .contact-info .contact-icon:hover {\n    background-color: #2980b9;\n    transform: scale(1.1);\n    display: inline-block;\n  }\n\n  p {\n    font-width: 8px;\n    margin-top: 12px;\n  }\n\u003C\/style\u003E\n\n\n\u003Cdiv class=\"contact-info\"\u003E\n    \u003Ch3\u003EAinda t\u00EAm d\u00FAvidas? Entre em contato com nosso Suporte T\u00E9cnico pelo WhatsApp\u003C\/h3\u003E\n    \u003Ca href=\"https:\/\/api.whatsapp.com\/send?phone=5554999330220\" class=\"contact-icon\"\u003EEntrar em contato\u003C\/a\u003E\n    \u003Cp\u003EHor\u00E1rio de Atendimento: Segunda a Sexta das 08h \u00E0s 12h e das 13:30 \u00E0s 18h (exceto feriados).\u003C\/p\u003E\n\u003C\/div\u003E"
+      }
+     ,"Layout":{
+        "Sequence":90
+       ,"Parent Region":"No Parent"
+       ,"Position":"REGION_POSITION_05"
+       ,"Start New Layout":false
+       ,"Start New Row":true
+       ,"Column":"2"
+       ,"New Column":true
+       ,"Column Span":"10"
+      }
+     ,"Appearance":{
+        "Template":"Blank with Attributes (47709735633685297291)"
+       ,"Template Options":[
+          "#DEFAULT#"
+         ,"margin-top-lg"
         ]
        ,"Render Components":"Above Content"
       }
