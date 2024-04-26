@@ -55,7 +55,7 @@
        ,"SQL Query":"SELECT duvida\n     , SUBSTR(explicacao, 1, 50) || \u0027...\u0027   explicacao\n     , id\n  FROM HELP_PERGUNTAS_FREQ"
       }
      ,"Layout":{
-        "Sequence":80
+        "Sequence":90
        ,"Parent Region":"No Parent"
        ,"Position":"BODY"
        ,"Start New Layout":false
@@ -68,11 +68,12 @@
         "Template":"Standard (47709802464834297321)"
        ,"Template Options":[
           "#DEFAULT#"
+         ,"t-Region--showIcon"
          ,"t-Region--stacked"
          ,"t-Region--scrollBody"
          ,"margin-top-md"
         ]
-       ,"Icon":"fa-question"
+       ,"Icon":"fa-comment-o"
        ,"Render Components":"Above Content"
       }
      ,"Accessibility":{
@@ -136,7 +137,7 @@
        ,"SQL Query":"SELECT nome_item\n  FROM LISTA\n WHERE nome_lista = \u0027ASSUNTOS_RELEVANTES\u0027"
       }
      ,"Layout":{
-        "Sequence":90
+        "Sequence":100
        ,"Parent Region":"No Parent"
        ,"Position":"BODY"
        ,"Start New Layout":false
@@ -149,10 +150,12 @@
         "Template":"Standard (47709802464834297321)"
        ,"Template Options":[
           "#DEFAULT#"
+         ,"t-Region--showIcon"
          ,"t-Region--stacked"
          ,"t-Region--scrollBody"
          ,"margin-top-md"
         ]
+       ,"Icon":"fa-box-arrow-in-ne"
        ,"Render Components":"Above Content"
       }
      ,"Accessibility":{
@@ -228,6 +231,7 @@
        ,"Template Options":[
           "#DEFAULT#"
         ]
+       ,"Icon":"fa-folders"
        ,"Render Components":"Above Content"
       }
      ,"Accessibility":{
