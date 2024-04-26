@@ -44,6 +44,86 @@
   }
  ,"Regions":[
     {
+      "id":"13892675374608499837"
+     ,"Identification":{
+        "Title":"Assuntos Relevantes"
+       ,"Type":"Cards"
+      }
+     ,"Source":{
+        "Location":"Local Database"
+       ,"Type":"SQL Query"
+       ,"SQL Query":"SELECT nome_item\n  FROM LISTA\n WHERE nome_lista = \u0027ASSUNTOS_RELEVANTES\u0027"
+      }
+     ,"Layout":{
+        "Sequence":80
+       ,"Parent Region":"No Parent"
+       ,"Position":"BODY"
+       ,"Start New Layout":false
+       ,"Start New Row":true
+       ,"Column":"2"
+       ,"New Column":true
+       ,"Column Span":"10"
+      }
+     ,"Appearance":{
+        "Template":"Standard (47709802464834297321)"
+       ,"Template Options":[
+          "#DEFAULT#"
+         ,"t-Region--stacked"
+         ,"t-Region--scrollBody"
+         ,"margin-top-md"
+        ]
+       ,"Render Components":"Above Content"
+      }
+     ,"Accessibility":{
+        "Use Landmark":true
+       ,"Landmark Type":"Template Default"
+      }
+     ,"Advanced":{
+        "Region Display Selector":false
+       ,"Exclude Title from Translation":false
+      }
+     ,"Server Cache":{
+        "Caching":"Disabled"
+      }
+     ,"Customization":{
+        "Customizable":"Not Customizable By End Users"
+      }
+     ,"Attributes":{
+        "id":"13892675487025499838"
+       ,"Appearance":{
+          "Layout":"Grid"
+         ,"Grid Columns":"4 Columns"
+        }
+       ,"Title":{
+          "Advanced Formatting":false
+         ,"Column":"NOME_ITEM"
+        }
+       ,"Subtitle":{
+          "Advanced Formatting":false
+        }
+       ,"Body":{
+          "Advanced Formatting":false
+        }
+       ,"Secondary Body":{
+          "Advanced Formatting":false
+        }
+       ,"Icon and Badge":{
+          "Icon Source":"No Icon"
+        }
+       ,"Media":{
+          "Advanced Formatting":false
+         ,"Source":"No Media"
+        }
+       ,"Performance":{
+          "Lazy Loading":false
+        }
+       ,"Pagination":{
+          "Type":"Scroll"
+         ,"Show Total Count":false
+        }
+      }
+    }
+   ,{
       "id":"65071172707030250924"
      ,"Identification":{
         "Title":"List - M\u00F3dulos"
@@ -92,7 +172,7 @@
            ,"u-colors"
            ,"t-Cards--featured force-fa-lg"
            ,"t-Cards--displayIcons"
-           ,"t-Cards--5cols"
+           ,"t-Cards--4cols"
            ,"t-Cards--hideBody"
            ,"t-Cards--iconsRounded"
            ,"t-Cards--animColorFill"
