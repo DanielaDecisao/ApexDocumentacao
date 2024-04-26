@@ -44,6 +44,85 @@
   }
  ,"Regions":[
     {
+      "id":"10793153869084807661"
+     ,"Identification":{
+        "Title":"Assunto em Destaque - D\u00FAvidas Frequentes"
+       ,"Type":"Cards"
+      }
+     ,"Source":{
+        "Location":"Local Database"
+       ,"Type":"SQL Query"
+       ,"SQL Query":"SELECT duvida\n     , SUBSTR(explicacao, 1, 50) || \u0027...\u0027   explicacao\n     , id\n  FROM HELP_PERGUNTAS_FREQ"
+      }
+     ,"Layout":{
+        "Sequence":80
+       ,"Parent Region":"No Parent"
+       ,"Position":"BODY"
+       ,"Start New Layout":false
+       ,"Start New Row":true
+       ,"Column":"2"
+       ,"New Column":true
+       ,"Column Span":"10"
+      }
+     ,"Appearance":{
+        "Template":"Standard (47709802464834297321)"
+       ,"Template Options":[
+          "#DEFAULT#"
+         ,"t-Region--scrollBody"
+         ,"margin-top-md"
+        ]
+       ,"Render Components":"Above Content"
+      }
+     ,"Accessibility":{
+        "Use Landmark":true
+       ,"Landmark Type":"Template Default"
+      }
+     ,"Advanced":{
+        "Region Display Selector":false
+       ,"Exclude Title from Translation":false
+      }
+     ,"Server Cache":{
+        "Caching":"Disabled"
+      }
+     ,"Customization":{
+        "Customizable":"Not Customizable By End Users"
+      }
+     ,"Attributes":{
+        "id":"10793153803789807660"
+       ,"Appearance":{
+          "Layout":"Grid"
+         ,"Grid Columns":"Auto"
+        }
+       ,"Title":{
+          "Advanced Formatting":false
+         ,"Column":"DUVIDA"
+        }
+       ,"Subtitle":{
+          "Advanced Formatting":false
+        }
+       ,"Body":{
+          "Advanced Formatting":false
+        }
+       ,"Secondary Body":{
+          "Advanced Formatting":false
+        }
+       ,"Icon and Badge":{
+          "Icon Source":"No Icon"
+        }
+       ,"Media":{
+          "Advanced Formatting":false
+         ,"Source":"No Media"
+        }
+       ,"Performance":{
+          "Lazy Loading":false
+        }
+       ,"Pagination":{
+          "Type":"Scroll"
+         ,"Show Total Count":false
+        }
+      }
+    }
+   ,{
       "id":"13892675374608499837"
      ,"Identification":{
         "Title":"Assuntos Relevantes"
@@ -55,7 +134,7 @@
        ,"SQL Query":"SELECT nome_item\n  FROM LISTA\n WHERE nome_lista = \u0027ASSUNTOS_RELEVANTES\u0027"
       }
      ,"Layout":{
-        "Sequence":80
+        "Sequence":90
        ,"Parent Region":"No Parent"
        ,"Position":"BODY"
        ,"Start New Layout":false
