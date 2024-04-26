@@ -41,10 +41,10 @@
       "id":"13892776512584507570"
      ,"Identification":{
         "Title":"Breadcrumb"
-       ,"Type":"Breadcrumb"
+       ,"Type":"Static Content"
       }
      ,"Source":{
-        "Breadcrumb":"Breadcrumb (47708897328876297272)"
+        "HTML Code":"\u003C!DOCTYPE html\u003E\n\u003Chtml lang=\"pt-br\"\u003E\n\u003Chead\u003E\n  \u003Cmeta charset=\"UTF-8\"\u003E\n  \u003Cmeta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\"\u003E\n  \u003Ctitle\u003ETexto Centralizado\u003C\/title\u003E\n  \u003Cstyle\u003E\n    .container {\n      width: 100%;\n      height: 300px;\n      display: flex;\n      flex-direction: column;\n      justify-content: center;\n      align-items: center;\n      text-align: center;\n    }\n    \n    h2 {\n      font-family: \u0027Roboto\u0027, sans-serif; \/* Altere para a fonte desejada *\/\n      font-weight: bold;\n      font-size: 24px;\n      margin-bottom: 10px;\n    }\n    \n    p {\n      font-family: \u0027Roboto\u0027, sans-serif; \/* Altere para a fonte desejada *\/\n      font-size: 18px;\n      border: 2px solid #000;\n      border-radius: 10px;\n      padding: 10px 20px;\n      background-color: #f0f0f0;\n      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);\n    }\n  \u003C\/style\u003E\n\u003C\/head\u003E\n\u003Cbody\u003E\n  \u003Cdiv class=\"container\"\u003E\n    \u003Ch2\u003ESistema de Gest\u00E3o Empresarial\u003C\/h2\u003E\n    \u003Cp\u003EFocado para gerenciamento de ind\u00FAstrias de pequeno e m\u00E9dio porte\u003C\/p\u003E\n  \u003C\/div\u003E\n\u003C\/body\u003E\n\u003C\/html\u003E"
       }
      ,"Layout":{
         "Sequence":10
@@ -79,11 +79,9 @@
         "Customizable":"Not Customizable By End Users"
       }
      ,"Attributes":{
-        "Appearance":{
-          "Breadcrumb Template":"Breadcrumb (47709877321579297356)"
-         ,"Template Options":[
-            "#DEFAULT#"
-          ]
+        "Settings":{
+          "Output As":"HTML"
+         ,"Expand Shortcuts":false
         }
       }
     }
@@ -96,7 +94,7 @@
      ,"Source":{
         "Location":"Local Database"
        ,"Type":"SQL Query"
-       ,"SQL Query":"\nselect 1 as \"ID\",\n       \u0027Lorem Ipsum\u0027 as test\n  from sys.dual\nunion all\nselect 2 as \"ID\",\n       \u0027Lorem Ipsum\u0027 as test\n  from sys.dual\nunion all\nselect 3 as \"ID\",\n       \u0027Lorem Ipsum\u0027 as test\n  from sys.dual"
+       ,"SQL Query":"select 1 as \"ID\",\n       \u0027Lorem Ipsum\u0027 as test\n  from sys.dual\nunion all\nselect 2 as \"ID\",\n       \u0027Lorem Ipsum\u0027 as test\n  from sys.dual\nunion all\nselect 3 as \"ID\",\n       \u0027Lorem Ipsum\u0027 as test\n  from sys.dual"
       }
      ,"Layout":{
         "Sequence":10
@@ -128,6 +126,9 @@
       }
      ,"Customization":{
         "Customizable":"Not Customizable By End Users"
+      }
+     ,"Configuration":{
+        "Build Option":"Comentado (47708896794149297271)"
       }
      ,"Attributes":{
         "Appearance":{
