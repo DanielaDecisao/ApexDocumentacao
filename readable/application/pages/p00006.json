@@ -55,7 +55,7 @@
        ,"SQL Query":"SELECT duvida\n     , SUBSTR(explicacao, 1, 50) || \u0027...\u0027   explicacao\n     , id\n  FROM HELP_PERGUNTAS_FREQ"
       }
      ,"Layout":{
-        "Sequence":90
+        "Sequence":60
        ,"Parent Region":"No Parent"
        ,"Position":"BODY"
        ,"Start New Layout":false
@@ -71,7 +71,7 @@
          ,"t-Region--showIcon"
          ,"t-Region--stacked"
          ,"t-Region--scrollBody"
-         ,"margin-top-md"
+         ,"margin-top-lg"
         ]
        ,"Icon":"fa-comment-o"
        ,"Render Components":"Above Content"
@@ -137,7 +137,7 @@
        ,"SQL Query":"SELECT nome_item\n  FROM LISTA\n WHERE nome_lista = \u0027ASSUNTOS_RELEVANTES\u0027"
       }
      ,"Layout":{
-        "Sequence":100
+        "Sequence":70
        ,"Parent Region":"No Parent"
        ,"Position":"BODY"
        ,"Start New Layout":false
@@ -153,9 +153,9 @@
          ,"t-Region--showIcon"
          ,"t-Region--stacked"
          ,"t-Region--scrollBody"
-         ,"margin-top-md"
+         ,"margin-top-lg"
         ]
-       ,"Icon":"fa-box-arrow-in-ne"
+       ,"Icon":"fa-analytics"
        ,"Render Components":"Above Content"
       }
      ,"Accessibility":{
@@ -210,14 +210,14 @@
    ,{
       "id":"65071172707030250924"
      ,"Identification":{
-        "Title":"List - M\u00F3dulos"
+        "Title":"M\u00F3dulos"
        ,"Type":"List"
       }
      ,"Source":{
         "List":"M\u00F3dulos (16035136119814266832)"
       }
      ,"Layout":{
-        "Sequence":70
+        "Sequence":50
        ,"Parent Region":"No Parent"
        ,"Position":"BODY"
        ,"Start New Layout":false
@@ -227,9 +227,13 @@
        ,"Column Span":"10"
       }
      ,"Appearance":{
-        "Template":"Blank with Attributes (47709735633685297291)"
+        "Template":"Standard (47709802464834297321)"
        ,"Template Options":[
           "#DEFAULT#"
+         ,"t-Region--showIcon"
+         ,"t-Region--stacked"
+         ,"t-Region--scrollBody"
+         ,"margin-top-lg"
         ]
        ,"Icon":"fa-folders"
        ,"Render Components":"Above Content"
