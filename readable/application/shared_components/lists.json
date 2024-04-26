@@ -19,6 +19,36 @@
     }
    ,"Entries":[
       {
+        "id":"13892776182386507570"
+       ,"Label":{
+          "Label":"Sistema"
+        }
+       ,"Icon":{
+          "Image\/Icon CSS Classes":"fa-desktop"
+        }
+       ,"Layout":{
+          "Sequence":70
+        }
+       ,"Is Current":{
+          "Type":"Pages"
+         ,"Pages":[
+            "7"
+          ]
+        }
+       ,"Link":{
+          "Target":{
+            "url":"f?p=\u0026APP_ID.:7:\u0026APP_SESSION.::\u0026DEBUG.:::"
+           ,"Page":"7"
+          }
+        }
+       ,"Click Counting":{
+          "Count Clicks":false
+        }
+       ,"User Defined Attributes":{
+          "Translatable":false
+        }
+      }
+     ,{
         "id":"47709994895328297430"
        ,"Label":{
           "Label":"In\u00EDcio"
