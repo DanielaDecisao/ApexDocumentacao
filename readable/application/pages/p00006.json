@@ -46,7 +46,7 @@
     {
       "id":"10793153869084807661"
      ,"Identification":{
-        "Title":"Assunto em Destaque - D\u00FAvidas Frequentes"
+        "Title":"Assuntos em Destaque - D\u00FAvidas Frequentes"
        ,"Type":"Cards"
       }
      ,"Source":{
@@ -68,9 +68,11 @@
         "Template":"Standard (47709802464834297321)"
        ,"Template Options":[
           "#DEFAULT#"
+         ,"t-Region--stacked"
          ,"t-Region--scrollBody"
          ,"margin-top-md"
         ]
+       ,"Icon":"fa-question"
        ,"Render Components":"Above Content"
       }
      ,"Accessibility":{
@@ -91,17 +93,17 @@
         "id":"10793153803789807660"
        ,"Appearance":{
           "Layout":"Grid"
-         ,"Grid Columns":"Auto"
+         ,"Grid Columns":"4 Columns"
         }
        ,"Title":{
           "Advanced Formatting":false
-         ,"Column":"DUVIDA"
         }
        ,"Subtitle":{
           "Advanced Formatting":false
         }
        ,"Body":{
           "Advanced Formatting":false
+         ,"Column":"DUVIDA"
         }
        ,"Secondary Body":{
           "Advanced Formatting":false
